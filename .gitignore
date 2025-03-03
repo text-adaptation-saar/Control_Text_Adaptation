@@ -1,0 +1,105 @@
+#Log files are too long
+*logs_*
+
+src/
+wandb/
+catboost_info/
+
+# models
+*.pt
+*.pkl
+*.pth
+*.ckpt
+*.cbm
+data_auxiliary/en/lens/LENS
+data_auxiliary/en/lens/LENS-checkpoint.zip
+
+# word embeddings
+*.vec
+frequency_ranks_*json
+
+# nohup out
+nohup.out
+
+### standard .gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.log
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+
+.DS_Store
+.idea
+
+data_auxiliary/en/cc.en.300.vec
+data_auxiliary/en/frequency_ranks.json
+*.vec
+frequency_ranks.json
+
+.env
+experiments/.DS_Store
+
+
+#Models from ControlTS_T5/
+*.ckpt
+*.pkl
+*.bin
+*.pickle
+*.pk
+*.tar.gz
+*.zip
+*.pyc
+
+
+ControlTS_T5/
+ControlTS_T5/resources/DUMPS
+ControlTS_T5/lightning_logs
+ControlTS_T5/catboost_info/
+.DS_Store
+./.idea
