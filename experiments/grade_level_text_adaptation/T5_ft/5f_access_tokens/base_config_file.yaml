@@ -1,0 +1,14 @@
+experiment_id: 1
+path_to_output_generation: "experiments/"
+
+# for feature based evaluation script
+lang: en
+analyze_features: False
+overwrite: True
+
+#Test dataset for prompt experiment
+path_to_input_test_data: "xxx/en/wikilarge_train_val_test/val/filtered_wiki.valid.src"
+path_to_test_gold_ref_data: "xxx/maxdepdepth_above_6/filtered_wiki.valid.tgt"
+predicted_ratio_file_path: "xxx/data_filtered_regression_model/linear_regression/2_maxdepdepth/wikilarge/valid/ratio_stats_with_LR_predicted_ratio.csv"
+feature_names: "xxx,DiffWords"
+feature_range: "0"

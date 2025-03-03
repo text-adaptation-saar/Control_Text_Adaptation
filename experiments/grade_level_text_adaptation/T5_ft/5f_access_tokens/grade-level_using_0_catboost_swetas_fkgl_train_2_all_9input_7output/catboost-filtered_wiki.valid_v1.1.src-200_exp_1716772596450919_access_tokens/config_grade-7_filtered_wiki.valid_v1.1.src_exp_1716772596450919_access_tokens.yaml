@@ -1,0 +1,16 @@
+experiment_id: 1
+path_to_output_generation: "experiments/train_v3_and_val_v1.1_wo_line_46/T5_ft/5f_access_tokens/grade-level_using_0_catboost_swetas_fkgl_train_2_all_9input_7output/catboost-filtered_wiki.valid_v1.1.src-200_exp_1716772596450919_access_tokens"
+
+# for feature based evaluation script
+lang: en
+analyze_features: False
+overwrite: True
+
+model: "ControlTS_T5/experiments/T5/exp_1716772596450919_access_tokens"
+number_of_lines_to_test: 200
+#Test dataset for prompt experiment
+path_to_input_test_data: "data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.src"
+path_to_test_gold_ref_data: "data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.tgt"
+predicted_ratio_file_path: "experiments/train_v3_and_val_v1.1_wo_line_46/0_catboost_swetas_fkgl/fkgl_train_2_all_9input_7output/grade_7-val_v1.1_wo_line_46_prediction/ratio_stats_with_LR_predicted_ratio.csv,experiments/train_v3_and_val_v1.1_wo_line_46/0_catboost_swetas_fkgl/fkgl_train_2_all_9input_7output/grade_7-val_v1.1_wo_line_46_prediction/ratio_stats_with_LR_predicted_ratio.csv,experiments/train_v3_and_val_v1.1_wo_line_46/0_catboost_swetas_fkgl/fkgl_train_2_all_9input_7output/grade_7-val_v1.1_wo_line_46_prediction/ratio_stats_with_LR_predicted_ratio.csv,experiments/train_v3_and_val_v1.1_wo_line_46/0_catboost_swetas_fkgl/fkgl_train_2_all_9input_7output/grade_7-val_v1.1_wo_line_46_prediction/ratio_stats_with_LR_predicted_ratio.csv,experiments/train_v3_and_val_v1.1_wo_line_46/0_catboost_swetas_fkgl/fkgl_train_2_all_9input_7output/grade_7-val_v1.1_wo_line_46_prediction/ratio_stats_with_LR_predicted_ratio.csv"
+feature_names: "WordCount,Length,Leven,FreqRank,MaxDepDepth"
+feature_range: "1,1,1,1,1"

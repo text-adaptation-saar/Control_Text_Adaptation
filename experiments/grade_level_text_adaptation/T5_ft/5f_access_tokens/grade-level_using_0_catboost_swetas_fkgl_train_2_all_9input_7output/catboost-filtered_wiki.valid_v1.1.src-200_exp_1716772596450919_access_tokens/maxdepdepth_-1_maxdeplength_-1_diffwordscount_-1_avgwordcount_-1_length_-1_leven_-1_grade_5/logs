@@ -1,0 +1,414 @@
+[nltk_data] Downloading package punkt to /nethome/sarubi/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /nethome/sarubi/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Load model /nethome/sarubi/A8/tony_3/LLM_based_control_rewrite/ControlTS_T5/experiments/T5/exp_1716772596450919_access_tokens
+loading model...
+Model dir:  /nethome/sarubi/A8/tony_3/LLM_based_control_rewrite/ControlTS_T5/experiments/T5/exp_1716772596450919_access_tokens
+check_point: /nethome/sarubi/A8/tony_3/LLM_based_control_rewrite/ControlTS_T5/experiments/T5/exp_1716772596450919_access_tokens/checkpoint-epoch=4.ckpt
+Method: load_preprocessor:- PREPROCESSOR_DUMP_FILE path=	/nethome/sarubi/A8/tony_3/LLM_based_control_rewrite/ControlTS_T5/resources/DUMPS/preprocessor.pickle
+Method: load_preprocessor:- PREPROCESSOR_DUMP_FILE exists and loading it.
+/nethome/sarubi/A8/tony_3/LLM_based_control_rewrite/experiments/train_v3_and_val_v1.1_wo_line_46/T5_ft/5f_access_tokens/grade-level/catboost-filtered_wiki.valid_v1.1.src-200_exp_1716772596450919_access_tokens/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_5/input_preprocessed.txt
+input_preprocessed
+2/200  :  W_1.09 C_1.12 L_0.73 WR_0.95 DTD_0.99  The Province of Bari is a province in the Apulia (or Puglia) region of Italy. Its capital is the city of Bari.
+2/200  :  ['Bari is a province in the region of Apulia in Italy.']
+3/200  :  W_0.59 C_0.52 L_0.63 WR_1.05 DTD_0.91  Quercamps is a commune in the Pas-de-Calais department in the Nord-Pas-de-Calais region of France.
+3/200  :  ['Quercamps, Pas-de-Calais is a commune. It is found in the region Nord-Pas-de-Calais in the Pas-de-Calais department in the north of France.']
+4/200  :  W_0.36 C_0.32 L_0.46 WR_0.97 DTD_0.72  Churchill's role in defeating the Monmouth Rebellion in 1685 helped secure James on the throne, yet just three years later he abandoned his Catholic patron for the Protestant Dutchman, William of Orange.
+4/200  :  ['His role in defeating the Monmouth Rebellion in 1685 helped secure James.']
+5/200  :  W_1.09 C_0.97 L_0.76 WR_1.00 DTD_1.07  Its main industries were farming and brick-making.
+5/200  :  ['Its main industries were farming and making bricks.']
+6/200  :  W_0.95 C_0.97 L_0.77 WR_0.96 DTD_1.04  It is a part of the Trans-Karakoram Tract and is also claimed by India.
+6/200  :  ['It is part of the Trans-Karakoram Tract and is also part of India.']
+7/200  :  W_0.68 C_0.67 L_0.66 WR_0.96 DTD_0.77  Mar del Plata is an Argentine city located on the coast of the Atlantic Ocean, 400 k south of Buenos Aires.
+7/200  :  ['Mar del Plata is a city in Argentina, on the coast of the Atlantic Ocean.']
+8/200  :  W_0.96 C_0.97 L_0.78 WR_1.00 DTD_1.03  Like the cakes, coconut flavor is not always a must in the frosting.
+8/200  :  ['Like the cakes, coconut flavor is not always a requirement in the frosting.']
+9/200  :  W_0.51 C_0.45 L_0.55 WR_0.90 DTD_0.96  For example, Motacilla alba alba (often abbreviated Motacilla a. alba) is the nominate subspecies of the White Wagtail (Motacilla alba).
+9/200  :  ['Motacilla alba is a subspecies of the White Wagtail.']
+10/200  :  W_0.65 C_0.65 L_0.62 WR_1.02 DTD_0.71  With a freezing point of â '38.83 Â C and boiling point of 356.73 Â C, mercury has one of the broadest ranges of its liquid state of any metal.
+10/200  :  ["With a freezing point of â '38.83  C and boiling point of 356.73  C, mercury is a solid."]
+11/200  :  W_0.35 C_0.32 L_0.43 WR_0.97 DTD_0.51  Charles John Huffam Dickens (; 7 February 1812 - 9 June 1870) was the most popular English novelist of the Victorian era, and he remains popular, responsible for some of English literature's most iconic characters.
+11/200  :  ['Charles Dickens (February 7, 1812 - June 9, 1870) was an English writer.']
+12/200  :  W_1.00 C_1.00 L_0.77 WR_1.02 DTD_0.94  They become the style we know today plausibly in ancient Athene in the 6th century B.C./O. In those days it was began to write them down.
+12/200  :  ['They become the style we know today plausibly in ancient Athene.']
+13/200  :  W_0.69 C_0.59 L_0.60 WR_0.95 DTD_0.95  Swilling, a former Confederate soldier, wanted to name the city "Stonewall," after General Stonewall Jackson.
+13/200  :  ['Swilling was a Confederate soldier from the United States.']
+14/200  :  W_0.42 C_0.38 L_0.54 WR_0.88 DTD_0.64  Mykolaiv is the administrative center of the Mykolaiv Oblast (province), as well as that of both the Mykolaivskyi and Zhovtnevyi raions (districts) within the oblast.
+14/200  :  ['Mykolaiv is the center of the Mykolaiv Oblast (province).']
+15/200  :  W_0.37 C_0.32 L_0.47 WR_0.93 DTD_0.48  Dominant champion Holmes successfully defended the WBC belt 17 times until December 11, 1983, when he voluntarily relinquished that title for the championship of the new International Boxing Federation.
+15/200  :  ['Dominant champion Holmes successfully defended the WBC belt 17 times.']
+16/200  :  W_0.72 C_0.63 L_0.38 WR_0.97 DTD_0.50  Monash Freeway is an urban freeway in Victoria, Australia linking Melbourne's CBD to its southeastern suburbs and the Gippsland region. The entire stretch of the Monash Freeway bears the designation.
+16/200  :  ['The Monash Freeway is a freeway in Victoria, Australia.']
+17/200  :  W_0.38 C_0.34 L_0.46 WR_0.94 DTD_0.83  The ZX Spectrum (Pronounced "Zed Ecks Spec-trum" in its original British English branding) is an 8-bit personal home computer released in the United Kingdom in 1982 by Sinclair Research Ltd..
+17/200  :  ['ZX Spectrum is a home computer made by Sinclair Research Ltd..']
+18/200  :  W_0.96 C_0.98 L_0.77 WR_0.99 DTD_0.97  A celebrity chef is a kitchen chef who has become famous and well known.
+18/200  :  ['A celebrity chef is a chef who has become well known in the kitchen.']
+19/200  :  W_0.65 C_0.63 L_0.66 WR_0.98 DTD_0.90  It was discovered in 2007 by the Cassini probe and was named in 2008 after the Kraken, a legendary sea monster.
+19/200  :  ['It was named in 2008 after the Kraken, a legendary sea monster of the Cassini.']
+20/200  :  W_0.38 C_0.33 L_0.46 WR_0.96 DTD_0.46  The court hears cases from the Landesarbeitsgerichte (Superior State Labour Courts), which, in turn, are the courts of appeals against decisions of the Arbeitsgerichte (Inferior State Labour Courts).
+20/200  :  ['The Bundesarbeitsgerichte is the supreme court of the State Labour Courts.']
+21/200  :  W_0.39 C_0.32 L_0.48 WR_0.94 DTD_0.47  IMI University Centre OR International Hotel Management Institute Switzerland (IMI) is a Swiss private University with three campuses located in Luzern teaching Tourism, Hospitality, Events Management and Culinary Arts.
+21/200  :  ['IMI University Centre or International Hotel Management Institute Switzerland (IMI) is a Swiss university.']
+22/200  :  W_0.90 C_0.86 L_0.75 WR_1.00 DTD_1.04  Jessica Phyllis Lange (born April 20, 1949) is an American stage and screen actress.
+22/200  :  ['Jessica Lange (born April 20, 1949 in Los Angeles, California) is an American actress.']
+23/200  :  W_0.35 C_0.33 L_0.44 WR_0.97 DTD_0.60  Henry Morgenthau (, with a / t /; April 26, 1856 - November 25, 1946) was a businessman and United States ambassador, most famous as the American ambassador to the Ottoman Empire during the First World War.
+23/200  :  ['He was the ambassador to the Ottoman Empire during the First World War.']
+24/200  :  W_0.56 C_0.53 L_0.60 WR_0.98 DTD_0.74  On 1 July 1933 the London County Council Tramways passed to the London Passenger Transport Board (LPTB), known as London Transport.
+24/200  :  ['In 1933 the London Borough of Tramways became part of the London Passenger Transport Board. This was known as London Transport.']
+25/200  :  W_0.45 C_0.43 L_0.57 WR_0.94 DTD_0.59  Karl Rove Indictment Controversy On May 13, 2006, Truthout.org reporter Jason Leopold wrote that White House Deputy Chief of Staff Karl Rove had been indicted as part of the investigation into the Valerie Plame affair.
+25/200  :  ['On May 13, 2006, Truthout.org reporter Jason Leopold wrote that White House Deputy Chief of Staff.']
+26/200  :  W_0.56 C_0.48 L_0.53 WR_0.97 DTD_0.73  Before 1905 some Zionist leaders took seriously proposals for Jewish homelands in places other than Palestine.
+26/200  :  ['The Zionists wanted Jews to live in other places.']
+27/200  :  W_0.56 C_0.52 L_0.56 WR_0.99 DTD_0.74  Aside from the Crown itself, the office of Governor of New South Wales is the oldest constitutional office in Australia.
+27/200  :  ['The Governor of New South Wales is the head of state of Australia.']
+28/200  :  W_0.61 C_0.58 L_0.64 WR_1.01 DTD_0.60  Broadcast out of the same building is 105.7 The River, which is also networked to local stations around New South Wales, Victoria, Tasmania and South Australia.
+28/200  :  ['It is also networked to stations in New South Wales, Victoria, Tasmania and South Australia.']
+29/200  :  W_0.83 C_0.74 L_0.63 WR_0.99 DTD_1.12  The inhabitants were affected by the earthquake disaster on 8 October 2005.
+29/200  :  ['The city had an earthquake disaster on October 8, 2005.']
+30/200  :  W_0.49 C_0.46 L_0.55 WR_0.99 DTD_0.74  Family Jewels is a two disc compilation DVD by the hard rock band AC/DC, featuring the group's music videos, live clips and promotional videos.
+30/200  :  ["It contains the group's music videos, live clips and promotional videos."]
+31/200  :  W_0.51 C_0.46 L_0.56 WR_0.89 DTD_0.71  Song Chong-Gug (born 20 February 1979 in Danyang, Chungcheongbuk-do) is a Korean football player and midfielder for Al-Shabab Riyadh.
+31/200  :  ['Song Chong-Gug (born 20 February, 1979) is a football player.']
+32/200  :  W_0.75 C_0.58 L_0.53 WR_0.94 DTD_0.90  Viking raiding expeditions were separate from and coexisted with regular trading expeditions.
+32/200  :  ['Viking raids were a group of raids made by Vikings.']
+33/200  :  W_0.78 C_0.62 L_0.54 WR_0.97 DTD_0.79  Today Teotihuacan is one of the most noted archaeological attractions in Mexico.
+33/200  :  ['Teotihuacán is a city in the north of Mexico.']
+34/200  :  W_0.74 C_0.73 L_0.76 WR_0.97 DTD_0.91  Matilda of Flanders (c. 1031 - 2 November 1083) was the wife of William the Conqueror and, as such, Queen consort of the Kingdom of England.
+34/200  :  ['Matilda of Flanders (c. 1031 - November 2, 1083) was the wife of William the Conqueror of England.']
+35/200  :  W_0.57 C_0.52 L_0.55 WR_1.06 DTD_0.73  Public opinion A number of opinion polls around the world have explored public opinion regarding the issue of abortion.
+35/200  :  ['Public opinion There are many opinion polls around the world.']
+36/200  :  W_0.32 C_0.27 L_0.38 WR_0.98 DTD_0.45  Alice in Wonderland is an American animated film produced by Walt Disney and based primarily on Lewis Carroll's Alice's Adventures in Wonderland with a few additional elements from Through the Looking-Glass.
+36/200  :  ['It is based on Lewis Carrolls book Alice in Wonderland.']
+37/200  :  W_0.53 C_0.48 L_0.57 WR_0.96 DTD_0.67  It was the ancient capital of Cerdanya in antiquity, before being replaced by Hix (commune of Bourg-Madame, France) in the Middle Ages.
+37/200  :  ['It was the capital of Cerdanya before the Middle Ages replaced Hix.']
+38/200  :  W_0.86 C_0.81 L_0.71 WR_0.98 DTD_0.89  Valderrama was a member of the Colombia national football team in the 1990s.
+38/200  :  ['Valderrama is a former football player for the Colombia national team.']
+39/200  :  W_0.30 C_0.26 L_0.43 WR_0.97 DTD_0.47  The sisters, despite being perceived as normal women by the non-supernatural community, are known as The Charmed Ones in the magical community, whose prophesied destiny is to protect innocent lives against evil beings, such as demons and warlocks.
+39/200  :  ['The sisters are known as The Charmed Ones in the magical community.']
+40/200  :  W_0.92 C_0.87 L_0.73 WR_1.00 DTD_0.92  About 40% of the Earth's surface is now underlain by continental crust.
+40/200  :  ["About 40% of the Earth's surface is underlain by the continental crust. About 40% of the Earth's surface is now underlain."]
+41/200  :  W_1.18 C_1.23 L_0.69 WR_1.01 DTD_0.77  The Province of Pavia (It. Provincia di Pavia) is a province in the region of Lombardy in Italy.
+41/200  :  ['Pavia (It. Provincia di Pavia) is a province in the region of Lombardy in Italy.']
+42/200  :  W_1.04 C_0.87 L_0.56 WR_0.95 DTD_1.29  Corinne Bailey Rae - "Munich" (originally by Editors)
+42/200  :  ['Corinne Rae - "Munich" (which was first made by Corinne)']
+43/200  :  W_0.68 C_0.56 L_0.45 WR_0.95 DTD_0.92  Castro and Soviet premier Nikita Khrushchev agreed to place strategic nuclear missiles secretly in Cuba.
+43/200  :  ['Castro was the leader of the Soviet Union (Nikita Khrushchev).']
+44/200  :  W_0.37 C_0.30 L_0.39 WR_0.93 DTD_0.55  In contrast to many other dialects of German, Austro-Bavarian differs sufficiently from Standard German to make it difficult for native Austro-Bavarian speakers to adopt standard pronunciation.
+44/200  :  ['It is different from Standard German and Austro-Bavarian.']
+45/200  :  W_0.59 C_0.49 L_0.49 WR_0.97 DTD_0.92  Although not an integral part of its territory, Clipperton Island was administered from French Polynesia until 2007.
+45/200  :  ['Clipperton Island is an island in the Pacific Ocean. It is part of the French Polynesia, a group of islands.']
+46/200  :  W_1.09 C_1.02 L_0.76 WR_0.97 DTD_0.84  It orbits in the Lagrangian point of the Sun-Jupiter system.
+46/200  :  ['It is located in the Lagrangian point of the Sun-Jupiter system.']
+47/200  :  W_0.92 C_0.93 L_0.78 WR_1.00 DTD_1.04  Jackie lives in New South Wales, near the small town of Braidwood at Araluen.
+47/200  :  ['Jackie lives in Araluen, New South Wales, near the small town of Braidwood.']
+48/200  :  W_0.45 C_0.38 L_0.46 WR_0.93 DTD_0.49  The phage infects a bacterium by attaching to its outer membrane and injecting its genetic material, leaving its empty shell attached to the bacterium.
+48/200  :  ['The phage infects a bacterium and puts it into it.']
+49/200  :  W_0.71 C_0.62 L_0.55 WR_0.95 DTD_0.81  Mossman Gorge, a popular attraction within Daintree National Park, is located west of town.
+49/200  :  ['Daintree National Park, a popular attraction, is west of the town. Mossman Gorge is a popular attraction in the city.']
+50/200  :  W_0.75 C_0.76 L_0.71 WR_1.00 DTD_0.74  It was mentioned for the first time in 1233 in the deed of donation by King Andrew II.
+50/200  :  ['It was first mentioned in 1233 in a document by King Andrew II.']
+51/200  :  W_0.79 C_0.69 L_0.64 WR_0.92 DTD_0.72  He played baseball as the second baseman for the provincial champion Rosedales in Manitoba.
+51/200  :  ['He played baseball as a baseman for the Toronto Maple Leafs.']
+52/200  :  W_0.70 C_0.62 L_0.60 WR_0.98 DTD_1.13  Fishermen have also begun using plastic bait and, more recently, electronic lures, to attract fish.
+52/200  :  ['Fishermen have started using lures made of plastic to attract fish.']
+53/200  :  W_0.55 C_0.51 L_0.60 WR_0.98 DTD_0.81  Eventually, Carl, Jr. 's spending habits alarmed company stockholders, especially after the costly flop of the western epic Sutter's Gold earlier in the year.
+53/200  :  ["Eventually, Carl, Jr.'s spending habits changed after Sutter's Gold earlier in the year."]
+54/200  :  W_1.16 C_1.12 L_0.81 WR_0.97 DTD_0.94  Anita is a city in Cass County, Iowa, United States.
+54/200  :  ['Anita is a city of Iowa in the United States.']
+55/200  :  W_0.51 C_0.40 L_0.48 WR_0.78 DTD_0.94  Lepisma saccharina, frequently called silverfish, fishmoths, carpet sharks or paramites, are small, wingless insects in the order Thysanura.
+55/200  :  ['They are small insects in the order Thysanura. They are also known as carpet sharks or paramites.']
+56/200  :  W_0.64 C_0.62 L_0.62 WR_0.98 DTD_0.60  This uses an mRNA sequence as a template to guide the synthesis of a chain of amino acids that form a protein.
+56/200  :  ['This uses an mRNA sequence to make a chain of amino acids make a protein.']
+57/200  :  W_1.13 C_1.21 L_0.70 WR_0.96 DTD_1.00  and Namak Lake, which lies 80 km due east of Qom.
+57/200  :  ['The Namak Lake lies 80 km east of the city of Qom.']
+58/200  :  W_0.63 C_0.57 L_0.57 WR_1.00 DTD_0.83  The program is set in Seattle, Washington, and filmed in Vancouver, British Columbia, at Lions Gate Studios.
+58/200  :  ['It is filmed at Lions Gate Studios in Vancouver, British Columbia.']
+59/200  :  W_0.73 C_0.67 L_0.65 WR_1.00 DTD_0.85  After his discharge, Robinson briefly returned to his old football club, the Los Angeles Bulldogs.
+59/200  :  ['Robinson went back to his old football club, the Los Angeles Bulldogs.']
+60/200  :  W_0.30 C_0.27 L_0.41 WR_1.00 DTD_0.55  It was established in the 17th century as a trading post for the British East India Company, but later grew to encompass much of western and central India, as well as parts of post-partition Pakistan and the Arabian Peninsula.
+60/200  :  ['It was established in the 17th century as a trading post.']
+61/200  :  W_0.84 C_0.74 L_0.61 WR_0.95 DTD_0.84  Uncle Tom's Cabin has exerted an influence equaled by few other novels in history.
+61/200  :  ["Uncle Tom's Cabin has had a lot of influence on many books."]
+62/200  :  W_0.47 C_0.43 L_0.52 WR_0.98 DTD_0.48  The region's fertile soil made it possible for farmers to produce abundant harvests of cereal crops such as corn, oats, and, most importantly, wheat.
+62/200  :  ['The fertile soil made it possible for farmers to grow wheat.']
+63/200  :  W_0.61 C_0.56 L_0.59 WR_0.98 DTD_0.84  Today, it finds its expression mainly in a humorous form (especially during the Rhineland Karneval) and in sports.
+63/200  :  ['Today, it is mostly a humorous form in sports and Rhineland.']
+64/200  :  W_0.64 C_0.54 L_0.50 WR_0.97 DTD_0.79  The fossil fuels include coal, petroleum, and natural gas which contain high percentages of carbon.
+64/200  :  ['The most common fuels are coal, petroleum, and natural gas.']
+65/200  :  W_0.43 C_0.37 L_0.45 WR_0.99 DTD_0.59  In physiology, a signal or biopotential is an electric quantity (voltage or current or field strength), caused by chemical reactions of charged ions.
+65/200  :  ['A signal is caused by the reactions of charged ions.']
+66/200  :  W_0.79 C_0.62 L_0.51 WR_1.01 DTD_0.82  The metropolitan counties are a type of county-level administrative division of England.
+66/200  :  ['The metropolitan counties are a group of counties in England. They are part of the metropolitan county system.']
+67/200  :  W_0.94 C_0.94 L_0.79 WR_1.00 DTD_0.96  Miles won the British Championship just once, in 1982 when the event was held in Torquay.
+67/200  :  ['In 1982, Miles won the British Championship when the event was held in Torquay, England.']
+68/200  :  W_1.00 C_0.83 L_0.73 WR_0.96 DTD_0.95  The CACO consists of Uzbekistan, Tajikistan, Kazakhstan and Kyrgyzstan.
+68/200  :  ['The CACO is made up of Uzbekistan, Kazakhstan and Kyrgyzstan.']
+69/200  :  W_0.78 C_0.73 L_0.64 WR_1.01 DTD_0.96  Many different variations of popularity exist, and many ways in which to gain it.
+69/200  :  ['There are many different kinds of popularity, and many ways to get it. Many different kinds of popularity exist.']
+70/200  :  W_0.63 C_0.52 L_0.52 WR_0.98 DTD_0.50  George Smoot had main responsibility for measuring the small variations in the temperature of the radiation.
+70/200  :  ['George Smoot was the first person to measure the temperature.']
+71/200  :  W_0.58 C_0.50 L_0.53 WR_0.95 DTD_0.95  In the vicinity of Qaqortoq are located the historical Hvalsey ruins, the most prominent Norse ruins in Greenland.
+71/200  :  ['The Hvalsey ruins are the most important Norse ruins in Greenland.']
+72/200  :  W_0.34 C_0.31 L_0.48 WR_0.98 DTD_0.57  Much later, about 2 to 3 million years ago, South America was joined with North America by the formation of the Isthmus of Panama, which allowed a biotic exchange between the two continents, the Great American Interchange.
+72/200  :  ['About 2 to 3 million years ago, South America joined with North America.']
+73/200  :  W_0.99 C_0.93 L_0.78 WR_0.96 DTD_1.14  Use Gauchos use boleadoras to capture running cattle or game.
+73/200  :  ['Use Gauchos use boleadoras to capture cattle and other animals.']
+74/200  :  W_0.54 C_0.49 L_0.55 WR_0.99 DTD_0.75  Kenneth Wayne "Ken" Dryden, PC, MP (born August 8, 1947) is a Canadian politician, lawyer, businessman, author, and former NHL goaltender.
+74/200  :  ['Ken Dryden (born August 8, 1947 in Calgary, Alberta) is a Canadian politician.']
+75/200  :  W_0.74 C_0.69 L_0.66 WR_0.96 DTD_0.96  2018 (MMXVIII) will be a common year starting on a Monday in the Gregorian calendar.
+75/200  :  ['2018 (MMXVIII) will be a common year in the 21st century.']
+76/200  :  W_0.70 C_0.68 L_0.66 WR_0.98 DTD_0.73  In a few years Zvartnots-AAL would become one of the main contenders to the Premier League title.
+76/200  :  ['In a few years, Zvartnots-AAL would become a contender for the title.']
+77/200  :  W_0.55 C_0.51 L_0.60 WR_1.01 DTD_0.96  No Way Out (2003) was the fourth annual (fifth overall) No Way Out pay-per-view (PPV) event produced by World Wrestling Entertainment (WWE).
+77/200  :  ['No Way Out was a yearly event produced by World Wrestling Entertainment (WWE). It was the fourth yearly No Way Out pay-per-view event.']
+78/200  :  W_0.64 C_0.57 L_0.60 WR_0.95 DTD_0.82  Ibaraki Prefecture is a prefecture of Japan located in the KantÅ region on HonshÅ "island.
+78/200  :  ['Ibaraki is one of 51 prefectures of Japan. It is located in the region of Honsh "island in the Kant region.']
+79/200  :  W_0.44 C_0.39 L_0.50 WR_0.95 DTD_0.65  The list of finite simple groups consists of 18 countably infinite families, plus 26 sporadic groups that do not follow such a systematic pattern.
+79/200  :  ['There are 18 simple groups, and 26 sporadic groups.']
+80/200  :  W_0.54 C_0.52 L_0.60 WR_0.98 DTD_0.87  Bertsch studied History of Art at TU Berlin and went on to set up Germany's first design management office in 1988 with Matthias Dietz.
+80/200  :  ["In 1988 he started to set up Germany's first design management office."]
+81/200  :  W_0.46 C_0.44 L_0.55 WR_0.97 DTD_0.63  It is a subregion of Oceania extending from the western side of the West Pacific to the Arafura Sea, north and northeast of Australia.
+81/200  :  ['It extends from the west side of the Pacific to the Arafura.']
+82/200  :  W_0.40 C_0.37 L_0.50 WR_1.02 DTD_0.64  Michael Landon (October 31, 1936 - July 1, 1991) was an American actor, writer, director, and producer, who starred in three popular NBC TV series that spanned three decades.
+82/200  :  ['Michael Landon (October 31, 1936 - July 1, 1991) was an American actor.']
+83/200  :  W_0.75 C_0.67 L_0.62 WR_0.98 DTD_0.85  Maubec is a commune in the Vaucluse department in the Provence-Alpes-C ôte d'Azur region in southeastern France.
+83/200  :  ['Maubec, Vaucluse is a commune of 1,226 people (1999). It is located in the region Provence-Alpes-C ôte dAzur in the Vaucluse department in the south of France.']
+84/200  :  W_0.43 C_0.39 L_0.49 WR_0.95 DTD_0.49  In 1929 and 1930 he played with Irving Aaronson's Commanders, where he was exposed to symphonic music, which he would later incorporate in his arrangements.
+84/200  :  ["In 1929 and 1930 he played with Irving Aaronson's band Commanders."]
+85/200  :  W_0.88 C_0.82 L_0.72 WR_0.99 DTD_1.01  Lisa Anne Loeb (born March 11, 1968) is an American singer-songwriter and actress.
+85/200  :  ['Lisa Loeb (born March 11, 1968) is an American actress and singer.']
+86/200  :  W_0.62 C_0.60 L_0.63 WR_0.99 DTD_0.79  Tyler's report led to an unusual alteration, as it was discovered that the loading gauge of the line was too small.
+86/200  :  ["Tyler's report showed that the loading gauge of the line was too small."]
+87/200  :  W_0.41 C_0.38 L_0.51 WR_0.96 DTD_0.83  Ten states have a Hancock County named for him; other places named after him include Hancock, Massachusetts; Hancock, Michigan; Hancock, New York; and Mount Hancock in New Hampshire.
+87/200  :  ['Hancock County is a county located in the U.S. state of New Hampshire. Hancock County is the county seat of Hancock County.']
+88/200  :  W_0.72 C_0.66 L_0.63 WR_0.99 DTD_1.15  However, one member will be voted out from the winning tribe before the reward is distributed.
+88/200  :  ['However, one of the winning tribes will be voted out.']
+89/200  :  W_1.10 C_1.00 L_0.82 WR_0.96 DTD_0.86  New Cordell is a city in Washita County, Oklahoma, United States.
+89/200  :  ['New Cordell is a city of Oklahoma in the United States.']
+90/200  :  W_0.72 C_0.69 L_0.68 WR_0.97 DTD_1.00  Giuseppe Sabadini (born 26 March 1949 in Sagrado) is an Italian football coach and a former player.
+90/200  :  ['Giuseppe Sabadini (born 26 March, 1949) is a former Italian football player.']
+91/200  :  W_0.79 C_0.67 L_0.58 WR_0.99 DTD_0.95  Embolded teams are competing in the Formula One championship in the current season.
+91/200  :  ['They are the current champions of the Formula One season.']
+92/200  :  W_0.69 C_0.67 L_0.64 WR_0.99 DTD_0.80  1952 & ndash; The Rajya Sabha, the upper house of the Parliament of India, holds its first sitting.
+92/200  :  ['1952 - Rajya Sabha, the first meeting of the Parliament of India.']
+93/200  :  W_0.41 C_0.35 L_0.43 WR_1.00 DTD_0.79  The novel takes place in the twenty-first century, when, under United Nations authority, mankind has colonized the solar system's every habitable planet and moon.
+93/200  :  ['The novel takes place in the 20th century by United Nations.']
+94/200  :  W_0.93 C_0.89 L_0.79 WR_0.93 DTD_0.99  Badshah Munir Bukhari has worked on the language and its family.
+94/200  :  ['Bukhari has also worked on the language and its family.']
+95/200  :  W_0.89 C_0.70 L_0.49 WR_0.79 DTD_1.07  The chicken (Gallus gallus domesticus) is a domesticated fowl.
+95/200  :  ['A chicken is a kind of domesticated animal.']
+96/200  :  W_0.54 C_0.48 L_0.55 WR_0.94 DTD_0.55  Irmo was chartered on Christmas Eve in 1890 in response to the opening of the Columbia, Newberry and Laurens Railroad.
+96/200  :  ['Irmo was shown on Christmas Eve in 1890 by a railroad.']
+97/200  :  W_0.49 C_0.48 L_0.61 WR_0.95 DTD_0.72  In 1948 the theatre was renamed the Tyl Theatre (after dramatist J.K. Tyl) and would be known as such until 1990 when, at the end of an eight year reconstruction project, it became known again as the Estates Theatre.
+97/200  :  ['In 1948 the theatre was renamed the Tyl Theatre (after dramatist J.K. Tyl).']
+98/200  :  W_0.62 C_0.57 L_0.59 WR_0.98 DTD_0.96  Luigi Apolloni (born 2 May, 1967 in Frascati) is an Italian retired football player, and currently a manager.
+98/200  :  ['Luigi Apolloni (born 2 May, 1967) is a former Italian football player. He has played for Italy national team.']
+99/200  :  W_0.38 C_0.34 L_0.50 WR_0.94 DTD_0.79  The Trinidad and Tobago national football team, nicknamed The Soca Warriors, is the national team of Trinidad and Tobago and is controlled by the Trinidad and Tobago Football Federation.
+99/200  :  ['Trinidad and Tobago national football team is the national football team of Trinidad and Tobago. They are known as The Soca Warriors.']
+100/200  :  W_0.39 C_0.36 L_0.47 WR_0.99 DTD_0.75  After a successful junior career with the Quebec Major Junior Hockey League's Laval Titan, Sauvé was drafted by the NHL's Buffalo Sabres in the 1st round (17th overall) in 1975 NHL Entry Draft.
+100/200  :  ['He was drafted by the Buffalo Sabres with the 17th pick in 1975.']
+101/200  :  W_0.42 C_0.38 L_0.48 WR_0.96 DTD_0.58  Tolstoy and Dostoevsky in particular were titanic figures to the point that many literary critics have described one or the other as the greatest novelist ever.
+101/200  :  ['Tolstoy and Dostoevsky were one of the greatest writers ever.']
+102/200  :  W_0.75 C_0.73 L_0.70 WR_1.00 DTD_0.84  Cars did not finish the Grand Prix, but were classified as they completed over 90% of the race distance.
+102/200  :  ['Cars did not finish the Grand Prix, but were classified (ranked) over 90% of the distance. Cars did not finish the race, but were classified.']
+103/200  :  W_0.49 C_0.48 L_0.62 WR_0.92 DTD_0.79  The school's HLMA team got an Honourable Mention in 2004 HLMA2004 Winners List: Students include Ma Chit, Lam Ho Man, Kwok Wing Hei, Wan Kai Chung and Yip Shun.
+103/200  :  ['Students include Ma Chit, Lam Ho Man, Kwok Wing Hei and Wan Kai Chung.']
+104/200  :  W_0.45 C_0.41 L_0.49 WR_0.94 DTD_0.73  The locus classicus of the 18th-century portrayal of the American Indian are the famous lines from Alexander Pope's "Essay on Man" (1734): Lo, the poor Indian!
+104/200  :  ['The famous lines from Alexander Pope\'s "Essay on Man" (1734): Lo, the poor Indian!']
+105/200  :  W_0.67 C_0.64 L_0.71 WR_0.96 DTD_0.91  Apart from Bartholomew, the three not mentioned at all in John's gospel are James son of Alphaeus, Matthew, and Simon the Canaanite/Zealot.
+105/200  :  ["The three not mentioned in John's gospel are James son of Jesus, Matthew, and Simon."]
+106/200  :  W_0.88 C_0.80 L_0.72 WR_0.93 DTD_0.95  SchwÃ ndi is a former municipality in the canton of Glarus in Switzerland.
+106/200  :  ['Schw ndi is a municipality of the canton of Glarus in Switzerland.']
+107/200  :  W_0.90 C_0.86 L_0.69 WR_1.02 DTD_0.87  As of the 2000 United States Census, the village population was 7,837.
+107/200  :  ['As of the 2000 United States Census, 7,837 people lived there.']
+108/200  :  W_0.35 C_0.34 L_0.47 WR_1.01 DTD_0.74  He has played a key role in the success of the Turkish national squad, and it was at the 2002 FIFA World Cup, where Turkey finished third, that he earned a selection to the tournament's All Star team.
+108/200  :  ['He has played a key role in the success of the Turkish national team.']
+109/200  :  W_0.55 C_0.51 L_0.58 WR_0.97 DTD_0.83  Of all the Colonial Fleet, the Battlestar Galactica appears to be the only military capital ship that survived the attack.
+109/200  :  ['It was the only military capital ship that survived the attack.']
+110/200  :  W_0.45 C_0.36 L_0.41 WR_0.98 DTD_0.66  The Template: Convert\/Dual\/LonF displays results from a 4-part unit-name amount conversion, as wikilinked units, to support the standard Template: Convert.
+110/200  :  ['The Template: Convert is a part of the Template: Convert.']
+111/200  :  W_0.72 C_0.70 L_0.61 WR_1.02 DTD_0.80  In 1946, the trophy was amended to go to the goaltender (s) of the team allowing the fewest number of goals during the regular season. This criteria was in place until the 1980 â "81 season.
+111/200  :  ['In 1946, the trophy was changed to go to the goaltender (s) of the team.']
+112/200  :  W_0.45 C_0.44 L_0.57 WR_0.88 DTD_0.76  Arad (;,) is a county (jude) of Romania, in Cri ana (most of it) and Banat (south of the Mures\/Maros river), with the capital city at Arad (population: 185,272).
+112/200  :  ['Arad County (,) is a county (jude) of Romania, in Cri ana and Banat.']
+113/200  :  W_1.24 C_1.19 L_0.69 WR_0.99 DTD_1.12  Weather Glossary: S. Retrieved on 2006-11-19.
+113/200  :  ['Weather Glossary: S. Retrieved on 2007-08-19. Weather Glossary: S. Retrieved on 2006-11-19.']
+114/200  :  W_0.44 C_0.41 L_0.51 WR_1.02 DTD_0.62  The event was created in 1999, with its inaugural event taking place on December 12, 1999 at the National Car Rental Center in Sunrise, Florida.
+114/200  :  ['It took place on December 12, 1999 at the National Car Rental Center.']
+115/200  :  W_0.64 C_0.59 L_0.62 WR_0.93 DTD_0.77  Heavyweights is a 1995 Disney comedy film, directed by Steven Brill and co-written by Brill with Judd Apatow.
+115/200  :  ['Heavyweights is a 1995 movie starring Steven Brill and Judd Apatow.']
+116/200  :  W_0.64 C_0.53 L_0.55 WR_1.00 DTD_1.14  Although most practitioners are philosophers, several prominent scientists have contributed to the field and still do.
+116/200  :  ['Most philosophers are philosophers, but some are still in the field.']
+117/200  :  W_0.60 C_0.58 L_0.61 WR_1.01 DTD_0.85  The articles having been signed, they were then posted in a prominent place, often the door of the grand cabin.
+117/200  :  ['They were then posted in a big place, the door of the grand cabin.']
+118/200  :  W_0.75 C_0.70 L_0.70 WR_1.03 DTD_0.85  UK Food Standards Agency They are commonly found on food labels throughout the European Union.
+118/200  :  ['They are commonly found on food labels throughout the European Union. The UK Food Standards Agency They are commonly found on food labels.']
+119/200  :  W_0.61 C_0.54 L_0.61 WR_0.95 DTD_0.78  Mary Jane Taber (/O1905/O), The cathedrals of England: an account of some of their distinguishing characteristics, p. 100 The central spire collapsed in 1549 and was not rebuilt.
+119/200  :  ['The central spire collapsed in 1549 and was not rebuilt. Mary Jane Taber (/O1905/O), The cathedrals of England: an account of some of their characteristics, p. 100 The central spire collapsed in 1549.']
+120/200  :  W_1.01 C_1.04 L_0.81 WR_0.96 DTD_0.96  There are some differences between Jak 3 and Jak II.
+120/200  :  ['There are some differences between Jak 3 and Jak II.']
+121/200  :  W_0.39 C_0.35 L_0.49 WR_0.92 DTD_0.68  Cape Breton Island (- formerly île Royale, Scottish Gaelic: Eilean Cheap Breatuinn, Míkmaq: Únamakika, simply: Cape Breton) is an island on the Atlantic coast of North America.
+121/200  :  ['Cape Breton Island is an island in the Atlantic Ocean.']
+122/200  :  W_0.54 C_0.51 L_0.60 WR_0.91 DTD_0.83  Wilfred Bouma (born 15 June 1978) in Helmond, North Brabant is a Dutch international footballer who plays for PSV Eindhoven.
+122/200  :  ['Wilfred Bouma (born 15 June 1978) is a Dutch football player.']
+123/200  :  W_0.87 C_0.89 L_0.79 WR_0.98 DTD_0.85  Auburn is the only school of the eight that he coached to have a Heisman Trophy winner.
+123/200  :  ['Auburn is the only school of the eight that he has won the Heisman Trophy.']
+124/200  :  W_0.88 C_0.86 L_0.67 WR_1.05 DTD_0.89  In a 2010 interview when asked if she believed in God, Gillard stated: "No I do n't... I'm not a religious person... (I'm) a great respecter of religious beliefs but they're not my beliefs."
+124/200  :  ['Gillard said: "No I don\'t... I\'m not a religious person... (I\'m) a great respecter of religious beliefs but they\'re not my beliefs."']
+125/200  :  W_0.70 C_0.66 L_0.65 WR_0.97 DTD_0.71  Treatment was based on the humor theory of four bodily fluids (black and yellow bile, blood, and phlegm).
+125/200  :  ['Treatment is based on four fluids: phlegm, black and yellow bile, and blood.']
+126/200  :  W_0.33 C_0.29 L_0.44 WR_0.98 DTD_0.51  Tropical Storm Delta was a late-forming tropical storm of the 2005 Atlantic hurricane season which struck the Canary Islands as a strong extratropical storm causing significant damage and then crossed over Morocco with little impact there.
+126/200  :  ['Delta was a tropical storm of the 2005 Atlantic hurricane season.']
+127/200  :  W_0.71 C_0.69 L_0.69 WR_0.93 DTD_0.93  Christian WÃ rns (born 10 May 1972 in Mannheim) is a retired German footballer who played as a sweeper.
+127/200  :  ['Christian W rns (born 10 May 1972) is a former German football player.']
+128/200  :  W_1.08 C_1.15 L_0.72 WR_1.01 DTD_1.19  In 1409 it housed Pope Alexander V and Louis of Anjou.
+128/200  :  ['In 1409 Pope Alexander V of France and Louis of Anjou lived there.']
+129/200  :  W_0.75 C_0.74 L_0.68 WR_0.98 DTD_0.75  He was the first Catholic pope to visit and pray in an Islamic mosque, in Damascus, Syria in 2001.
+129/200  :  ['He was the first Roman Catholic pope to visit and pray in a mosque.']
+130/200  :  W_0.47 C_0.41 L_0.49 WR_0.94 DTD_0.96  As predicted by VSEPR theory, the molecule adopts a "V" shaped structure like H2O, but it has very different properties, being a strong oxidizer.
+130/200  :  ['It has a "V" shaped like H2O, which is a strong oxidizer.']
+131/200  :  W_0.44 C_0.35 L_0.37 WR_0.91 DTD_0.38  Cressida belongs to the Portia Group of satellites, which includes Bianca, Desdemona, Juliet, Portia, Rosalind, Cupid, Belinda and Perdita.
+131/200  :  ['Cressida or Cressida is a moon of Jupiter.']
+132/200  :  W_0.54 C_0.51 L_0.64 WR_1.00 DTD_0.95  Flagler county was ranked the fastest-growing county in the nation by the US Census Bureau from 2000 to 2005, boasting a 53.3% change, with a July 1, 2005 population estimate at 76,410.
+132/200  :  ['Flagler county was ranked the fastest-growing county in the nation by the US Census Bureau from 2000 to 2005.']
+133/200  :  W_0.60 C_0.55 L_0.60 WR_0.96 DTD_0.61  The first confirmed sighting of Antarctica can be narrowed down to the crews of ships captained by three individuals.
+133/200  :  ['The first sighting of Antarctica was to the crews of three ships.']
+134/200  :  W_0.78 C_0.75 L_0.71 WR_0.98 DTD_0.90  In the show, contestants are isolated in the wilderness and compete for cash and other prizes.
+134/200  :  ['In the show, players are isolated and compete for cash and other prizes.']
+135/200  :  W_0.88 C_0.85 L_0.74 WR_0.93 DTD_0.91  Saarlouis is a Kreis (district) in the middle of the Saarland, Germany.
+135/200  :  ['Saarlouis is a rural district in the state of Saarland, Germany.']
+136/200  :  W_0.87 C_0.80 L_0.70 WR_0.97 DTD_1.01  It has a nickname Stinker because mature males have a distinctive curry-like odour.
+136/200  :  ['It is also called Stinker because males have a curry-like odour.']
+137/200  :  W_1.03 C_0.90 L_0.62 WR_0.96 DTD_1.00  Gibraltar Firewall is an operating system based on Debian.
+137/200  :  ['Gibraltar Firewall is a Linux distribution based on Debian.']
+138/200  :  W_0.87 C_0.80 L_0.69 WR_1.00 DTD_0.90  The Nicobars include 22 islands of various sizes, the largest being Great Nicobar.
+138/200  :  ['The Nicobars are made up of 22 islands, the largest being Great Nicobar.']
+139/200  :  W_0.50 C_0.48 L_0.58 WR_1.02 DTD_0.68  Though it does not actually measure the percentage of body fat, it is used to estimate a healthy body weight based on a person's height.
+139/200  :  ["It does not measure the percentage of body fat in a person's body."]
+140/200  :  W_0.53 C_0.51 L_0.56 WR_0.94 DTD_0.71  Duruflé became titular organist of St - Étienne - du-Mont in Paris in 1929, a position he held for the rest of his life.
+140/200  :  ['In 1929 Duruflé became organist of St - Étienne - du-Mont in Paris.']
+141/200  :  W_0.79 C_0.78 L_0.74 WR_1.00 DTD_0.95  Though Scrooge is the richest duck in the world, he constantly tries to find ways to increase his wealth.
+141/200  :  ['Scrooge is the richest duck in the world, but he always tries to increase his wealth.']
+142/200  :  W_0.60 C_0.58 L_0.63 WR_0.99 DTD_0.88  An arboretum overlooking Glamis Burn features trees from all over the world, many of them rare and several hundred years old.
+142/200  :  ['It has trees from all over the world, including several hundred years old.']
+143/200  :  W_0.95 C_0.77 L_0.62 WR_0.84 DTD_0.87  Marcy-sous-Marle is a commune in the Aisne department in Picardie in northern France.
+143/200  :  ['It is found in the region Picardie in the Aisne department in the north of France.']
+144/200  :  W_0.79 C_0.76 L_0.70 WR_0.99 DTD_0.87  The screenplay was written by Steven E. de Souza and Doug Richardson, adapted from the novel 58 Minutes by Walter Wager.
+144/200  :  ['It was written by Steven E. de Souza and Doug Richardson, and directed by Walter Wager.']
+145/200  :  W_0.90 C_0.85 L_0.76 WR_0.98 DTD_0.88  Chloe then encounters a pack rat named Manuel trying to steal Chloe's diamond collar.
+145/200  :  ["Then, Chloe meets a rat named Manuel trying to steal Chloe's diamond collar."]
+146/200  :  W_0.73 C_0.71 L_0.64 WR_1.01 DTD_0.74  The linseed oil itself comes from the flax seed, a common fiber crop. It is interesting to note that linen, an important "support" for oil painting (see below) also comes from the flax plant.
+146/200  :  ['The linseed oil itself comes from the flax seed, a common fiber crop.']
+147/200  :  W_0.59 C_0.51 L_0.56 WR_0.97 DTD_1.14  A second North Carolina hurricane hit Ocracoke, North Carolina on August 24, drowning livestock and washing away homes.
+147/200  :  ['A second hurricane hit Ocracoke, North Carolina on August 24.']
+148/200  :  W_0.56 C_0.44 L_0.47 WR_0.95 DTD_0.62  Elive ("Enlightenment live") is a Linux distribution based on Debian for legacy and commodity hardware with Intel processors.
+148/200  :  ['Elive is a Linux distribution that is based on Debian.']
+149/200  :  W_0.52 C_0.48 L_0.51 WR_0.99 DTD_0.82  (p. 23-24) Although Deming does not use the term in his book, it is credited with launching the Total Quality Management movement.
+149/200  :  ['Deming started the Total Quality Management movement in his book in 23-24.']
+150/200  :  W_1.17 C_1.14 L_0.73 WR_1.00 DTD_1.04  There is some uncertainty as to its spectral class.
+150/200  :  ['There is some uncertainty as to whether it is a spectral class.']
+151/200  :  W_0.29 C_0.26 L_0.43 WR_1.00 DTD_0.48  Red blood cells (also referred to as erythrocytes) are the most common type of blood cell and the vertebrate organism's principal means of delivering oxygen (O2) to the body tissues via the blood flow through the circulatory system.
+151/200  :  ['Red blood cells are the most common type of blood cell.']
+152/200  :  W_0.46 C_0.38 L_0.48 WR_0.92 DTD_0.80  Officially, it is called the Greek Orthodox Patriarchate of Alexandria to distinguish it from the non-Chalcedonian Coptic Orthodox Patriarchate of Alexandria.
+152/200  :  ['It is also called the Greek Orthodox Patriarchate of Alexandria.']
+153/200  :  W_0.84 C_0.83 L_0.76 WR_0.99 DTD_0.79  San Salvador City is the capital and largest city of the nation of El Salvador.
+153/200  :  ['San Salvador City is the capital city of the country of El Salvador.']
+154/200  :  W_0.92 C_0.90 L_0.78 WR_0.96 DTD_0.96  Al-Gharafa, known as "Al Fhoud" (Lepords) are Qatar's champions three years in a row.
+154/200  :  ['Al-Gharafa (Lepords) are the champions of Qatar three years in a row.']
+155/200  :  W_0.68 C_0.50 L_0.45 WR_0.94 DTD_0.70  Creighton University is a private, coeducational, Jesuit, Roman Catholic university located in Omaha, Nebraska.
+155/200  :  ['Creighton is a city of Nebraska in the United States.']
+156/200  :  W_0.59 C_0.51 L_0.55 WR_0.91 DTD_0.72  Lawrencium (,) is a radioactive synthetic element with the symbol Lr (formerly Lw) and atomic number 103.
+156/200  :  ['It has the chemical symbol Lr and atomic number 103.']
+157/200  :  W_1.00 C_1.00 L_0.77 WR_0.98 DTD_1.08  Their most honorable throne have opened the United Provinces of the South.
+157/200  :  ['Their most important throne has been to the United Provinces of South Africa.']
+158/200  :  W_0.40 C_0.33 L_0.43 WR_0.97 DTD_0.45  Danelectro is a manufacturer of musical instruments and accessories, specializing in rock instruments such as guitars, bass guitars, amplifiers and effects units.
+158/200  :  ['Danelectro is a company that makes musical instruments.']
+159/200  :  W_1.06 C_1.07 L_0.69 WR_0.96 DTD_1.01  "One More Minute" is an original song by "Weird Al" Yankovic.
+159/200  :  ['"One More Minute" is a song by "Weird Al" Yankovic, which was released in 2001. It is an original song by "Weird Al" Yankovic.']
+160/200  :  W_0.87 C_0.77 L_0.70 WR_0.95 DTD_1.15  The German commander, Captain Fritz Knochlein, is eventually hanged for war crimes.
+160/200  :  ['The German commander is hanged for war crimes by Captain Knochlein.']
+161/200  :  W_0.86 C_0.81 L_0.71 WR_0.94 DTD_1.13  BesmÃ is a commune in the department of Aisne in Picardy in northern France.
+161/200  :  ['Besm is a commune. It is found in the region Picardie in the Aisne department in the north of France.']
+162/200  :  W_0.45 C_0.44 L_0.58 WR_0.92 DTD_0.74  Potassium is a silvery white metal that tarnishes in air and produces an oxidized layer on the surface, which is why it is stored in oil.
+162/200  :  ['It is a silvery white metal that tarnishes in air.']
+163/200  :  W_0.34 C_0.28 L_0.43 WR_0.86 DTD_0.65  While some Vaccinium species, such as Vaccinium parvifolium, the Red Huckleberry, are always called huckleberries, other species may be called blueberries or huckleberries depending upon local custom.
+163/200  :  ['Some Vaccinium species are always called huckleberries.']
+164/200  :  W_0.65 C_0.58 L_0.57 WR_0.98 DTD_0.91  East Slavic, extant: Russian, Ukrainian, Rusyn (a language or a dialect of Ukrainian), and Belarusian
+164/200  :  ['East Slavic language is a dialect of Ukrainian, Russian and Belarusian.']
+165/200  :  W_0.77 C_0.69 L_0.67 WR_0.92 DTD_0.82  Namli Maira is a mountainous rural area located in Abbottabad District ().
+165/200  :  ['Namli Maira is a small town in Abbottabad District, India. It is located in the northern part of the district.']
+166/200  :  W_0.36 C_0.32 L_0.44 WR_0.99 DTD_0.52  In July, he was called to testify before the United States House of Representatives' Committee on Un-American Activities (HUAC) concerning statements made that April by black athlete and actor Paul Robeson.
+166/200  :  ['He was called to testify before the United States House of Representatives.']
+167/200  :  W_0.83 C_0.74 L_0.67 WR_0.94 DTD_1.09  Neuflieux is a commune in the Aisne department in Picardy in northern France.
+167/200  :  ['Neuflieux is a commune. It is found in the region Picardie in the Aisne department in the north of France.']
+168/200  :  W_0.91 C_0.80 L_0.66 WR_1.03 DTD_0.84  Northern Ireland, part of the United Kingdom, covers the remaining sixth.
+168/200  :  ['Northern Ireland is part of the United Kingdom and Northern Ireland.']
+169/200  :  W_0.87 C_0.82 L_0.69 WR_1.02 DTD_0.80  Modern Times can refer to the modern era of history, or modern history.
+169/200  :  ['The Modern Times is a period in the history and modern history.']
+170/200  :  W_0.96 C_0.94 L_0.78 WR_1.03 DTD_0.96  Lake City is a city in Calhoun County, Iowa, United States, founded in 1856.
+170/200  :  ['Lake City is a city of Calhoun County in the state of Iowa, United States.']
+171/200  :  W_0.53 C_0.51 L_0.60 WR_0.93 DTD_0.75  The authors com from the Sil Valley, specially from El Bierzu (Llión), and it is the collective book in the Leonese language where there are more authors.
+171/200  :  ['The authors come from the Sil Valley, specially from El Bierzu (Llión).']
+172/200  :  W_0.64 C_0.60 L_0.61 WR_1.05 DTD_0.73  At one time there were four different systems of electrification in use, a record for any station in London.
+172/200  :  ['At one time there were four different systems of electrification in use.']
+173/200  :  W_0.56 C_0.54 L_0.63 WR_0.98 DTD_0.79  Kevin Dennis Kurányi (born 2 March 1982 in Rio de Janeiro) is a German Brazilian footballer who plays for the Bundesliga club Schalke 04.
+173/200  :  ['Kevin Kurányi (born 2 March 1982 in Rio de Janeiro, Brazil) is a Brazilian football player.']
+174/200  :  W_0.46 C_0.41 L_0.42 WR_0.95 DTD_0.80  Frederick I (11 July 1657 â "25 February 1713), of the Hohenzollern dynasty, was (as Frederick III) Elector of Brandenburg (1688 â" 1713) and Duke of Prussia in personal union (Brandenburg-Prussia). The latter function he upgraded to royalty, becoming the first King in Prussia (1701 â "1713).
+174/200  :  ['Frederick I (1657 â "1713) was the first King of Prussia (1701-1713).']
+175/200  :  W_0.38 C_0.33 L_0.44 WR_0.95 DTD_0.51  The Blake River Megacaldera Complex, also called the Blake River Group, is a giant subaqueous caldera cluster or a nested caldera system that spans across the Ontario-Quebec border in Canada.
+175/200  :  ['Blake River is a large caldera system in Ontario, Canada. It is also called the Blake River Group or Blake River Group.']
+176/200  :  W_0.36 C_0.32 L_0.48 WR_0.99 DTD_0.51  A 56-year-old Taiwanese tourist was killed in Dujiangyan during a rescue attempt on the Lingyanshan Ropeway, where due to the earthquake 11 Taiwanese tourists had been trapped inside cable cars since May 13.
+176/200  :  ['A 56-year-old Taiwanese tourist was killed in Dujiangyan on May 13.']
+177/200  :  W_0.53 C_0.48 L_0.54 WR_0.97 DTD_0.54  The Royal Navy is a constituent component of the Naval Service, which also comprises the Royal Marines, Royal Naval Reserve and Royal Marines Reserve.
+177/200  :  ['The Royal Navy is made up of the Royal Marines and Royal Naval Reserve.']
+178/200  :  W_0.54 C_0.53 L_0.62 WR_0.99 DTD_0.56  Around 1503 â "1505 he produced the first seventeen of a set illustrating the Life of the Virgin, which he did not finish for some years.
+178/200  :  ['Around 1503 â "1505 he made a set about the life of the Virgin.']
+179/200  :  W_0.84 C_0.83 L_0.73 WR_0.98 DTD_0.96  Stone Temple Pilots were also ranked # 40 on VH1's The 100 Greatest Artists of Hard Rock.
+179/200  :  ['Stone Temple Pilots were also ranked # 40 on the 100 Greatest Artists of Hard Rock list. They were also ranked # 40 on VH1\'s "The 100 Greatest Artists of Hard Rock".']
+180/200  :  W_0.84 C_0.85 L_0.75 WR_0.99 DTD_0.95  1944 & ndash; World War II: Rome falls to the Allies, the first Axis capital to fall.
+180/200  :  ['1944 - Rome falls to the Allies, the first Axis capital after World War II.']
+181/200  :  W_0.58 C_0.57 L_0.64 WR_0.98 DTD_0.80  Worf is the first Klingon main character to appear in Star Trek, and has appeared in more Star Trek episodes than any other character.
+181/200  :  ['Worf has appeared in more Star Trek episodes than any other Star Trek character.']
+182/200  :  W_0.96 C_0.95 L_0.79 WR_0.97 DTD_0.89  The Elite is tortured by Tartarus, the Chieftain of the Covenant Brutes.
+182/200  :  ['The Elite is tortured by the Chieftain of the Covenant, Tartarus.']
+183/200  :  W_0.57 C_0.55 L_0.62 WR_1.01 DTD_0.86  In the final months of his U.S. Senate term in 2002, Thompson joined the cast of the long-running NBC television series Law & Order, playing District Attorney Arthur Branch for the next five years.
+183/200  :  ['In the final months of his U.S. Senate term in 2002, Thompson joined the cast of Law & Order, a long-running television series.']
+184/200  :  W_0.97 C_0.88 L_0.70 WR_0.99 DTD_0.96  These movement patterns are distinct to the taxa, separating them.
+184/200  :  ['These movement patterns are different from that of the taxa.']
+185/200  :  W_0.39 C_0.33 L_0.40 WR_1.01 DTD_0.68  Boyle's law describes the inversely proportional relationship between the absolute pressure and volume of a gas, if the temperature is kept constant within a closed system.
+185/200  :  ['The temperature is the same as the volume in a closed system.']
+186/200  :  W_0.83 C_0.70 L_0.59 WR_0.92 DTD_0.81  Mailed photographs, Le Gros Clark retorted casually "Shades of Piltdown."
+186/200  :  ['"Shades of Piltdown" - Mailed photographs, Le Gros Clark.']
+187/200  :  W_0.68 C_0.63 L_0.46 WR_0.99 DTD_0.72  Wigan Warriors and Wigan Athletic moved into the ground on its completion from their old homes, Central Park and Springfield Park respectively. Wigan Warriors compete in the Super League and Wigan Athletic play in the Premier League.
+187/200  :  ['Wigan Warriors play in the Super League and Wigan Athletic play in the Premier League.']
+188/200  :  W_0.57 C_0.53 L_0.59 WR_0.94 DTD_0.74  Al-Arabi Sports Club (), also known as Al-Arabi Al-Qatari, is a Qatari professional football (soccer) club based in Doha, Qatar.
+188/200  :  ['Al-Arabi Al-Qatari is a football club which plays in Qatar.']
+189/200  :  W_0.55 C_0.48 L_0.57 WR_0.86 DTD_0.75  Today the city is an industrial centre and is famed for the original "Liebfrauenstift-Kirchenstück" epotoponym for the Liebfraumilch wine.
+189/200  :  ['Today the city is an industrial centre and is famous for Liebfraumilch wine.']
+190/200  :  W_0.77 C_0.64 L_0.55 WR_0.99 DTD_0.95  Among English-speakers, he is generally remembered for his invasion of England in 1066.
+190/200  :  ['He was famous for the invasion of England in 1066.']
+191/200  :  W_0.77 C_0.63 L_0.60 WR_0.89 DTD_0.78  Fontaine-l'Évêque is a Walloon municipality located in the Belgian province of Hainaut.
+191/200  :  ["Fontaine-l'Évêque is a municipality located in the Belgian province of Hainaut. It is located in the Belgian province of Hainaut."]
+192/200  :  W_0.75 C_0.69 L_0.66 WR_0.99 DTD_0.90  "God" is a song from John Lennon's first post-Beatles solo album, John Lennon\/Plastic Ono Band.
+192/200  :  ['"God" is the name of John Lennon\'s first album, John Lennon.']
+193/200  :  W_0.68 C_0.56 L_0.52 WR_1.05 DTD_0.95  However, by normalizing relations with Japan, Park allowed Japanese capital to flow into the country.
+193/200  :  ['Park allowed the capital of the country to flow into it.']
+194/200  :  W_0.45 C_0.39 L_0.49 WR_0.95 DTD_0.59  A convenient short-hand way of capturing this view of metaphor is the following: CONCEPTUAL DOMAIN (A) IS CONCEPTUAL DOMAIN (B), which is what is called a conceptual metaphor. A conceptual metaphor consists of two conceptual domains, in which one domain is understood in terms of another.
+194/200  :  ['A conceptual metaphor is two domains, in which one domain is understood in terms of another.']
+195/200  :  W_0.62 C_0.54 L_0.53 WR_0.98 DTD_0.72  Some practitioners of computer architecture at companies such as Intel and AMD use more fine distinctions:
+195/200  :  ['Some people who make computer architecture at companies are Intel.']
+196/200  :  W_0.85 C_0.86 L_0.73 WR_1.00 DTD_1.01  The area of the island is stated as 41,214 km ² by Statistics Canada [].
+196/200  :  ['The island is said to be 41,214 km 2 by Statistics Canada [].']
+197/200  :  W_0.98 C_0.95 L_0.75 WR_1.02 DTD_1.00  Each of its seven seasons earned a nomination for the award.
+197/200  :  ['Each of the seven seasons was nominated for the award.']
+198/200  :  W_0.91 C_0.87 L_0.72 WR_0.89 DTD_0.99  "Thumper", a song by Raging Speedhorn on the album Raging Speedhorn
+198/200  :  ['"Thumper", a song by the American rock band Raging Speedhorn']
+199/200  :  W_0.36 C_0.31 L_0.42 WR_0.97 DTD_0.54  FNMTV (officially Feedback New MTV; informally Friday Night MTV) was a music video program on MTV focused on premiering new music videos and airing viewers' instantaneous feedback from its website.
+199/200  :  ['FNMTV was a music video program on MTV on Friday Night MTV.']
+200/200  :  W_0.53 C_0.50 L_0.58 WR_0.95 DTD_0.66  A daughter of Gaston de France, Duke of OrlÃ ans, Marguerite Louise was obliged to surrender her rights as Princess of France in Cosimo's contract.
+200/200  :  ['Marguerite Louise was the daughter of Gaston de France, Duke of Orl ans.']
+201/200  :  W_0.70 C_0.66 L_0.66 WR_0.96 DTD_0.81  Born in Munich, Baader was a high school dropout and criminal before his Red Army Faction (RAF) involvement.
+201/200  :  ['Baader was born in Munich, Germany, and was a high school dropout and criminal.']
+{'BLEU': 30.13, 'SARI': 44.04, 'FKGL': 4.43, 'Compression ratio': 0.69, 'Sentence splits': 1.11, 'Levenshtein similarity': 0.64, 'Exact copies': 0.01, 'Additions proportion': 0.15, 'Deletions proportion': 0.43, 'Lexical complexity score': 7.78}
