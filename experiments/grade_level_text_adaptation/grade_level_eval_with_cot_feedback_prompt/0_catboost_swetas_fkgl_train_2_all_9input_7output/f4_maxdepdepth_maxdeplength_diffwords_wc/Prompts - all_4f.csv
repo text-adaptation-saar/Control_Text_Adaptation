@@ -1,0 +1,91 @@
+Level,des,system_prompt,user_prompt,output_prompt,cot_reason,cot_reason_empty
+1,,"You are an expert in text adaptation, skilled at meticulously rewriting texts to align with requested linguistic features while preserving the original meaning. Your task is to rewrite the provided Input Text to maintain its original meaning while strictly adhering to the specified maximum depth of the dependency tree, specified maximum dependency length, by including no more than specified number of 'difficult' words with precisely using specified number of word count.
+
+Here, 
+(1) Maximum depth of the dependency tree indicates the largest number of hierarchical levels from the root word (typically the main verb) to the deepest node in the sentence, indicating the most complex relationship chain in the grammatical structure.
+(2) The dependency length measures the linear distance between grammatically connected words in a sentence. 
+(3) ’Difficult' words are defined as those not found in the Dale-Chall list, which contains about 3000 words typically understood by 4th-grade students in the U.S. 
+(4) Word count is the total number of words in a sentence, defined by sequences of characters separated by whitespace. 
+
+
+If the rewrite requires multiple sentences, each must conform to the specified maximum dependency tree depth, maximum dependency length and word count. Also, ensure the total includes no more than the specified number of 'difficult' words. 
+Phrasing or structure modifications are permissible, as long as the essential meaning is retained. 
+Ensure each sentence rigorously conforms to the specified constraints, utilizing your extensive knowledge in linguistics, without fabricating any responses.
+Always output all Rewritten sentence(s) within curly braces.","Input Text: {input_src}
+
+(1) Input text’s Depth-Indexed Linearized Dependency Tree: {print_dependency_tree_with_depth}.
+The maximum depth of dependency tree of the input text, as determined by the highest value in its ""Depth-Indexed Linearized Dependency Tree"" is {src_MaxDepDepth}.
+(2) Input text’s Length-Indexed Linearized Dependency Tree: {print_dependency_tree_with_length}.
+The maximum dependency length of the input text, as determined by the highest value in its ""Length-Indexed Linearized Dependency Tree,"" is {src_MaxDepLength}.
+(3) These are the 'difficult' words in the input text: {print_difficult_words_list}, totalling {src_DiffWords} 'difficult' words.
+(4) Input text total words list: {print_word_list}.
+The number of sentences in the input text is: {no_of_sentences}.
+The average word count per sentence is calculated by dividing the total word count by the number of sentences in the input text, resulting {src_WordCount} words.
+
+The input text currently holds a maximum dependency depth of {src_MaxDepDepth}, maximum dependency length of {src_MaxDepLength}, 'difficult' words of {src_DiffWords}, and word count of {src_WordCount}.
+
+
+Rewrite the input text to maintain its original meaning while strictly adhering to the following criteria:
+(1) The maximum depth of dependency tree of exactly {tgt_ideal_MaxDepDepth}.
+(2) The maximum dependency length of exactly {tgt_ideal_MaxDepLength}.
+(3) A total of no more than {tgt_ideal_DiffWords} 'difficult' words.
+(4) An exact word count of {tgt_ideal_WordCount} for each rewritten sentence.
+
+
+Please note, that if the initial rewrite does not meet these specific requirements, you are encouraged to modify and regenerate the output until the criteria are satisfactorily met.
+Let's think through this step by step. Solve each step and explain how you arrived at your answer.
+Always output all the rewritten sentence(s) within one curly brace.","Summary of compliance with rewriting criteria:
+(1) Rewritten sentence's Depth-Indexed Linearized Dependency Tree: {print_dependency_tree_with_depth}.
+The maximum depth of the dependency tree for the rewritten sentence, as measured by its ""Depth-Indexed Linearized Dependency Tree,"" is {tgt_ideal_MaxDepDepth}. This meets the requested value of exactly {tgt_ideal_MaxDepDepth}.
+
+(2) Rewritten sentence's Length-Indexed Linearized Dependency Tree: {print_dependency_tree_with_length}.
+The maximum dependency length for the rewritten sentence, as measured by its ""Length-Indexed Linearized Dependency Tree"" is {tgt_ideal_MaxDepLength}. This meets the requested value of exactly {tgt_ideal_MaxDepLength}.
+
+(3) These are the 'difficult' words in the Rewritten sentence: {print_difficult_words_list}.
+The rewritten sentence contains {tgt_ideal_DiffWords} 'difficult' words, adhering to the requirement of containing no more than {tgt_ideal_DiffWords} 'difficult' words.
+
+(4) Total words in the rewritten sentence: {print_word_list}.
+Number of sentences in the rewritten sentence: {no_of_sentences}.
+The average word count per sentence is calculated by dividing the total word count by the number of sentences in the rewritten sentence, resulting in an average of {tgt_ideal_WordCount} words per sentence. This meets the requested word count of exactly {tgt_ideal_WordCount}.
+
+Rewritten sentence(s): {{output_text}}
+","Feedback:
+Summary of compliance with rewriting criteria:
+Rewritten sentence(s): {{output_text}}
+(1) Rewritten sentence's maximum dependency depth = maximum value in ""Depth-Indexed Linearized Dependency Tree"" = max({print_dependency_tree_with_depth}) = {src_MaxDepDepth}.
+The rewritten sentence(s) currently hold a maximum dependency tree depth of {src_MaxDepDepth}.
+
+(2) Rewritten sentence's maximum dependency length = maximum value in ""Length-Indexed Linearized Dependency Tree"" = max({print_dependency_tree_with_length}) = {src_MaxDepLength}
+The rewritten sentence(s) currently hold a maximum dependency length of exactly {src_MaxDepLength}.
+
+(3) Identified 'difficult' words in generated Rewritten sentence(s) = len({print_difficult_words_list}) = {src_DiffWords}.
+The rewritten sentence(s) currently hold total of {src_DiffWords} 'difficult' words.
+
+(4) Total words in the generated rewritten sentence(s): {print_word_list}.
+Number of sentences in the rewritten sentence: {no_of_sentences}.
+The average word count per sentence is calculated by dividing the total word count by the number of sentences in the rewritten sentence, resulting in an average of {src_WordCount} words per sentence.
+
+The rewritten sentence(s) currently holds a maximum dependency depth of {src_MaxDepDepth}, maximum dependency length of {src_MaxDepLength}, 'difficult' words of {src_DiffWords}, and word count of {src_WordCount}.
+
+
+Unfortunately, rewritten sentence(s) do not align with the all the requested criteria such as a maximum dependency tree depth of exactly {tgt_ideal_MaxDepDepth}, maximum dependency length of exactly {tgt_ideal_MaxDepLength}, total 'difficult' words of {tgt_ideal_DiffWords} and word count of {src_WordCount}.
+
+To ensure clarity and meet specific requirements, kindly revise the sentence with the following criteria:
+(1) The maximum depth of dependency tree of exactly {tgt_ideal_MaxDepDepth}.
+(2) The maximum dependency length of exactly {tgt_ideal_MaxDepLength}.
+(3) A total of no more than {tgt_ideal_DiffWords} 'difficult' words.
+(4) An exact word count of {tgt_ideal_WordCount} for each rewritten sentence.
+
+Please note, that if the initial rewrite does not meet these specific requirements, you are encouraged to modify and regenerate the output until the criteria are satisfactorily met.
+Always output all Rewritten sentence(s) within curly braces.","Feedback:
+Summary of compliance with rewriting criteria:
+Unfortunately, no rewritten sentence(s) were provided, resulting in an incomplete response.
+
+To ensure clarity and meet specific requirements, kindly revise the sentence with the following criteria:
+(1) The maximum depth of dependency tree of exactly {tgt_ideal_MaxDepDepth}.
+(2) The maximum dependency length of exactly {tgt_ideal_MaxDepLength}.
+(3) A total of no more than {tgt_ideal_DiffWords} 'difficult' words.
+(4) An exact word count of {tgt_ideal_WordCount} for each rewritten sentence.
+
+Please note, that if the initial rewrite does not meet these specific requirements, you are encouraged to modify and regenerate the output until the criteria are satisfactorily met.
+Always output all Rewritten sentence(s) within curly braces."

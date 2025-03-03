@@ -1,0 +1,1 @@
+Please rewrite the following sentence to make it easily understandable by students in Grade {tgt_ideal_Grade}. Ensure that the rewritten sentence is grammatically correct, fluent, and retains the core message of the original sentence without changing its meaning.

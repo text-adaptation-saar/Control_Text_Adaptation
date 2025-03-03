@@ -1,0 +1,42 @@
+experiment_id: 1
+path_to_output_generation: "experiments/"
+
+# for feature based evaluation script
+lang: en
+analyze_features: False
+overwrite: True
+
+# for prompt experiment
+model: "gpt-4dsfsdg"
+temperature: 0.3
+max_tokens: 500
+openai_key_name: "OPEN_API_KEY_COLI" #OPEN_API_KEY_CSE
+system_prompt: "experiments/train_v3_and_val_v1.1_wo_line_46/grade_level/0_no_features/prompt_1_just_tgt_grade/system_prompt.txt"
+user_prompt: "experiments/train_v3_and_val_v1.1_wo_line_46/grade_level/0_no_features/prompt_1_just_tgt_grade/user_prompt.txt"
+output_prompt: "experiments/train_v3_and_val_v1.1_wo_line_46/grade_level/0_no_features/prompt_1_just_tgt_grade/output_prompt.txt"
+#cot_reasoning_user_prompt: "experiments/data_filtered_regression_model/regression_3/2_maxdepdepth/cot_reasoning_user_prompt_maxdepdepth.txt"
+number_of_examples_to_include_in_prompt: 0
+example_val_dataset_src: "data_filtered/en/wikilarge_train_val_test/train_v3_500_complex_eliminated-duplicated_removed_from_v1v2_val_and_test/filtered_wiki.train_v3.src"
+example_val_dataset_tgt: "data_filtered/en/wikilarge_train_val_test/train_v3_500_complex_eliminated-duplicated_removed_from_v1v2_val_and_test/filtered_wiki.train_v3.tgt"
+example_val_dataset_feature_values: "data_filtered/en/wikilarge_train_val_test/train_v3_500_complex_eliminated-duplicated_removed_from_v1v2_val_and_test/fkgl_ratio_stats_filtered_wiki_train_v3_data.csv"
+
+#Test dataset for prompt experiment
+path_to_input_test_data: "xxx/en/wikilarge_train_val_test/val/filtered_wiki.valid.src"
+path_to_test_gold_ref_data: "xxx/maxdepdepth_above_6/filtered_wiki.valid.tgt"
+number_of_lines_to_test: 1 # first 200 from test data
+predicted_ratio_file_path: "xxx/data_filtered_regression_model/linear_regression/2_maxdepdepth/wikilarge/valid/ratio_stats_with_LR_predicted_ratio.csv"
+feature_names: ""
+feature_range: "0"
+chain_of_thought: False
+calibration: False
+
+# Example command:
+# python openai_preprocess_finetune_generate.py --config experiments/data_filtered_regression_model/linear_regression/2_maxdepdepth/wikilarge/valid/gpt4_zs/prompt_1_temp_0/prompt_based_generation_wc_only.yaml \
+# --requested_dependency_depth -1 \
+# --requested_dependency_length -1 \
+# --requested_difficult_words -1 \
+# --requested_length -1 \
+# --requested_levenshtein -1 \
+# --requested_word_count -1 \
+# --predicted_ratio_file_given \
+# --do_eval > experiments/data_filtered_regression_model/linear_regression/2_maxdepdepth/wikilarge/valid/gpt4_zs/prompt_1_temp_0/logs
