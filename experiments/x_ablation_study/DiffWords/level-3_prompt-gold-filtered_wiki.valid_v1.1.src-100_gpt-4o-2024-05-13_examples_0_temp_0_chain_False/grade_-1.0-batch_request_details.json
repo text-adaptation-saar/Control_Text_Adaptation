@@ -1,0 +1,5 @@
+{
+    "local_batch_input_file_path": "experiments/x_ablation_study/DiffWords/level-3_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/batch_request_level-3_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False_maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1.jsonl",
+    "batch_input_file_id": "file-QI2DlTkyn9BvAMIhslMDCSHT",
+    "batch_id": "batch_auj1OIRNy2r4I4hn6xbyUlpV"
+}

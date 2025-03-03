@@ -1,0 +1,109 @@
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+OpenAI API key Initialization with keyname: OPEN_API_KEY_CSE ...
+Batch ID: batch_xvjV7iKR8X0xayHoYZtwo8b8
+BATCH  openai.batches.retrieve() response:
+Batch(id='batch_xvjV7iKR8X0xayHoYZtwo8b8', completion_window='24h', created_at=1717861769, endpoint='/v1/chat/completions', input_file_id='file-7t78NtxOmAAr32G1sHPHRQRD', object='batch', status='completed', cancelled_at=None, cancelling_at=None, completed_at=1717861857, error_file_id=None, errors=None, expired_at=None, expires_at=1717948169, failed_at=None, finalizing_at=1717861853, in_progress_at=1717861770, metadata={'description': 'nightly eval job'}, output_file_id='file-5ySZAu5klJcFB7BnhaBM6MiP', request_counts=BatchRequestCounts(completed=100, failed=0, total=100))
+BATCH obtained output_file_id: file-5ySZAu5klJcFB7BnhaBM6MiP content:
+<openai._legacy_response.HttpxBinaryResponseContent object at 0x7f8e549caa90>
+Content successfully saved to experiments/x_ablation_study/DiffWords/gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/batch_response_gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False_maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1.jsonl
+Custom ID: request-1 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-2 - Rewritten Sentences: The enigmatic professor elucidated the intricate phenomenon.
+Custom ID: request-3 - Rewritten Sentences: The enigmatic professor elucidated the arcane theory.
+Custom ID: request-4 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-5 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-6 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-7 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem effortlessly.
+Custom ID: request-8 - Rewritten Sentences: The serene lake reflected the vibrant autumn foliage.
+Custom ID: request-9 - Rewritten Sentences: The enigmatic professor elucidated the arcane theorem.
+Custom ID: request-10 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-11 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-12 - Rewritten Sentences: The serene lake reflected the vibrant autumn foliage.
+Custom ID: request-13 - Rewritten Sentences: Despite the cacophony, the perspicacious child deciphered the enigmatic conundrum effortlessly.
+Custom ID: request-14 - Rewritten Sentences: Despite the cacophony, the perspicacious child deciphered the enigmatic message.
+Custom ID: request-15 - Rewritten Sentences: The serene lake reflected the vibrant autumn foliage.
+Custom ID: request-16 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-17 - Rewritten Sentences: The serene lake reflected the vibrant autumn foliage.
+Custom ID: request-18 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-19 - Rewritten Sentences: Despite the cacophony, the perspicacious ornithologist discerned the elusive, iridescent quetzal.
+Custom ID: request-20 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-21 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-22 - Rewritten Sentences: The enigmatic professor elucidated the arcane theorem effortlessly.
+Custom ID: request-23 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-24 - Rewritten Sentences: Despite the cacophony, the enigmatic maestro orchestrated a transcendent symphony.
+Custom ID: request-25 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-26 - Rewritten Sentences: The enigmatic professor elucidated the intricate phenomenon.
+Custom ID: request-27 - Rewritten Sentences: The serene lake reflected the vibrant autumn foliage.
+Custom ID: request-28 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-29 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-30 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-31 - Rewritten Sentences: Despite the cacophony, the perspicacious child deciphered the enigmatic message.
+Custom ID: request-32 - Rewritten Sentences: The enigmatic professor elucidated the intricate phenomenon.
+Custom ID: request-33 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-34 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-35 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-36 - Rewritten Sentences: The serene lake reflected the vibrant autumn foliage.
+Custom ID: request-37 - Rewritten Sentences: The serene lake reflected the vibrant autumn foliage.
+Custom ID: request-38 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-39 - Rewritten Sentences: The scientist presented a groundbreaking discovery at the conference.
+Custom ID: request-40 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-41 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-42 - Rewritten Sentences: Despite the cacophony, the perspicacious ornithologist identified the elusive, iridescent avian species.
+Custom ID: request-43 - Rewritten Sentences: Despite the cacophony, the perspicacious child deciphered the enigmatic conundrum effortlessly.
+Custom ID: request-44 - Rewritten Sentences: The serene lake reflected the vibrant autumn foliage.
+Custom ID: request-45 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-46 - Rewritten Sentences: The serene lake reflected the vibrant autumn foliage.
+Custom ID: request-47 - Rewritten Sentences: The enigmatic philosopher elucidated the paradoxical nature of existentialism.
+Custom ID: request-48 - Rewritten Sentences: Despite the cacophony, the perspicacious detective deciphered the enigmatic clues with alacrity.
+Custom ID: request-49 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-50 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-51 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-52 - Rewritten Sentences: The enigmatic philosopher elucidated the paradoxical nature of existentialism.
+Custom ID: request-53 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-54 - Rewritten Sentences: Despite the cacophony, the perspicacious child deciphered the enigmatic conundrum effortlessly.
+Custom ID: request-55 - Rewritten Sentences: The enigmatic professor elucidated the intricate phenomenon.
+Custom ID: request-56 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-57 - Rewritten Sentences: Despite the cacophony, the perspicacious ornithologist discerned the elusive, iridescent avian species.
+Custom ID: request-58 - Rewritten Sentences: The enigmatic professor elucidated the arcane theorem.
+Custom ID: request-59 - Rewritten Sentences: Despite the cacophony, the perspicacious child deciphered the enigmatic conundrum effortlessly.
+Custom ID: request-60 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-61 - Rewritten Sentences: The enigmatic professor elucidated the intricate phenomenon.
+Custom ID: request-62 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-63 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-64 - Rewritten Sentences: Despite the cacophony, the perspicacious ornithologist discerned the elusive, iridescent avian species.
+Custom ID: request-65 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-66 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-67 - Rewritten Sentences: The enigmatic philosopher elucidated the paradoxical nature of existentialism.
+Custom ID: request-68 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-69 - Rewritten Sentences: The enigmatic professor elucidated the arcane theorem effortlessly.
+Custom ID: request-70 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-71 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem effortlessly.
+Custom ID: request-72 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-73 - Rewritten Sentences: Despite the cacophony, the perspicacious ornithologist discerned the elusive, iridescent avian species.
+Custom ID: request-74 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-75 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-76 - Rewritten Sentences: The scientist meticulously analyzed the intricate data.
+Custom ID: request-77 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-78 - Rewritten Sentences: The enigmatic professor elucidated the intricate phenomenon.
+Custom ID: request-79 - Rewritten Sentences: The serene lake reflected the vibrant autumn foliage.
+Custom ID: request-80 - Rewritten Sentences: Despite the cacophony, the perspicacious child deciphered the enigmatic message.
+Custom ID: request-81 - Rewritten Sentences: The serene lake reflected the vibrant autumn foliage.
+Custom ID: request-82 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-83 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-84 - Rewritten Sentences: The serene lake reflected the vibrant autumn foliage.
+Custom ID: request-85 - Rewritten Sentences: The enigmatic professor elucidated the intricate phenomenon.
+Custom ID: request-86 - Rewritten Sentences: The enigmatic philosopher elucidated the paradoxical nature of existentialism.
+Custom ID: request-87 - Rewritten Sentences: The serene lake reflected the vibrant autumn foliage.
+Custom ID: request-88 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-89 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-90 - Rewritten Sentences: The enigmatic philosopher elucidated the paradoxical nature of existentialism.
+Custom ID: request-91 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-92 - Rewritten Sentences: The enigmatic philosopher elucidated the paradoxical nature of existentialism.
+Custom ID: request-93 - Rewritten Sentences: The serene lake reflected the vibrant autumn foliage.
+Custom ID: request-94 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-95 - Rewritten Sentences: The enigmatic philosopher elucidated the paradoxical nature of existentialism.
+Custom ID: request-96 - Rewritten Sentences: The enigmatic professor elucidated the intricate theorem.
+Custom ID: request-97 - Rewritten Sentences: The enigmatic professor elucidated the intricate phenomenon.
+Custom ID: request-98 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-99 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-100 - Rewritten Sentences: Despite the cacophony, the enigmatic maestro orchestrated a transcendent symphony.

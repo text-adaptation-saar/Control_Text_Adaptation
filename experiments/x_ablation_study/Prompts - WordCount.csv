@@ -1,0 +1,95 @@
+Level,des,system_prompt,user_prompt,output_prompt,cot_reason,cot_reason_empty
+0,free style,,Generate a sentence using exactly {tgt_ideal_WordCount} words.,,,
+0.1,free style,"You are an expert in controllable text generation, skilled in crafting text that meets specified constraints.
+Your task is to generate a sentence with the specified number of word count.
+Here, word count is the total number of words in a sentence, defined by sequences of characters separated by whitespace.
+
+Ensure each sentence rigorously conforms to the specified constraints, utilizing your extensive knowledge in linguistics, without fabricating any responses.
+Always output all Rewritten sentence(s) within one curly brace.",Generate a sentence using exactly {tgt_ideal_WordCount} words.,,,
+1,,,"Input Text: {input_src}
+
+Rewrite the Input text to maintain its original meaning, but strictly using {tgt_ideal_WordCount} words in each output sentence:",,,
+2,,"You are an expert in text adaptation, skilled at meticulously rewriting texts to align with requested linguistic features while preserving the original meaning. Your task is to rewrite the provided Input Text to maintain its original meaning while strictly adhering to the specified number of word count. 
+Here, word count is the total number of words in a sentence, defined by sequences of characters separated by whitespace. 
+
+If the rewrite requires multiple sentences, each must conform to the specified word count.
+Phrasing or structure modifications are permissible, as long as the essential meaning is retained. 
+Ensure each sentence rigorously conforms to the specified constraints, utilizing your extensive knowledge in linguistics, without fabricating any responses.
+Always output all Rewritten sentence(s) within curly braces.","Input Text: {input_src}
+
+#############
+
+# OBJECTIVE #
+Please rewrite the input text to maintain its original meaning, while strictly adhering to the exact word count of {tgt_ideal_WordCount} for each rewritten sentence.
+
+#############
+
+# RESPONSE #
+Always output all Rewritten sentence(s) within one curly brace.
+
+
+",,,
+2.1,,,"Input Text: {input_src}
+
+Rewrite the Input text to maintain its original meaning, but strictly using {tgt_ideal_WordCount} words in each output sentence:",,"Feedback:
+Unfortunately, rewritten sentence(s) do not align with the requested word count.
+
+
+To ensure clarity and meet specific requirements, kindly revise the sentence strictly using {tgt_ideal_WordCount} words in each output sentence. ",
+3,basic prompt,,"Input Text: {input_src}
+
+Input text total words list: {print_word_list}.
+The number of sentences in the input text is: {no_of_sentences}.
+The average word count per sentence is calculated by dividing the total word count by the number of sentences in the input text, resulting {src_WordCount} words.
+The input text currently holds word count of {src_WordCount}.
+
+Rewrite the Input text to maintain its original meaning, but strictly using {tgt_ideal_WordCount} words in each output sentence:""
+
+Always output all Rewritten sentence(s) within curly braces.","Rewritten sentence(s): {{output_text}}
+","Feedback:
+Summary of compliance with rewriting criteria:
+Rewritten sentence(s): {{output_text}}
+The generated Rewritten sentence(s) word count = len({print_word_list}) = {src_WordCount}
+The rewritten sentence(s) currently hold {src_WordCount} words.
+Unfortunately, rewritten sentence(s) do not align with the requested word count of exactly {tgt_ideal_WordCount}.
+
+
+To ensure clarity and meet specific requirements, kindly revise the sentence strictly using {tgt_ideal_WordCount} words in each output sentence.
+
+Always output all Rewritten sentence(s) within curly braces.",
+4,,,"Input Text: {input_src}
+
+Input text total words list: {print_word_list}.
+The number of sentences in the input text is: {no_of_sentences}.
+The average word count per sentence is calculated by dividing the total word count by the number of sentences in the input text, resulting {src_WordCount} words.
+The input text currently holds word count of {src_WordCount}.
+
+Rewrite the Input text to maintain its original meaning, but strictly using {tgt_ideal_WordCount} words in each output sentence:""
+
+Please note, that if the initial rewrite does not meet these specific requirements, you are encouraged to modify and regenerate the output until the criteria are satisfactorily met.
+Let's think through this step by step. Solve each step and explain how you arrived at your answer.
+Always output all the rewritten sentence(s) within one curly brace.","Summary of compliance with rewriting criteria:
+Total words in the rewritten sentence: {print_word_list}.
+Number of sentences in the rewritten sentence: {no_of_sentences}.
+The average word count per sentence is calculated by dividing the total word count by the number of sentences in the rewritten sentence, resulting in an average of {tgt_ideal_WordCount} words per sentence. This meets the requested word count of exactly {tgt_ideal_WordCount}.
+
+Rewritten sentence(s): {{output_text}}
+","Feedback:
+Summary of compliance with rewriting criteria:
+Rewritten sentence(s): {{output_text}}
+The generated Rewritten sentence(s) word count = len({print_word_list}) = {src_WordCount}
+The rewritten sentence(s) currently hold {src_WordCount} words.
+Unfortunately, rewritten sentence(s) do not align with the requested word count of exactly {tgt_ideal_WordCount}.
+
+
+To ensure clarity and meet specific requirements, kindly revise the sentence strictly using {tgt_ideal_WordCount} words in each output sentence.
+
+Please note, that if the initial rewrite does not meet these specific requirements, you are encouraged to modify and regenerate the output until the criteria are satisfactorily met.
+Always output all Rewritten sentence(s) within curly braces.","Feedback:
+Summary of compliance with rewriting criteria:
+Unfortunately, no rewritten sentence(s) were provided, resulting in an incomplete response.
+
+To ensure clarity and meet specific requirements, kindly revise the sentence strictly using {tgt_ideal_WordCount} words in each output sentence. 
+
+Please note, that if the initial rewrite does not meet these specific requirements, you are encouraged to modify and regenerate the output until the criteria are satisfactorily met. 
+Always output all Rewritten sentence(s) within curly braces."

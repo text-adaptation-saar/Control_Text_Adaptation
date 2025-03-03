@@ -1,0 +1,109 @@
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+OpenAI API key Initialization with keyname: OPEN_API_KEY_CSE ...
+Batch ID: batch_ZKTArevb5ggwTjOr97TdN7gp
+BATCH  openai.batches.retrieve() response:
+Batch(id='batch_ZKTArevb5ggwTjOr97TdN7gp', completion_window='24h', created_at=1717868760, endpoint='/v1/chat/completions', input_file_id='file-3orrkJ9LzBvipqzjiuYrt3iE', object='batch', status='completed', cancelled_at=None, cancelling_at=None, completed_at=1717868838, error_file_id=None, errors=None, expired_at=None, expires_at=1717955160, failed_at=None, finalizing_at=1717868834, in_progress_at=1717868760, metadata={'description': 'nightly eval job'}, output_file_id='file-kKrwkLuDWugJYJ1KCx4iWUC6', request_counts=BatchRequestCounts(completed=100, failed=0, total=100))
+BATCH obtained output_file_id: file-kKrwkLuDWugJYJ1KCx4iWUC6 content:
+<openai._legacy_response.HttpxBinaryResponseContent object at 0x7f9522acdaf0>
+Content successfully saved to experiments/x_ablation_study/MaxDepLength/level-2_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/batch_response_no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False_maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1.jsonl
+Custom ID: request-1 - Rewritten Sentences: The Province of Bari is in the Apulia region of Italy. Its capital is Bari.
+Custom ID: request-2 - Rewritten Sentences: Quercamps is a commune. It is in the Pas-de-Calais department. This department is in the Nord-Pas-de-Calais region of France.
+Custom ID: request-3 - Rewritten Sentences: Churchill's role in defeating the Monmouth Rebellion in 1685 helped secure James on the throne. Yet, just three years later, he abandoned his Catholic patron for the Protestant Dutchman, William of Orange.
+Custom ID: request-4 - Rewritten Sentences: The main industries were farming. Brick-making was also a main industry.
+Custom ID: request-5 - Rewritten Sentences: It is part of the Trans-Karakoram Tract. It is also claimed by India.
+Custom ID: request-6 - Rewritten Sentences: Mar del Plata is an Argentine city. It is located on the coast of the Atlantic Ocean. The city is 400 km south of Buenos Aires.
+Custom ID: request-7 - Rewritten Sentences: Coconut flavor is not always a must in the frosting, like the cakes.
+Custom ID: request-8 - Rewritten Sentences: For example, Motacilla alba alba is the nominate subspecies. It is often abbreviated Motacilla a. alba. This subspecies belongs to the White Wagtail (Motacilla alba).
+Custom ID: request-9 - Rewritten Sentences: Mercury has a freezing point of -38.83°C. It also has a boiling point of 356.73°C. This gives mercury one of the broadest liquid state ranges of any metal.
+Custom ID: request-10 - Rewritten Sentences: Charles John Huffam Dickens (7 February 1812 - 9 June 1870) was the most popular English novelist of the Victorian era. He remains popular and is responsible for some of English literature's most iconic characters.
+Custom ID: request-11 - Rewritten Sentences: They became the style we know today plausibly in ancient Athens in the 6th century B.C./O. In those days, people began to write them down.
+Custom ID: request-12 - Rewritten Sentences: Swilling was a former Confederate soldier. He wanted to name the city "Stonewall." This was after General Stonewall Jackson.
+Custom ID: request-13 - Rewritten Sentences: Mykolaiv is the administrative center of the Mykolaiv Oblast (province). It is also the center of both the Mykolaivskyi and Zhovtnevyi raions (districts) within the oblast.
+Custom ID: request-14 - Rewritten Sentences: Holmes, a dominant champion, defended the WBC belt 17 times. On December 11, 1983, he voluntarily relinquished the title. He did this for the championship of the new International Boxing Federation.
+Custom ID: request-15 - Rewritten Sentences: Monash Freeway is an urban freeway in Victoria, Australia. It links Melbourne's CBD to its southeastern suburbs. It also connects to the Gippsland region. The entire stretch of the Monash Freeway bears the designation.
+Custom ID: request-16 - Rewritten Sentences: The ZX Spectrum is an 8-bit personal home computer. It was released in the United Kingdom in 1982. Sinclair Research Ltd. developed it. It is pronounced "Zed Ecks Spec-trum" in British English.
+Custom ID: request-17 - Rewritten Sentences: A celebrity chef is a kitchen chef. This chef has become famous and well known.
+Custom ID: request-18 - Rewritten Sentences: The Cassini probe discovered it in 2007. It was named after the Kraken, a legendary sea monster, in 2008.
+Custom ID: request-19 - Rewritten Sentences: The court hears cases from the Landesarbeitsgerichte (Superior State Labour Courts). These courts are the courts of appeals against decisions of the Arbeitsgerichte (Inferior State Labour Courts).
+Custom ID: request-20 - Rewritten Sentences: IMI University Centre is a Swiss private University. It is also known as International Hotel Management Institute Switzerland (IMI). IMI has three campuses. These campuses are located in Luzern. IMI teaches Tourism. It also teaches Hospitality. IMI offers Events Management courses. It also provides Culinary Arts education.
+Custom ID: request-21 - Rewritten Sentences: Jessica Phyllis Lange was born on April 20, 1949. She is an American actress. She works on stage and screen.
+Custom ID: request-22 - Rewritten Sentences: Henry Morgenthau (April 26, 1856 - November 25, 1946) was a businessman. He was also a United States ambassador. He is most famous as the American ambassador to the Ottoman Empire during the First World War.
+Custom ID: request-23 - Rewritten Sentences: On 1 July 1933, the London County Council Tramways were transferred. They passed to the London Passenger Transport Board (LPTB). This board was known as London Transport.
+Custom ID: request-24 - Rewritten Sentences: On May 13, 2006, Jason Leopold, a reporter for Truthout.org, wrote that Karl Rove, the White House Deputy Chief of Staff, had been indicted. This was part of the investigation into the Valerie Plame affair.
+Custom ID: request-25 - Rewritten Sentences: Before 1905, some Zionist leaders considered proposals for Jewish homelands in places other than Palestine.
+Custom ID: request-26 - Rewritten Sentences: The office of Governor of New South Wales is the oldest constitutional office in Australia, aside from the Crown itself.
+Custom ID: request-27 - Rewritten Sentences: 105.7 The River is broadcast out of the same building. It is also networked to local stations around New South Wales, Victoria, Tasmania, and South Australia.
+Custom ID: request-28 - Rewritten Sentences: The earthquake disaster on 8 October 2005 affected the inhabitants.
+Custom ID: request-29 - Rewritten Sentences: Family Jewels is a two-disc compilation DVD. It is by the hard rock band AC/DC. The DVD features the group's music videos. It also includes live clips and promotional videos.
+Custom ID: request-30 - Rewritten Sentences: Song Chong-Gug was born on 20 February 1979. He is from Danyang, Chungcheongbuk-do. He is a Korean football player. He plays as a midfielder for Al-Shabab Riyadh.
+Custom ID: request-31 - Rewritten Sentences: Viking raiding expeditions were separate from regular trading expeditions. They coexisted with them.
+Custom ID: request-32 - Rewritten Sentences: Today, Teotihuacan is a noted archaeological attraction in Mexico.
+Custom ID: request-33 - Rewritten Sentences: Matilda of Flanders (c. 1031 - 2 November 1083) was the wife of William the Conqueror. She was also Queen consort of the Kingdom of England.
+Custom ID: request-34 - Rewritten Sentences: Opinion polls around the world have explored public opinion on abortion.
+Custom ID: request-35 - Rewritten Sentences: Alice in Wonderland is an American animated film. It was produced by Walt Disney. It is based primarily on Lewis Carroll's Alice's Adventures in Wonderland. It includes a few additional elements from Through the Looking-Glass.
+Custom ID: request-36 - Rewritten Sentences: It was the ancient capital of Cerdanya in antiquity. In the Middle Ages, Hix (commune of Bourg-Madame, France) replaced it.
+Custom ID: request-37 - Rewritten Sentences: Valderrama played for the Colombia national football team. This was in the 1990s.
+Custom ID: request-38 - Rewritten Sentences: The sisters are perceived as normal women by the non-supernatural community. They are known as The Charmed Ones in the magical community. Their prophesied destiny is to protect innocent lives. They defend against evil beings, such as demons and warlocks.
+Custom ID: request-39 - Rewritten Sentences: Approximately 40% of the Earth's surface is now covered by continental crust.
+Custom ID: request-40 - Rewritten Sentences: The Province of Pavia is in Lombardy. It is a region in Italy.
+Custom ID: request-41 - Rewritten Sentences: Corinne Bailey Rae performs "Munich." The song was originally by Editors.
+Custom ID: request-42 - Rewritten Sentences: Castro and Soviet premier Nikita Khrushchev agreed. They decided to place strategic nuclear missiles secretly in Cuba.
+Custom ID: request-43 - Rewritten Sentences: Austro-Bavarian differs significantly from Standard German. This difference makes it hard for native Austro-Bavarian speakers to adopt standard pronunciation. This is in contrast to many other German dialects.
+Custom ID: request-44 - Rewritten Sentences: Clipperton Island was not an integral part of its territory. It was administered from French Polynesia until 2007.
+Custom ID: request-45 - Rewritten Sentences: It orbits at the Lagrangian point. This point is in the Sun-Jupiter system.
+Custom ID: request-46 - Rewritten Sentences: Jackie lives in New South Wales. She lives near Braidwood. This is a small town at Araluen.
+Custom ID: request-47 - Rewritten Sentences: The phage infects a bacterium. It attaches to the outer membrane. It injects its genetic material. The empty shell remains attached to the bacterium.
+Custom ID: request-48 - Rewritten Sentences: Mossman Gorge is a popular attraction. It is within Daintree National Park. Mossman Gorge is located west of town.
+Custom ID: request-49 - Rewritten Sentences: The deed of donation by King Andrew II mentioned it for the first time in 1233.
+Custom ID: request-50 - Rewritten Sentences: He played baseball. He was the second baseman. He played for the provincial champion Rosedales. The team was in Manitoba.
+Custom ID: request-51 - Rewritten Sentences: Fishermen have also started using plastic bait. More recently, they use electronic lures to attract fish.
+Custom ID: request-52 - Rewritten Sentences: Eventually, Carl, Jr.'s spending habits alarmed company stockholders. This was especially true after the costly flop of the western epic Sutter's Gold earlier in the year.
+Custom ID: request-53 - Rewritten Sentences: Anita is a city. It is in Cass County. Cass County is in Iowa. Iowa is in the United States.
+Custom ID: request-54 - Rewritten Sentences: Lepisma saccharina are small, wingless insects. They are in the order Thysanura. They are frequently called silverfish, fishmoths, carpet sharks, or paramites.
+Custom ID: request-55 - Rewritten Sentences: This uses an mRNA sequence as a template. It guides the synthesis of a chain of amino acids. These amino acids form a protein.
+Custom ID: request-56 - Rewritten Sentences: Namak Lake is 80 km east of Qom.
+Custom ID: request-57 - Rewritten Sentences: The program is set in Seattle, Washington. It is filmed in Vancouver, British Columbia. The filming takes place at Lions Gate Studios.
+Custom ID: request-58 - Rewritten Sentences: Robinson was discharged. He briefly returned to his old football club. The club was the Los Angeles Bulldogs.
+Custom ID: request-59 - Rewritten Sentences: It was established in the 17th century as a trading post for the British East India Company. Later, it grew to encompass much of western and central India. It also included parts of post-partition Pakistan and the Arabian Peninsula.
+Custom ID: request-60 - Rewritten Sentences: Uncle Tom's Cabin has had an influence. Few other novels in history have equaled it.
+Custom ID: request-61 - Rewritten Sentences: The region's fertile soil allowed farmers to produce abundant harvests. These harvests included cereal crops like corn, oats, and, most importantly, wheat.
+Custom ID: request-62 - Rewritten Sentences: Today, it finds its expression. This is mainly in a humorous form. This is especially during the Rhineland Karneval. It also finds expression in sports.
+Custom ID: request-63 - Rewritten Sentences: Fossil fuels include coal, petroleum, and natural gas. These fuels contain high percentages of carbon.
+Custom ID: request-64 - Rewritten Sentences: In physiology, a signal or biopotential is an electric quantity. It can be voltage, current, or field strength. This is caused by chemical reactions of charged ions.
+Custom ID: request-65 - Rewritten Sentences: Metropolitan counties are a type of administrative division. They are at the county level in England.
+Custom ID: request-66 - Rewritten Sentences: Miles won the British Championship just once. This was in 1982. The event was held in Torquay.
+Custom ID: request-67 - Rewritten Sentences: The CACO includes Uzbekistan. It also includes Tajikistan. Kazakhstan is part of the CACO. Kyrgyzstan is part of it too.
+Custom ID: request-68 - Rewritten Sentences: Popularity has many variations. There are many ways to gain it.
+Custom ID: request-69 - Rewritten Sentences: George Smoot had the main responsibility. He measured the small variations. These variations were in the temperature of the radiation.
+Custom ID: request-70 - Rewritten Sentences: The historical Hvalsey ruins are located near Qaqortoq. These ruins are the most prominent Norse ruins in Greenland.
+Custom ID: request-71 - Rewritten Sentences: Much later, about 2 to 3 million years ago, South America joined with North America. This happened by the formation of the Isthmus of Panama. It allowed a biotic exchange between the two continents. This event is known as the Great American Interchange.
+Custom ID: request-72 - Rewritten Sentences: Gauchos use boleadoras. They capture running cattle or game.
+Custom ID: request-73 - Rewritten Sentences: Kenneth Wayne "Ken" Dryden, PC, MP, was born on August 8, 1947. He is a Canadian politician, lawyer, businessman, author, and former NHL goaltender.
+Custom ID: request-74 - Rewritten Sentences: 2018 is a common year. It starts on a Monday. It follows the Gregorian calendar.
+Custom ID: request-75 - Rewritten Sentences: In a few years, Zvartnots-AAL would become a main contender for the Premier League title.
+Custom ID: request-76 - Rewritten Sentences: No Way Out (2003) was the fourth annual No Way Out pay-per-view (PPV) event. It was the fifth overall event produced by World Wrestling Entertainment (WWE).
+Custom ID: request-77 - Rewritten Sentences: Ibaraki Prefecture is a region in Japan. It is located in the KantÅ region. This region is on HonshÅ island.
+Custom ID: request-78 - Rewritten Sentences: The list of finite simple groups consists of 18 countably infinite families. It also includes 26 sporadic groups. These sporadic groups do not follow a systematic pattern.
+Custom ID: request-79 - Rewritten Sentences: Bertsch studied History of Art at TU Berlin. He set up Germany's first design management office in 1988. He did this with Matthias Dietz.
+Custom ID: request-80 - Rewritten Sentences: It is a subregion of Oceania. It extends from the western side of the West Pacific to the Arafura Sea. It is north and northeast of Australia.
+Custom ID: request-81 - Rewritten Sentences: Michael Landon (October 31, 1936 - July 1, 1991) was an American actor, writer, director, and producer. He starred in three popular NBC TV series that spanned three decades.
+Custom ID: request-82 - Rewritten Sentences: Maubec is a commune. It is in the Vaucluse department. This department is in the Provence-Alpes-Côte d'Azur region. The region is in southeastern France.
+Custom ID: request-83 - Rewritten Sentences: In 1929 and 1930, he played with Irving Aaronson's Commanders. There, he was exposed to symphonic music. He would later incorporate this music in his arrangements.
+Custom ID: request-84 - Rewritten Sentences: Lisa Anne Loeb was born on March 11, 1968. She is an American singer-songwriter. She is also an actress.
+Custom ID: request-85 - Rewritten Sentences: Tyler's report led to an unusual alteration. It was discovered that the loading gauge of the line was too small.
+Custom ID: request-86 - Rewritten Sentences: Ten states have a Hancock County named for him. Other places named after him include Hancock, Massachusetts; Hancock, Michigan; Hancock, New York; and Mount Hancock in New Hampshire.
+Custom ID: request-87 - Rewritten Sentences: However, one member will be voted out from the winning tribe. This will happen before the reward is distributed.
+Custom ID: request-88 - Rewritten Sentences: New Cordell is a city. It is in Washita County, Oklahoma, United States.
+Custom ID: request-89 - Rewritten Sentences: Giuseppe Sabadini was born on 26 March 1949 in Sagrado. He is an Italian football coach and a former player.
+Custom ID: request-90 - Rewritten Sentences: Teams are competing in the Formula One championship. This is happening in the current season.
+Custom ID: request-91 - Rewritten Sentences: In 1952, the Rajya Sabha held its first sitting. It is the upper house of the Parliament of India.
+Custom ID: request-92 - Rewritten Sentences: The novel takes place in the twenty-first century. Under United Nations authority, mankind has colonized every habitable planet and moon in the solar system.
+Custom ID: request-93 - Rewritten Sentences: Badshah Munir Bukhari has studied the language. He has also studied its family.
+Custom ID: request-94 - Rewritten Sentences: The chicken is a domesticated fowl. Its scientific name is Gallus gallus domesticus.
+Custom ID: request-95 - Rewritten Sentences: Irmo was chartered on Christmas Eve in 1890. This was in response to the opening of the Columbia, Newberry, and Laurens Railroad.
+Custom ID: request-96 - Rewritten Sentences: In 1948, the theatre was renamed the Tyl Theatre after dramatist J.K. Tyl. It was known as the Tyl Theatre until 1990. In 1990, after an eight-year reconstruction project, it became the Estates Theatre again.
+Custom ID: request-97 - Rewritten Sentences: Luigi Apolloni was born on 2 May, 1967 in Frascati. He is an Italian retired football player. He is currently a manager.
+Custom ID: request-98 - Rewritten Sentences: The Trinidad and Tobago national football team is nicknamed The Soca Warriors. It is the national team of Trinidad and Tobago. The Trinidad and Tobago Football Federation controls it.
+Custom ID: request-99 - Rewritten Sentences: Sauvé had a successful junior career with the Laval Titan in the Quebec Major Junior Hockey League. He was drafted by the Buffalo Sabres in the 1st round (17th overall) of the 1975 NHL Entry Draft.
+Custom ID: request-100 - Rewritten Sentences: Tolstoy and Dostoevsky were titanic figures. Many literary critics have described one or the other as the greatest novelist ever.

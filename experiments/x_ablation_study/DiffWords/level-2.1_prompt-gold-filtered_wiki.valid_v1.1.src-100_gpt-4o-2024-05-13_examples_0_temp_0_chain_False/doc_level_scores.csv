@@ -1,0 +1,2 @@
+doc_level_difficult_words,329,doc_level_FRE,72.36,doc_level_FKGL,7.1,doc_level_CLI,9.05,doc_level_DCR,9.48,doc_level_ARI,9.0,doc_level_SI,9.4,doc_level_LWF,6.857142857142857,doc_level_GF,8.34,doc_level_TS,8th and 9th grade,doc_level_TS_score,9.0,Input_file_path,experiments/x_ablation_study/DiffWords/level-2.1_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/output.txt
+

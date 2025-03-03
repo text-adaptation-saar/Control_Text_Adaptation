@@ -1,0 +1,109 @@
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+OpenAI API key Initialization with keyname: OPEN_API_KEY_CSE ...
+Batch ID: batch_S7K13mkwGU6IURM01tgjy0ko
+BATCH  openai.batches.retrieve() response:
+Batch(id='batch_S7K13mkwGU6IURM01tgjy0ko', completion_window='24h', created_at=1717861240, endpoint='/v1/chat/completions', input_file_id='file-sPBhPqCQvtSl041EbxO1R9Vo', object='batch', status='completed', cancelled_at=None, cancelling_at=None, completed_at=1717861320, error_file_id=None, errors=None, expired_at=None, expires_at=1717947640, failed_at=None, finalizing_at=1717861315, in_progress_at=1717861240, metadata={'description': 'nightly eval job'}, output_file_id='file-YOV7EiTU8h7Px6Bstczd4PkA', request_counts=BatchRequestCounts(completed=100, failed=0, total=100))
+BATCH obtained output_file_id: file-YOV7EiTU8h7Px6Bstczd4PkA content:
+<openai._legacy_response.HttpxBinaryResponseContent object at 0x7fa12bebcfd0>
+Content successfully saved to experiments/x_ablation_study/MaxDepDepth/gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/batch_response_gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False_maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1.jsonl
+Custom ID: request-1 - Rewritten Sentences: Although she was tired after the long journey, Maria decided to attend the meeting because it was crucial for her project.
+Custom ID: request-2 - Rewritten Sentences: Although the weather forecast predicted heavy rain, the outdoor concert continued as planned, delighting the audience who had come prepared with umbrellas and raincoats.
+Custom ID: request-3 - Rewritten Sentences: The cat that the boy who lives next door adopted last week is very playful.
+Custom ID: request-4 - Rewritten Sentences: The cat that chased the mouse quickly climbed the tall tree.
+Custom ID: request-5 - Rewritten Sentences: The cat that chased the mouse which stole the cheese was very tired.
+Custom ID: request-6 - Rewritten Sentences: The cat that the boy who lives next door adopted last week is very playful.
+Custom ID: request-7 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-8 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-9 - Rewritten Sentences: Although she was tired, she decided to finish the project that she had started last week.
+Custom ID: request-10 - Rewritten Sentences: Although she was tired, she decided to finish her project before going to bed.
+Custom ID: request-11 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-12 - Rewritten Sentences: The cat that chased the mouse quickly climbed the tall tree.
+Custom ID: request-13 - Rewritten Sentences: The cat that chased the mouse which stole the cheese was very tired.
+Custom ID: request-14 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-15 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-16 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-17 - Rewritten Sentences: Although she was tired after the long journey, she decided to attend the meeting because it was crucial for the project's success.
+Custom ID: request-18 - Rewritten Sentences: The cat that the boy who lives next door adopted last week is very playful.
+Custom ID: request-19 - Rewritten Sentences: The quick brown fox that the lazy dog, which the cat chased, ignored, jumped over the fence.
+Custom ID: request-20 - Rewritten Sentences: Birds fly.
+Custom ID: request-21 - Rewritten Sentences: The cat slept.
+Custom ID: request-22 - Rewritten Sentences: The cat that chased the mouse quickly climbed the tall tree.
+Custom ID: request-23 - Rewritten Sentences: Although she was tired after the long journey, she decided to attend the meeting because it was crucial for the project's success.
+Custom ID: request-24 - Rewritten Sentences: Although she was tired, she decided to finish the project that her boss had assigned to her last week.
+Custom ID: request-25 - Rewritten Sentences: Although she was tired, she decided to finish her project before going to bed.
+Custom ID: request-26 - Rewritten Sentences: The cat that chased the mouse quickly climbed the tall tree.
+Custom ID: request-27 - Rewritten Sentences: The cat that chased the mouse which stole the cheese was very tired.
+Custom ID: request-28 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-29 - Rewritten Sentences: The cat that the boy who lives next door adopted last week is very playful.
+Custom ID: request-30 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-31 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-32 - Rewritten Sentences: The cat that chased the mouse which stole the cheese was very tired.
+Custom ID: request-33 - Rewritten Sentences: Although she was tired, she decided to finish her project before going to bed.
+Custom ID: request-34 - Rewritten Sentences: The cat that chased the mouse quickly climbed the tall tree.
+Custom ID: request-35 - Rewritten Sentences: Hello.
+Custom ID: request-36 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-37 - Rewritten Sentences: Birds fly.
+Custom ID: request-38 - Rewritten Sentences: Hello.
+Custom ID: request-39 - Rewritten Sentences: The cat that chased the mouse quickly climbed the tall tree.
+Custom ID: request-40 - Rewritten Sentences: Although she was tired after the long journey, she decided to attend the meeting because it was crucial for her project.
+Custom ID: request-41 - Rewritten Sentences: The cat sleeps.
+Custom ID: request-42 - Rewritten Sentences: The cat that the boy who lives next door adopted last week is very playful.
+Custom ID: request-43 - Rewritten Sentences: Although she was tired, she decided to finish the project that her boss had assigned to her last week.
+Custom ID: request-44 - Rewritten Sentences: The cat that the boy who lives next door adopted last week is very playful.
+Custom ID: request-45 - Rewritten Sentences: Although she was tired, she decided to finish her project before going to bed.
+Custom ID: request-46 - Rewritten Sentences: The cat that chased the mouse quickly climbed the tall tree.
+Custom ID: request-47 - Rewritten Sentences: The cat that the boy who lives next door adopted last week is very playful.
+Custom ID: request-48 - Rewritten Sentences: Although she was tired, she decided to finish her project before going to bed.
+Custom ID: request-49 - Rewritten Sentences: The cat that chased the mouse quickly climbed the tall tree.
+Custom ID: request-50 - Rewritten Sentences: Although she was tired after the long journey, she decided to attend the meeting because it was crucial for the project's success.
+Custom ID: request-51 - Rewritten Sentences: The cat slept.
+Custom ID: request-52 - Rewritten Sentences: The cat that the boy who lives next door adopted last week is very playful.
+Custom ID: request-53 - Rewritten Sentences: The cat that chased the mouse quickly climbed the tall tree.
+Custom ID: request-54 - Rewritten Sentences: The cat that the boy who lives next door adopted last week is very playful.
+Custom ID: request-55 - Rewritten Sentences: Although she was tired after the long journey, Maria decided to attend the meeting because it was crucial for her project.
+Custom ID: request-56 - Rewritten Sentences: Birds fly.
+Custom ID: request-57 - Rewritten Sentences: The cat that chased the mouse which stole the cheese was very tired.
+Custom ID: request-58 - Rewritten Sentences: Although she was tired, she decided to finish her project before going to bed.
+Custom ID: request-59 - Rewritten Sentences: Although she was tired after the long journey, Maria decided to attend the meeting because she had promised her colleagues she would be there.
+Custom ID: request-60 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-61 - Rewritten Sentences: Although the weather forecast predicted heavy rain, the outdoor concert continued as planned, delighting the audience who had come prepared with umbrellas and raincoats.
+Custom ID: request-62 - Rewritten Sentences: Hello.
+Custom ID: request-63 - Rewritten Sentences: The cat that chased the mouse quickly climbed the tall tree.
+Custom ID: request-64 - Rewritten Sentences: The cat that the boy who lives next door adopted last week is very playful.
+Custom ID: request-65 - Rewritten Sentences: The cat that chased the mouse quickly climbed the tall tree.
+Custom ID: request-66 - Rewritten Sentences: Birds fly.
+Custom ID: request-67 - Rewritten Sentences: The cat that chased the mouse which stole the cheese was very tired.
+Custom ID: request-68 - Rewritten Sentences: The cat that chased the mouse quickly climbed the tall tree.
+Custom ID: request-69 - Rewritten Sentences: The quick brown fox that the lazy dog, which the cat chased, ignored, jumped over the fence.
+Custom ID: request-70 - Rewritten Sentences: The cat that chased the mouse quickly climbed the tall tree.
+Custom ID: request-71 - Rewritten Sentences: The cat that chased the mouse which stole the cheese was very tired.
+Custom ID: request-72 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-73 - Rewritten Sentences: The cat that chased the mouse quickly climbed the tall tree.
+Custom ID: request-74 - Rewritten Sentences: Hello.
+Custom ID: request-75 - Rewritten Sentences: Although she was tired, she decided to finish the project that she had started last week.
+Custom ID: request-76 - Rewritten Sentences: The cat that chased the mouse which stole the cheese was very tired.
+Custom ID: request-77 - Rewritten Sentences: The cat that chased the mouse quickly climbed the tall tree.
+Custom ID: request-78 - Rewritten Sentences: Although she was tired, she decided to finish her project before going to bed.
+Custom ID: request-79 - Rewritten Sentences: The cat that chased the mouse which stole the cheese was very tired.
+Custom ID: request-80 - Rewritten Sentences: The cat that the boy who lives next door adopted last week is very playful.
+Custom ID: request-81 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-82 - Rewritten Sentences: Although the weather forecast predicted heavy rain, the outdoor concert continued as planned, delighting the audience who had come prepared with umbrellas and raincoats.
+Custom ID: request-83 - Rewritten Sentences: The cat that chased the mouse quickly climbed the tall tree.
+Custom ID: request-84 - Rewritten Sentences: The cat that the boy who lives next door adopted last week is very playful.
+Custom ID: request-85 - Rewritten Sentences: Although she was tired, she decided to finish her project before going to bed.
+Custom ID: request-86 - Rewritten Sentences: Although she was tired, she decided to finish the project that her boss had assigned to her last week.
+Custom ID: request-87 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-88 - Rewritten Sentences: The cat that chased the mouse quickly climbed the tall tree.
+Custom ID: request-89 - Rewritten Sentences: The cat that chased the mouse quickly climbed the tall tree.
+Custom ID: request-90 - Rewritten Sentences: The cat that chased the mouse quickly climbed the tall tree.
+Custom ID: request-91 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-92 - Rewritten Sentences: The cat that the boy who lives next door adopted last week is very playful.
+Custom ID: request-93 - Rewritten Sentences: The cat that chased the mouse quickly climbed the tall tree.
+Custom ID: request-94 - Rewritten Sentences: The cat slept.
+Custom ID: request-95 - Rewritten Sentences: The cat that the boy who lives next door adopted last week is very playful.
+Custom ID: request-96 - Rewritten Sentences: The cat that chased the mouse quickly climbed the tall tree.
+Custom ID: request-97 - Rewritten Sentences: The cat that chased the mouse quickly climbed the tall tree.
+Custom ID: request-98 - Rewritten Sentences: Birds fly.
+Custom ID: request-99 - Rewritten Sentences: The cat sat on the mat.
+Custom ID: request-100 - Rewritten Sentences: The cat sat on the mat.

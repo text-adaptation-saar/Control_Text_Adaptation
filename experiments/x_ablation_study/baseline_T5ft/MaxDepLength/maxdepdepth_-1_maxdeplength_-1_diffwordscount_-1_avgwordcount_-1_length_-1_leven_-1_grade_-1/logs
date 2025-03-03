@@ -1,0 +1,214 @@
+[nltk_data] Downloading package punkt to /nethome/sarubi/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /nethome/sarubi/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Load model /nethome/sarubi/A8/tony_3/LLM_based_control_rewrite/ControlTS_T5/experiments/T5/exp_1719330922034451
+loading model...
+Model dir:  /nethome/sarubi/A8/tony_3/LLM_based_control_rewrite/ControlTS_T5/experiments/T5/exp_1719330922034451
+check_point: /nethome/sarubi/A8/tony_3/LLM_based_control_rewrite/ControlTS_T5/experiments/T5/exp_1719330922034451/checkpoint-epoch=4.ckpt
+Method: load_preprocessor:- PREPROCESSOR_DUMP_FILE path=	/nethome/sarubi/A8/tony_3/LLM_based_control_rewrite/ControlTS_T5/resources/DUMPS/preprocessor.pickle
+Method: load_preprocessor:- PREPROCESSOR_DUMP_FILE exists and loading it.
+/nethome/sarubi/A8/tony_3/LLM_based_control_rewrite/experiments/x_ablation_study/baseline_T5ft/MaxDepLength/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/input.processed.txt
+input.processed
+2/100  :  DTL_0.29  The Province of Bari is a province in the Apulia (or Puglia) region of Italy. Its capital is the city of Bari.
+2/100  :  ['Bari is a province in the region of Apulia in Italy.']
+3/100  :  DTL_0.78  Quercamps is a commune in the Pas-de-Calais department in the Nord-Pas-de-Calais region of France.
+3/100  :  ['It is found in the region Nord-Pas-de-Calais in the Pas-de-Calais department in the north of France.']
+4/100  :  DTL_0.54  Churchill's role in defeating the Monmouth Rebellion in 1685 helped secure James on the throne, yet just three years later he abandoned his Catholic patron for the Protestant Dutchman, William of Orange.
+4/100  :  ["Churchill's role in defeating the Monmouth Rebellion in 1685 helped secure James on the throne."]
+5/100  :  DTL_1.00  Its main industries were farming and brick-making.
+5/100  :  ['Its main industries were farming and brick making.']
+6/100  :  DTL_1.00  It is a part of the Trans-Karakoram Tract and is also claimed by India.
+6/100  :  ['It is a part of the Trans-Karakoram Tract and is also claimed by India.']
+7/100  :  DTL_1.00  Mar del Plata is an Argentine city located on the coast of the Atlantic Ocean, 400 k south of Buenos Aires.
+7/100  :  ['Mar del Plata is an Argentine city located on the coast of the Atlantic Ocean, 400 km south of Buenos Aires.']
+8/100  :  DTL_1.67  Like the cakes, coconut flavor is not always a must in the frosting.
+8/100  :  ['Like the cakes, the coconut flavor is not always a must in the frosting.']
+9/100  :  DTL_0.23  For example, Motacilla alba alba (often abbreviated Motacilla a. alba) is the nominate subspecies of the White Wagtail (Motacilla alba).
+9/100  :  ['Motacilla alba is a subspecies of the White Wagtail.']
+10/100  :  DTL_0.42  With a freezing point of â '38.83 Â C and boiling point of 356.73 Â C, mercury has one of the broadest ranges of its liquid state of any metal.
+10/100  :  ["mercury has a freezing point of â '38.83  C and boiling point of 356.73  C."]
+11/100  :  DTL_0.85  Charles John Huffam Dickens (; 7 February 1812 - 9 June 1870) was the most popular English novelist of the Victorian era, and he remains popular, responsible for some of English literature's most iconic characters.
+11/100  :  ['Charles John Dickens (7 February 1812 â "9 June 1870) was the most popular English novelist of the Victorian era, and he remains popular, responsible for some of English literature\'s most iconic characters.']
+12/100  :  DTL_1.00  They become the style we know today plausibly in ancient Athene in the 6th century B.C./O. In those days it was began to write them down.
+12/100  :  ['They become the style we know today plausibly in ancient Athene in the 6th century B.C./O. In those days it was began to write them down.']
+13/100  :  DTL_1.00  Swilling, a former Confederate soldier, wanted to name the city "Stonewall," after General Stonewall Jackson.
+13/100  :  ['Swilling, a Confederate soldier, wanted to name the city "Stonewall," after General Stonewall Jackson.']
+14/100  :  DTL_1.17  Mykolaiv is the administrative center of the Mykolaiv Oblast (province), as well as that of both the Mykolaivskyi and Zhovtnevyi raions (districts) within the oblast.
+14/100  :  ['Mykolaiv is the administrative center of the Mykolaiv Oblast (province), as well as that of both the Mykolaivskyi and Zhovtnevyi raions (districts) within the oblast.']
+15/100  :  DTL_1.25  Dominant champion Holmes successfully defended the WBC belt 17 times until December 11, 1983, when he voluntarily relinquished that title for the championship of the new International Boxing Federation.
+15/100  :  ['Dominant champion Holmes successfully defended the WBC belt 17 times until December 11, 1983, when he voluntarily relinquished that title for the championship of the new International Boxing Federation.']
+16/100  :  DTL_0.60  Monash Freeway is an urban freeway in Victoria, Australia linking Melbourne's CBD to its southeastern suburbs and the Gippsland region. The entire stretch of the Monash Freeway bears the designation.
+16/100  :  ['Monash Freeway is a freeway in Victoria, Australia.']
+17/100  :  DTL_0.42  The ZX Spectrum (Pronounced "Zed Ecks Spec-trum" in its original British English branding) is an 8-bit personal home computer released in the United Kingdom in 1982 by Sinclair Research Ltd..
+17/100  :  ['The ZX Spectrum (Pronounced "Zed Ecks Spec-trum") is a home computer made by Sinclair Research Ltd..']
+18/100  :  DTL_1.67  A celebrity chef is a kitchen chef who has become famous and well known.
+18/100  :  ['A celebrity chef is a kitchen chef who has become famous and well known.']
+19/100  :  DTL_0.44  It was discovered in 2007 by the Cassini probe and was named in 2008 after the Kraken, a legendary sea monster.
+19/100  :  ['It was found in 2007 by the Cassini probe.']
+20/100  :  DTL_1.00  The court hears cases from the Landesarbeitsgerichte (Superior State Labour Courts), which, in turn, are the courts of appeals against decisions of the Arbeitsgerichte (Inferior State Labour Courts).
+20/100  :  ['The court hears cases from the Landesarbeitsgerichte (Superior State Labour Courts), which, in turn, are the courts of appeals against decisions of the Arbeitsgerichte (Inferior State Labour Courts).']
+21/100  :  DTL_0.20  IMI University Centre OR International Hotel Management Institute Switzerland (IMI) is a Swiss private University with three campuses located in Luzern teaching Tourism, Hospitality, Events Management and Culinary Arts.
+21/100  :  ['IMI is located in Luzern.']
+22/100  :  DTL_0.62  Jessica Phyllis Lange (born April 20, 1949) is an American stage and screen actress.
+22/100  :  ['Jessica Lange (born 1949) is an American stage and screen actress.']
+23/100  :  DTL_0.79  Henry Morgenthau (, with a / t /; April 26, 1856 - November 25, 1946) was a businessman and United States ambassador, most famous as the American ambassador to the Ottoman Empire during the First World War.
+23/100  :  ['Henry Morgenthau (April 26, 1856 - November 25, 1946) was an American businessman.']
+24/100  :  DTL_0.56  On 1 July 1933 the London County Council Tramways passed to the London Passenger Transport Board (LPTB), known as London Transport.
+24/100  :  ['On 1 July 1933 the London County Council Tramways passed to the London Passenger Transport Board (LPTB), known as London Transport.']
+25/100  :  DTL_0.92  Karl Rove Indictment Controversy On May 13, 2006, Truthout.org reporter Jason Leopold wrote that White House Deputy Chief of Staff Karl Rove had been indicted as part of the investigation into the Valerie Plame affair.
+25/100  :  ['On May 13, 2006, Truthout.org reporter Jason Leopold wrote that White House Deputy Chief of Staff Karl Rove had been indicted as part of the investigation into the Valerie Plame affair.']
+26/100  :  DTL_1.17  Before 1905 some Zionist leaders took seriously proposals for Jewish homelands in places other than Palestine.
+26/100  :  ['Before 1905 some Zionist leaders took seriously proposals for Jewish homelands in places other than Palestine.']
+27/100  :  DTL_0.36  Aside from the Crown itself, the office of Governor of New South Wales is the oldest constitutional office in Australia.
+27/100  :  ['The Governor of New South Wales is the oldest constitutional office in Australia.']
+28/100  :  DTL_0.67  Broadcast out of the same building is 105.7 The River, which is also networked to local stations around New South Wales, Victoria, Tasmania and South Australia.
+28/100  :  ['It is also networked to local stations around New South Wales, Victoria, Tasmania and South Australia.']
+29/100  :  DTL_1.00  The inhabitants were affected by the earthquake disaster on 8 October 2005.
+29/100  :  ['The inhabitants were affected by the earthquake on October 8, 2005.']
+30/100  :  DTL_0.33  Family Jewels is a two disc compilation DVD by the hard rock band AC/DC, featuring the group's music videos, live clips and promotional videos.
+30/100  :  ['Family Jewels is a DVD by the hard rock band AC/DC.']
+31/100  :  DTL_0.23  Song Chong-Gug (born 20 February 1979 in Danyang, Chungcheongbuk-do) is a Korean football player and midfielder for Al-Shabab Riyadh.
+31/100  :  ['He plays for Al-Shabab Riyadh.']
+32/100  :  DTL_1.25  Viking raiding expeditions were separate from and coexisted with regular trading expeditions.
+32/100  :  ['Viking raiding expeditions were separate from the Viking raiding expeditions and existed with regular trading expeditions.']
+33/100  :  DTL_1.00  Today Teotihuacan is one of the most noted archaeological attractions in Mexico.
+33/100  :  ['Today Teotihuacán is one of the most famous archaeological attractions in Mexico.']
+34/100  :  DTL_1.09  Matilda of Flanders (c. 1031 - 2 November 1083) was the wife of William the Conqueror and, as such, Queen consort of the Kingdom of England.
+34/100  :  ['Matilda of Flanders (c. 1031 - November 2, 1083) was the wife of William the Conqueror and Queen consort of the Kingdom of England.']
+35/100  :  DTL_1.10  Public opinion A number of opinion polls around the world have explored public opinion regarding the issue of abortion.
+35/100  :  ['Public opinion A number of opinion polls around the world have explored public opinion regarding the issue of abortion.']
+36/100  :  DTL_0.05  Alice in Wonderland is an American animated film produced by Walt Disney and based primarily on Lewis Carroll's Alice's Adventures in Wonderland with a few additional elements from Through the Looking-Glass.
+36/100  :  ['Characters']
+37/100  :  DTL_0.67  It was the ancient capital of Cerdanya in antiquity, before being replaced by Hix (commune of Bourg-Madame, France) in the Middle Ages.
+37/100  :  ['It was the ancient capital of Cerdanya before being replaced by Hix (commune of Bourg-Madame, France) in the Middle Ages.']
+38/100  :  DTL_0.14  Valderrama was a member of the Colombia national football team in the 1990s.
+38/100  :  ['Club career statistics']
+39/100  :  DTL_0.03  The sisters, despite being perceived as normal women by the non-supernatural community, are known as The Charmed Ones in the magical community, whose prophesied destiny is to protect innocent lives against evil beings, such as demons and warlocks.
+39/100  :  ['References']
+40/100  :  DTL_0.75  About 40% of the Earth's surface is now underlain by continental crust.
+40/100  :  ["About 40% of the Earth's surface is now underlain by continental crust."]
+41/100  :  DTL_0.50  The Province of Pavia (It. Provincia di Pavia) is a province in the region of Lombardy in Italy.
+41/100  :  ['Pavia is a province in the region of Lombardy in Italy.']
+42/100  :  DTL_1.00  Corinne Bailey Rae - "Munich" (originally by Editors)
+42/100  :  ['Corinne Bailey Rae - "Munich" (originally by Editors)']
+43/100  :  DTL_1.50  Castro and Soviet premier Nikita Khrushchev agreed to place strategic nuclear missiles secretly in Cuba.
+43/100  :  ['Castro and the Soviet premier Nikita Khrushchev agreed to place strategic nuclear missiles secretly in Cuba.']
+44/100  :  DTL_1.00  In contrast to many other dialects of German, Austro-Bavarian differs sufficiently from Standard German to make it difficult for native Austro-Bavarian speakers to adopt standard pronunciation.
+44/100  :  ['In contrast to many other dialects of German, Austro-Bavarian differs sufficiently from Standard German to make it difficult for native Austro-Bavarian speakers to adopt standard pronunciation.']
+45/100  :  DTL_0.25  Although not an integral part of its territory, Clipperton Island was administered from French Polynesia until 2007.
+45/100  :  ['Clipperton Island is an island in French Polynesia.']
+46/100  :  DTL_1.00  It orbits in the Lagrangian point of the Sun-Jupiter system.
+46/100  :  ['It orbits in the Lagrangian point of the Sun-Jupiter system.']
+47/100  :  DTL_0.67  Jackie lives in New South Wales, near the small town of Braidwood at Araluen.
+47/100  :  ['Jackie lives in New South Wales.']
+48/100  :  DTL_0.67  The phage infects a bacterium by attaching to its outer membrane and injecting its genetic material, leaving its empty shell attached to the bacterium.
+48/100  :  ['The phage infects a bacterium by attaching to its outer membrane and injecting its genetic material into it.']
+49/100  :  DTL_1.00  Mossman Gorge, a popular attraction within Daintree National Park, is located west of town.
+49/100  :  ['Mossman Gorge, a popular attraction within Daintree National Park, is located west of town.']
+50/100  :  DTL_1.33  It was mentioned for the first time in 1233 in the deed of donation by King Andrew II.
+50/100  :  ['It was mentioned for the first time in 1233, in the deed of donation by King Andrew II.']
+51/100  :  DTL_1.00  He played baseball as the second baseman for the provincial champion Rosedales in Manitoba.
+51/100  :  ['He played baseball as the second baseman for the provincial champion Rosedales in Manitoba.']
+52/100  :  DTL_0.40  Fishermen have also begun using plastic bait and, more recently, electronic lures, to attract fish.
+52/100  :  ['Fishermen have also begun using plastic bait to attract fish.']
+53/100  :  DTL_0.82  Eventually, Carl, Jr. 's spending habits alarmed company stockholders, especially after the costly flop of the western epic Sutter's Gold earlier in the year.
+53/100  :  ["Eventually, Carl, Jr.'s spending habits alarmed company stockholders, especially after the costly flop of the western epic Sutter's Gold earlier in the year."]
+54/100  :  DTL_0.60  Anita is a city in Cass County, Iowa, United States.
+54/100  :  ['Anita is a city of Iowa in the United States.']
+55/100  :  DTL_1.08  Lepisma saccharina, frequently called silverfish, fishmoths, carpet sharks or paramites, are small, wingless insects in the order Thysanura.
+55/100  :  ['Lepisma saccharina, often called silverfish, fishmoths, carpet sharks or paramites, are small, wingless insects in the order Thysanura.']
+56/100  :  DTL_1.00  This uses an mRNA sequence as a template to guide the synthesis of a chain of amino acids that form a protein.
+56/100  :  ['This uses an mRNA sequence as a template to guide the synthesis of a chain of amino acids that form a protein.']
+57/100  :  DTL_0.33  and Namak Lake, which lies 80 km due east of Qom.
+57/100  :  ['Namak Lake is 80 km east of Qom.']
+58/100  :  DTL_1.29  The program is set in Seattle, Washington, and filmed in Vancouver, British Columbia, at Lions Gate Studios.
+58/100  :  ['The program is set in Seattle, Washington, and filmed in Vancouver, British Columbia, Canada, at Lions Gate Studios.']
+59/100  :  DTL_0.83  After his discharge, Robinson briefly returned to his old football club, the Los Angeles Bulldogs.
+59/100  :  ['After he left, Robinson returned to his old football club, the Los Angeles Bulldogs.']
+60/100  :  DTL_0.94  It was established in the 17th century as a trading post for the British East India Company, but later grew to encompass much of western and central India, as well as parts of post-partition Pakistan and the Arabian Peninsula.
+60/100  :  ['It was established in the 17th century as a trading post for the British East India Company, but later grew to encompass much of western and central India, as well as parts of Pakistan and the Arabian Peninsula.']
+61/100  :  DTL_1.33  Uncle Tom's Cabin has exerted an influence equaled by few other novels in history.
+61/100  :  ["Uncle Tom's Cabin has exerted an influence equaled by few other novels in history."]
+62/100  :  DTL_1.00  The region's fertile soil made it possible for farmers to produce abundant harvests of cereal crops such as corn, oats, and, most importantly, wheat.
+62/100  :  ["The region's fertile soil made it possible for farmers to produce abundant harvests of cereal crops such as corn, oats, and, most importantly, wheat."]
+63/100  :  DTL_0.04  Today, it finds its expression mainly in a humorous form (especially during the Rhineland Karneval) and in sports.
+63/100  :  ['Sports']
+64/100  :  DTL_0.62  The fossil fuels include coal, petroleum, and natural gas which contain high percentages of carbon.
+64/100  :  ['The fossil fuels include coal, petroleum, and natural gas.']
+65/100  :  DTL_1.20  In physiology, a signal or biopotential is an electric quantity (voltage or current or field strength), caused by chemical reactions of charged ions.
+65/100  :  ['In physiology, a signal or biopotential is an electric quantity (voltage or current or field strength), caused by chemical reactions of charged ions.']
+66/100  :  DTL_1.00  The metropolitan counties are a type of county-level administrative division of England.
+66/100  :  ['The metropolitan counties are a type of county-level administrative division of England.']
+67/100  :  DTL_1.14  Miles won the British Championship just once, in 1982 when the event was held in Torquay.
+67/100  :  ['Miles won the British Championship just once, in 1982 when the event was held in Torquay.']
+68/100  :  DTL_1.00  The CACO consists of Uzbekistan, Tajikistan, Kazakhstan and Kyrgyzstan.
+68/100  :  ['The CACO consists of Uzbekistan, Tajikistan, Kazakhstan and Kyrgyzstan.']
+69/100  :  DTL_1.00  Many different variations of popularity exist, and many ways in which to gain it.
+69/100  :  ['Many different variations of popularity exist, and many ways in which to gain it.']
+70/100  :  DTL_1.00  George Smoot had main responsibility for measuring the small variations in the temperature of the radiation.
+70/100  :  ['George Smoot had main responsibility for measuring the small differences in the temperature of the radiation.']
+71/100  :  DTL_1.00  In the vicinity of Qaqortoq are located the historical Hvalsey ruins, the most prominent Norse ruins in Greenland.
+71/100  :  ['In the vicinity of Qaqortoq are located the historical Hvalsey ruins, the most prominent Norse ruins in Greenland.']
+72/100  :  DTL_0.69  Much later, about 2 to 3 million years ago, South America was joined with North America by the formation of the Isthmus of Panama, which allowed a biotic exchange between the two continents, the Great American Interchange.
+72/100  :  ['Much later, about 2 million years ago, South America was joined with North America by the formation of the Isthmus of Panama, which allowed a biotic exchange between the two continents, the Great American Interchange.']
+73/100  :  DTL_1.00  Use Gauchos use boleadoras to capture running cattle or game.
+73/100  :  ['Gauchos use boleadoras to capture running cattle or game.']
+74/100  :  DTL_1.25  Kenneth Wayne "Ken" Dryden, PC, MP (born August 8, 1947) is a Canadian politician, lawyer, businessman, author, and former NHL goaltender.
+74/100  :  ['Kenneth Wayne Dryden, PC, MP (born August 8, 1947 in Calgary, Alberta) is a Canadian politician, lawyer, businessman, author, and former NHL goaltender.']
+75/100  :  DTL_0.10  2018 (MMXVIII) will be a common year starting on a Monday in the Gregorian calendar.
+75/100  :  ['Events']
+76/100  :  DTL_0.75  In a few years Zvartnots-AAL would become one of the main contenders to the Premier League title.
+76/100  :  ['In a few years Zvartnots-AAL became one of the main contenders to the Premier League title.']
+77/100  :  DTL_0.82  No Way Out (2003) was the fourth annual (fifth overall) No Way Out pay-per-view (PPV) event produced by World Wrestling Entertainment (WWE).
+77/100  :  ['No Way Out (2003) was the fourth yearly No Way Out pay-per-view event made by World Wrestling Entertainment (WWE).']
+78/100  :  DTL_0.60  Ibaraki Prefecture is a prefecture of Japan located in the KantÅ region on HonshÅ "island.
+78/100  :  ['Ibaraki Prefecture is a prefecture of Japan. It is located in the Kant region on Honsh "island.']
+79/100  :  DTL_1.00  The list of finite simple groups consists of 18 countably infinite families, plus 26 sporadic groups that do not follow such a systematic pattern.
+79/100  :  ['The list of finite simple groups consists of 18 countably infinite families, plus 26 sporadic groups that do not follow such a systematic pattern.']
+80/100  :  DTL_0.20  Bertsch studied History of Art at TU Berlin and went on to set up Germany's first design management office in 1988 with Matthias Dietz.
+80/100  :  ['Bertsch studied History of Art at TU Berlin.']
+81/100  :  DTL_1.78  It is a subregion of Oceania extending from the western side of the West Pacific to the Arafura Sea, north and northeast of Australia.
+81/100  :  ['It is a subregion of Oceania that extends from the western side of the West Pacific to the Arafura Sea, north and northeast of Australia.']
+82/100  :  DTL_1.00  Michael Landon (October 31, 1936 - July 1, 1991) was an American actor, writer, director, and producer, who starred in three popular NBC TV series that spanned three decades.
+82/100  :  ['Michael Landon (October 31, 1936 - July 1, 1991) was an American actor, writer, director, and producer.']
+83/100  :  DTL_0.47  Maubec is a commune in the Vaucluse department in the Provence-Alpes-C ôte d'Azur region in southeastern France.
+83/100  :  ['It is located in the region Provence-Alpes-C ôte dAzur in the Vaucluse department in the south of France.']
+84/100  :  DTL_0.33  In 1929 and 1930 he played with Irving Aaronson's Commanders, where he was exposed to symphonic music, which he would later incorporate in his arrangements.
+84/100  :  ["In 1929 and 1930 he played with Irving Aaronson's Commanders."]
+85/100  :  DTL_1.50  Lisa Anne Loeb (born March 11, 1968) is an American singer-songwriter and actress.
+85/100  :  ['Lisa Loeb (born March 11, 1968) is an American singer and actress.']
+86/100  :  DTL_0.89  Tyler's report led to an unusual alteration, as it was discovered that the loading gauge of the line was too small.
+86/100  :  ["Tyler's report led to an unusual change, as it was discovered that the loading gauge of the line was too small."]
+87/100  :  DTL_0.33  Ten states have a Hancock County named for him; other places named after him include Hancock, Massachusetts; Hancock, Michigan; Hancock, New York; and Mount Hancock in New Hampshire.
+87/100  :  ['Hancock County is a county located in the U.S. state of Massachusetts.']
+88/100  :  DTL_1.00  However, one member will be voted out from the winning tribe before the reward is distributed.
+88/100  :  ['However, one member will be voted out from the winning tribe before the reward is given.']
+89/100  :  DTL_1.00  New Cordell is a city in Washita County, Oklahoma, United States.
+89/100  :  ['New Cordell is a city of Oklahoma in the United States.']
+90/100  :  DTL_0.89  Giuseppe Sabadini (born 26 March 1949 in Sagrado) is an Italian football coach and a former player.
+90/100  :  ['Giuseppe Sabadini (born 26 March, 1949) is a former Italian football player.']
+91/100  :  DTL_1.00  Embolded teams are competing in the Formula One championship in the current season.
+91/100  :  ['Embolded teams are competing in the Formula One championship.']
+92/100  :  DTL_0.12  1952 & ndash; The Rajya Sabha, the upper house of the Parliament of India, holds its first sitting.
+92/100  :  ['1952 - Rajya Sabha']
+93/100  :  DTL_0.61  The novel takes place in the twenty-first century, when, under United Nations authority, mankind has colonized the solar system's every habitable planet and moon.
+93/100  :  ["The novel takes place in the twenty-first century, when mankind has colonized the solar system's every habitable planet and moon."]
+94/100  :  DTL_1.00  Badshah Munir Bukhari has worked on the language and its family.
+94/100  :  ['Bukhari has worked on the language and its family.']
+95/100  :  DTL_0.50  The chicken (Gallus gallus domesticus) is a domesticated fowl.
+95/100  :  ['The chicken is a domesticated fowl.']
+96/100  :  DTL_1.50  Irmo was chartered on Christmas Eve in 1890 in response to the opening of the Columbia, Newberry and Laurens Railroad.
+96/100  :  ['Irmo was chartered on Christmas Eve in 1890 because of the opening of the Columbia, Newberry and Laurens Railroad.']
+97/100  :  DTL_0.42  In 1948 the theatre was renamed the Tyl Theatre (after dramatist J.K. Tyl) and would be known as such until 1990 when, at the end of an eight year reconstruction project, it became known again as the Estates Theatre.
+97/100  :  ['In 1948 the theatre was renamed the Tyl Theatre (after dramatist J.K. Tyl).']
+98/100  :  DTL_0.80  Luigi Apolloni (born 2 May, 1967 in Frascati) is an Italian retired football player, and currently a manager.
+98/100  :  ['Luigi Apolloni (born 2 May, 1967) is a former Italian football player.']
+99/100  :  DTL_0.10  The Trinidad and Tobago national football team, nicknamed The Soca Warriors, is the national team of Trinidad and Tobago and is controlled by the Trinidad and Tobago Football Federation.
+99/100  :  ['Tobago national football team is the national football team of Trinidad and Tobago.']
+100/100  :  DTL_0.61  After a successful junior career with the Quebec Major Junior Hockey League's Laval Titan, Sauvé was drafted by the NHL's Buffalo Sabres in the 1st round (17th overall) in 1975 NHL Entry Draft.
+100/100  :  ['He was drafted by the Buffalo Sabres with the 17th pick in the first round of the 1975 NHL Entry Draft.']
+101/100  :  DTL_0.67  Tolstoy and Dostoevsky in particular were titanic figures to the point that many literary critics have described one or the other as the greatest novelist ever.
+101/100  :  ['Tolstoy and Dostoevsky were titanic figures. Many literary critics have described one or the other as the greatest novelist ever.']
+{'BLEU': 48.07, 'SARI': 49.78, 'FKGL': 7.26, 'Compression ratio': 0.77, 'Sentence splits': 1.02, 'Levenshtein similarity': 0.8, 'Exact copies': 0.26, 'Additions proportion': 0.05, 'Deletions proportion': 0.26, 'Lexical complexity score': 8.0}

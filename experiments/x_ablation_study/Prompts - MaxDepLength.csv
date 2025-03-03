@@ -1,0 +1,85 @@
+Level,des,system_prompt,user_prompt,output_prompt,cot_reason,cot_reason_empty
+0,,,"Generate a sentence with a maximum dependency length of exactly {tgt_ideal_MaxDepLength}.
+",,,
+0.1,free style,"You are an expert in controllable text generation, skilled in crafting text that meets specified constraints.
+Your task is to generate a sentence with the specified maximum dependency length.
+Here, dependency length measures the linear distance between grammatically connected words in a sentence. 
+Ensure each sentence rigorously conforms to the specified constraints, utilizing your extensive knowledge in linguistics, without fabricating any responses.
+Always output all Rewritten sentence(s) within one curly brace.","Generate a sentence with a maximum dependency length of exactly {tgt_ideal_MaxDepLength}.
+",,,
+1,,,"Input Text: {input_src}
+
+Rewrite the input text to maintain its original meaning while strictly adhering to a maximum dependency length of exactly {tgt_ideal_MaxDepLength}.",,,
+2,basic prompt,"You are an expert in text adaptation, skilled at meticulously rewriting texts to align with requested linguistic features while preserving the original meaning. Your task is to rewrite the provided Input Text to maintain its original meaning while strictly adhering to the specified maximum dependency length.
+Here, dependency length measures the linear distance between grammatically connected words in a sentence.
+If the rewrite requires multiple sentences, each must conform to the specified maximum dependency length. 
+Phrasing or structure modifications are permissible, as long as the essential meaning is retained. 
+Ensure each sentence rigorously conforms to the specified constraints, utilizing your extensive knowledge in linguistics, without fabricating any responses.
+Always output all Rewritten sentence(s) within curly braces.","Input Text: {input_src}
+
+#############
+
+# OBJECTIVE #
+Please rewrite the input text to maintain its original meaning while strictly adhering to a maximum dependency length of exactly {tgt_ideal_MaxDepLength}.
+
+#############
+
+# RESPONSE #
+Always output all Rewritten sentence(s) within one curly brace.",,,
+2.1,,same as 2,"Input Text: {input_src}
+
+Rewrite the input text to maintain its original meaning while strictly adhering to a maximum dependency length of exactly {tgt_ideal_MaxDepLength}.",,"Feedback:
+Unfortunately, rewritten sentence(s) do not align with the requested maximum dependency length.
+
+To ensure clarity and meet specific requirements, kindly revise the sentence with a maximum dependency length of exactly {tgt_ideal_MaxDepLength}.",
+3,,,"Input Text: {input_src}
+
+Input text’s Length-Indexed Linearized Dependency Tree: {print_dependency_tree_with_length}.
+The maximum dependency length of the input text, as determined by the highest value in its ""Length-Indexed Linearized Dependency Tree,"" is {src_MaxDepLength}.
+The input text currently holds a maximum dependency length of {src_MaxDepLength}.
+
+Rewrite the input text to maintain its original meaning while strictly adhering to a maximum dependency length of exactly {tgt_ideal_MaxDepLength}.
+
+Always output all Rewritten sentence(s) within curly braces.",Rewritten sentence(s): {{output_text}},"Feedback:
+Summary of compliance with rewriting criteria:
+Rewritten sentence(s): {{output_text}}
+Rewritten sentence's maximum dependency length = maximum value in ""Length-Indexed Linearized Dependency Tree"" = max({print_dependency_tree_with_length}) = {src_MaxDepLength}
+The rewritten sentence(s) currently hold a maximum dependency length of exactly {src_MaxDepLength}.
+Unfortunately, rewritten sentence(s) do not align with the requested maximum dependency length of exactly {tgt_ideal_MaxDepLength}.
+
+To ensure clarity and meet specific requirements, kindly revise the sentence with a maximum dependency length of exactly {tgt_ideal_MaxDepLength}.
+
+
+Always output all Rewritten sentence(s) within curly braces.",
+4,co-star,,"Input Text: {input_src}
+
+Input text’s Length-Indexed Linearized Dependency Tree: {print_dependency_tree_with_length}.
+The maximum dependency length of the input text, as determined by the highest value in its ""Length-Indexed Linearized Dependency Tree,"" is {src_MaxDepLength}.
+The input text currently holds a maximum dependency length of {src_MaxDepLength}.
+
+Rewrite the input text to maintain its original meaning while strictly adhering to a maximum dependency length of exactly {tgt_ideal_MaxDepLength}.
+
+Please note, that if the initial rewrite does not meet these specific requirements, you are encouraged to modify and regenerate the output until the criteria are satisfactorily met.
+Let's think through this step by step. Solve each step and explain how you arrived at your answer.
+Always output all the rewritten sentence(s) within one curly brace.","Summary of compliance with rewriting criteria:
+Rewritten sentence's Length-Indexed Linearized Dependency Tree: {print_dependency_tree_with_length}.
+The maximum dependency length for the rewritten sentence, as measured by its ""Length-Indexed Linearized Dependency Tree"" is {tgt_ideal_MaxDepLength}. This meets the requested value of exactly {tgt_ideal_MaxDepLength}.
+
+Rewritten sentence(s): {{output_text}}","Feedback:
+Summary of compliance with rewriting criteria:
+Rewritten sentence(s): {{output_text}}
+Rewritten sentence's maximum dependency length = maximum value in ""Length-Indexed Linearized Dependency Tree"" = max({print_dependency_tree_with_length}) = {src_MaxDepLength}
+The rewritten sentence(s) currently hold a maximum dependency length of exactly {src_MaxDepLength}.
+Unfortunately, rewritten sentence(s) do not align with the requested maximum dependency length of exactly {tgt_ideal_MaxDepLength}.
+
+To ensure clarity and meet specific requirements, kindly revise the sentence with a maximum dependency length of exactly {tgt_ideal_MaxDepLength}.
+
+Please note, that if the initial rewrite does not meet these specific requirements, you are encouraged to modify and regenerate the output until the criteria are satisfactorily met.
+Always output all Rewritten sentence(s) within curly braces.","Feedback:
+Summary of compliance with rewriting criteria:
+Unfortunately, no rewritten sentence(s) were provided, resulting in an incomplete response.
+
+To ensure clarity and meet specific requirements, kindly revise the sentence with a maximum dependency length of exactly {tgt_ideal_MaxDepLength}.
+
+Please note, that if the initial rewrite does not meet these specific requirements, you are encouraged to modify and regenerate the output until the criteria are satisfactorily met. 
+Always output all Rewritten sentence(s) within curly braces."

@@ -1,0 +1,17 @@
+experiment_id: 1
+path_to_output_generation: "experiments/x_ablation_study/baseline_T5ft/MaxDepDepth"
+
+# for feature based evaluation script
+lang: en
+analyze_features: False
+overwrite: True
+
+model: "ControlTS_T5/experiments/T5/exp_1719330457769920"
+number_of_lines_to_test: 100
+#Test dataset for prompt experiment
+path_to_input_test_data: "data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.src"
+path_to_test_gold_ref_data: "data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.tgt"
+predicted_ratio_file_path: "xxx/data_filtered_regression_model/linear_regression/2_maxdepdepth/wikilarge/valid/ratio_stats_with_LR_predicted_ratio.csv"
+feature_names: "MaxDepDepth"
+feature_range: "1"
+gold_ratio_file_given: "data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/grade_ratio_stats_filtered_wiki_val_v1.1_data.csv"

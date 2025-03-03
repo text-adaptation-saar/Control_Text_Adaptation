@@ -1,0 +1,2 @@
+doc_level_difficult_words,494,doc_level_FRE,70.6,doc_level_FKGL,5.7,doc_level_CLI,9.19,doc_level_DCR,9.64,doc_level_ARI,7.1,doc_level_SI,9.5,doc_level_LWF,4.076923076923077,doc_level_GF,7.5,doc_level_TS,9th and 10th grade,doc_level_TS_score,10.0,Input_file_path,experiments/x_ablation_study/llama_3_70b_instruct_sglang/MaxDepLength/level-4_prompt/level-4_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/output.txt
+

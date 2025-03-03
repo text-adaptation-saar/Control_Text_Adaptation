@@ -1,0 +1,839 @@
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+Mapped requested feature params with the values and requested_absolute_value is: False
+Mapped requested feature params: {'MaxDepDepth': -1.0, 'MaxDepLength': -1.0, 'DiffWords': -1.0, 'WordCount': -1.0, 'Length': -1.0, 'Leven': -1.0, 'Grade': -1.0}
+Start calculate scores!
+predicted_ratio_file_given is: False
+new_feature_list: MaxDepLength,Grade
+default_input_src and tested_input_src are not identical: Reason: The files have a different number of lines: 731 vs 100. default_input_src:data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.src,	tested_input_src: experiments/x_ablation_study/MaxDepLength/level-4_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/input.txt
+filter ratio for only considered input sentences:
+Reading default_input_src: data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.src, default_ref_tgt:data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.tgt
+Reading default_predicted_ratio_file: data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/grade_ratio_stats_filtered_wiki_val_v1.1_data.csv
+Reading tested_input_src: experiments/x_ablation_study/MaxDepLength/level-4_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/input.txt, tested_ref_tgt:experiments/x_ablation_study/MaxDepLength/level-4_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/gold_ref.txt
+Filtered predicted ratio file saved to experiments/x_ablation_study/MaxDepLength/level-4_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/copied_filtered_gold_ratio_stats.csv
+calculate_abs_tgt_success_rate for MaxDepLength,Grade: filtered_gold_ratio_file_path=experiments/x_ablation_study/MaxDepLength/level-4_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/copied_filtered_gold_ratio_stats.csv, obtained_ratio_file=experiments/x_ablation_study/MaxDepLength/level-4_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/ratio_stats.csv, success_rate_type: exact_match 
+Calcuate abs_tgt_success rate for feature: MaxDepLength
+for line: 0 requested ideal_tgt: 2 	 actual_tgt: 4
+for line: 0 feature range is given. tgt_min: 1, tgt_max:3
+for line: 1 requested ideal_tgt: 7 	 actual_tgt: 9
+for line: 1 feature range is given. tgt_min: 6, tgt_max:8
+for line: 2 requested ideal_tgt: 7 	 actual_tgt: 8
+for line: 2 feature range is given. tgt_min: 6, tgt_max:8
+for line: 3 requested ideal_tgt: 4 	 actual_tgt: 2
+for line: 3 feature range is given. tgt_min: 3, tgt_max:5
+for line: 4 requested ideal_tgt: 12 	 actual_tgt: 5
+for line: 4 feature range is given. tgt_min: 11, tgt_max:13
+for line: 5 requested ideal_tgt: 12 	 actual_tgt: 3
+for line: 5 feature range is given. tgt_min: 11, tgt_max:13
+for line: 6 requested ideal_tgt: 10 	 actual_tgt: 8
+for line: 6 feature range is given. tgt_min: 9, tgt_max:11
+for line: 7 requested ideal_tgt: 3 	 actual_tgt: 5
+for line: 7 feature range is given. tgt_min: 2, tgt_max:4
+for line: 8 requested ideal_tgt: 8 	 actual_tgt: 11
+for line: 8 feature range is given. tgt_min: 7, tgt_max:9
+for line: 9 requested ideal_tgt: 11 	 actual_tgt: 9
+for line: 9 feature range is given. tgt_min: 10, tgt_max:12
+for line: 10 requested ideal_tgt: 14 	 actual_tgt: 5
+for line: 10 feature range is given. tgt_min: 13, tgt_max:15
+for line: 11 requested ideal_tgt: 7 	 actual_tgt: 9
+for line: 11 feature range is given. tgt_min: 6, tgt_max:8
+for line: 12 requested ideal_tgt: 14 	 actual_tgt: 11
+for line: 12 feature range is given. tgt_min: 13, tgt_max:15
+for line: 13 requested ideal_tgt: 10 	 actual_tgt: 8
+for line: 13 feature range is given. tgt_min: 9, tgt_max:11
+for line: 14 requested ideal_tgt: 3 	 actual_tgt: 5
+for line: 14 feature range is given. tgt_min: 2, tgt_max:4
+for line: 15 requested ideal_tgt: 8 	 actual_tgt: 7
+for line: 15 feature range is given. tgt_min: 7, tgt_max:9
+for line: 16 requested ideal_tgt: 5 	 actual_tgt: 3
+for line: 16 feature range is given. tgt_min: 4, tgt_max:6
+for line: 17 requested ideal_tgt: 4 	 actual_tgt: 4
+for line: 17 feature range is given. tgt_min: 3, tgt_max:5
+for line: 18 requested ideal_tgt: 13 	 actual_tgt: 5
+for line: 18 feature range is given. tgt_min: 12, tgt_max:14
+for line: 19 requested ideal_tgt: 1 	 actual_tgt: 5
+for line: 19 feature range is given. tgt_min: 0, tgt_max:2
+for line: 20 requested ideal_tgt: 5 	 actual_tgt: 3
+for line: 20 feature range is given. tgt_min: 4, tgt_max:6
+for line: 21 requested ideal_tgt: 15 	 actual_tgt: 12
+for line: 21 feature range is given. tgt_min: 14, tgt_max:16
+for line: 22 requested ideal_tgt: 5 	 actual_tgt: 10
+for line: 22 feature range is given. tgt_min: 4, tgt_max:6
+for line: 23 requested ideal_tgt: 11 	 actual_tgt: 10
+for line: 23 feature range is given. tgt_min: 10, tgt_max:12
+for line: 24 requested ideal_tgt: 7 	 actual_tgt: 7
+for line: 24 feature range is given. tgt_min: 6, tgt_max:8
+for line: 25 requested ideal_tgt: 5 	 actual_tgt: 7
+for line: 25 feature range is given. tgt_min: 4, tgt_max:6
+for line: 26 requested ideal_tgt: 4 	 actual_tgt: 6
+for line: 26 feature range is given. tgt_min: 3, tgt_max:5
+for line: 27 requested ideal_tgt: 5 	 actual_tgt: 5
+for line: 27 feature range is given. tgt_min: 4, tgt_max:6
+for line: 28 requested ideal_tgt: 5 	 actual_tgt: 7
+for line: 28 feature range is given. tgt_min: 4, tgt_max:6
+for line: 29 requested ideal_tgt: 3 	 actual_tgt: 4
+for line: 29 feature range is given. tgt_min: 2, tgt_max:4
+for line: 30 requested ideal_tgt: 5 	 actual_tgt: 8
+for line: 30 feature range is given. tgt_min: 4, tgt_max:6
+for line: 31 requested ideal_tgt: 5 	 actual_tgt: 7
+for line: 31 feature range is given. tgt_min: 4, tgt_max:6
+for line: 32 requested ideal_tgt: 12 	 actual_tgt: 11
+for line: 32 feature range is given. tgt_min: 11, tgt_max:13
+for line: 33 requested ideal_tgt: 11 	 actual_tgt: 9
+for line: 33 feature range is given. tgt_min: 10, tgt_max:12
+for line: 34 requested ideal_tgt: 0 	 actual_tgt: 4
+for line: 34 feature range is given. tgt_min: -1, tgt_max:1
+for line: 35 requested ideal_tgt: 6 	 actual_tgt: 8
+for line: 35 feature range is given. tgt_min: 5, tgt_max:7
+for line: 36 requested ideal_tgt: 1 	 actual_tgt: 2
+for line: 36 feature range is given. tgt_min: 0, tgt_max:2
+for line: 37 requested ideal_tgt: 0 	 actual_tgt: 4
+for line: 37 feature range is given. tgt_min: -1, tgt_max:1
+for line: 38 requested ideal_tgt: 3 	 actual_tgt: 4
+for line: 38 feature range is given. tgt_min: 2, tgt_max:4
+for line: 39 requested ideal_tgt: 2 	 actual_tgt: 3
+for line: 39 feature range is given. tgt_min: 1, tgt_max:3
+for line: 40 requested ideal_tgt: 4 	 actual_tgt: 5
+for line: 40 feature range is given. tgt_min: 3, tgt_max:5
+for line: 41 requested ideal_tgt: 9 	 actual_tgt: 9
+for line: 41 feature range is given. tgt_min: 8, tgt_max:10
+for line: 42 requested ideal_tgt: 12 	 actual_tgt: 8
+for line: 42 feature range is given. tgt_min: 11, tgt_max:13
+for line: 43 requested ideal_tgt: 2 	 actual_tgt: 4
+for line: 43 feature range is given. tgt_min: 1, tgt_max:3
+for line: 44 requested ideal_tgt: 5 	 actual_tgt: 5
+for line: 44 feature range is given. tgt_min: 4, tgt_max:6
+for line: 45 requested ideal_tgt: 4 	 actual_tgt: 3
+for line: 45 feature range is given. tgt_min: 3, tgt_max:5
+for line: 46 requested ideal_tgt: 4 	 actual_tgt: 5
+for line: 46 feature range is given. tgt_min: 3, tgt_max:5
+for line: 47 requested ideal_tgt: 11 	 actual_tgt: 10
+for line: 47 feature range is given. tgt_min: 10, tgt_max:12
+for line: 48 requested ideal_tgt: 4 	 actual_tgt: 7
+for line: 48 feature range is given. tgt_min: 3, tgt_max:5
+for line: 49 requested ideal_tgt: 3 	 actual_tgt: 3
+for line: 49 feature range is given. tgt_min: 2, tgt_max:4
+for line: 50 requested ideal_tgt: 4 	 actual_tgt: 3
+for line: 50 feature range is given. tgt_min: 3, tgt_max:5
+for line: 51 requested ideal_tgt: 14 	 actual_tgt: 13
+for line: 51 feature range is given. tgt_min: 13, tgt_max:15
+for line: 52 requested ideal_tgt: 3 	 actual_tgt: 3
+for line: 52 feature range is given. tgt_min: 2, tgt_max:4
+for line: 53 requested ideal_tgt: 14 	 actual_tgt: 4
+for line: 53 feature range is given. tgt_min: 13, tgt_max:15
+for line: 54 requested ideal_tgt: 5 	 actual_tgt: 3
+for line: 54 feature range is given. tgt_min: 4, tgt_max:6
+for line: 55 requested ideal_tgt: 1 	 actual_tgt: 3
+for line: 55 feature range is given. tgt_min: 0, tgt_max:2
+for line: 56 requested ideal_tgt: 9 	 actual_tgt: 7
+for line: 56 feature range is given. tgt_min: 8, tgt_max:10
+for line: 57 requested ideal_tgt: 5 	 actual_tgt: 6
+for line: 57 feature range is given. tgt_min: 4, tgt_max:6
+for line: 58 requested ideal_tgt: 17 	 actual_tgt: 10
+for line: 58 feature range is given. tgt_min: 16, tgt_max:18
+for line: 59 requested ideal_tgt: 4 	 actual_tgt: 4
+for line: 59 feature range is given. tgt_min: 3, tgt_max:5
+for line: 60 requested ideal_tgt: 9 	 actual_tgt: 9
+for line: 60 feature range is given. tgt_min: 8, tgt_max:10
+for line: 61 requested ideal_tgt: 0 	 actual_tgt: 3
+for line: 61 feature range is given. tgt_min: -1, tgt_max:1
+for line: 62 requested ideal_tgt: 5 	 actual_tgt: 4
+for line: 62 feature range is given. tgt_min: 4, tgt_max:6
+for line: 63 requested ideal_tgt: 12 	 actual_tgt: 7
+for line: 63 feature range is given. tgt_min: 11, tgt_max:13
+for line: 64 requested ideal_tgt: 5 	 actual_tgt: 3
+for line: 64 feature range is given. tgt_min: 4, tgt_max:6
+for line: 65 requested ideal_tgt: 8 	 actual_tgt: 7
+for line: 65 feature range is given. tgt_min: 7, tgt_max:9
+for line: 66 requested ideal_tgt: 2 	 actual_tgt: 3
+for line: 66 feature range is given. tgt_min: 1, tgt_max:3
+for line: 67 requested ideal_tgt: 7 	 actual_tgt: 3
+for line: 67 feature range is given. tgt_min: 6, tgt_max:8
+for line: 68 requested ideal_tgt: 3 	 actual_tgt: 2
+for line: 68 feature range is given. tgt_min: 2, tgt_max:4
+for line: 69 requested ideal_tgt: 10 	 actual_tgt: 5
+for line: 69 feature range is given. tgt_min: 9, tgt_max:11
+for line: 70 requested ideal_tgt: 9 	 actual_tgt: 12
+for line: 70 feature range is given. tgt_min: 8, tgt_max:10
+for line: 71 requested ideal_tgt: 3 	 actual_tgt: 2
+for line: 71 feature range is given. tgt_min: 2, tgt_max:4
+for line: 72 requested ideal_tgt: 15 	 actual_tgt: 13
+for line: 72 feature range is given. tgt_min: 14, tgt_max:16
+for line: 73 requested ideal_tgt: 0 	 actual_tgt: 2
+for line: 73 feature range is given. tgt_min: -1, tgt_max:1
+for line: 74 requested ideal_tgt: 6 	 actual_tgt: 9
+for line: 74 feature range is given. tgt_min: 5, tgt_max:7
+for line: 75 requested ideal_tgt: 9 	 actual_tgt: 15
+for line: 75 feature range is given. tgt_min: 8, tgt_max:10
+for line: 76 requested ideal_tgt: 3 	 actual_tgt: 3
+for line: 76 feature range is given. tgt_min: 2, tgt_max:4
+for line: 77 requested ideal_tgt: 5 	 actual_tgt: 5
+for line: 77 feature range is given. tgt_min: 4, tgt_max:6
+for line: 78 requested ideal_tgt: 2 	 actual_tgt: 7
+for line: 78 feature range is given. tgt_min: 1, tgt_max:3
+for line: 79 requested ideal_tgt: 16 	 actual_tgt: 10
+for line: 79 feature range is given. tgt_min: 15, tgt_max:17
+for line: 80 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 80 feature range is given. tgt_min: 11, tgt_max:13
+for line: 81 requested ideal_tgt: 7 	 actual_tgt: 8
+for line: 81 feature range is given. tgt_min: 6, tgt_max:8
+for line: 82 requested ideal_tgt: 2 	 actual_tgt: 5
+for line: 82 feature range is given. tgt_min: 1, tgt_max:3
+for line: 83 requested ideal_tgt: 12 	 actual_tgt: 9
+for line: 83 feature range is given. tgt_min: 11, tgt_max:13
+for line: 84 requested ideal_tgt: 8 	 actual_tgt: 8
+for line: 84 feature range is given. tgt_min: 7, tgt_max:9
+for line: 85 requested ideal_tgt: 5 	 actual_tgt: 4
+for line: 85 feature range is given. tgt_min: 4, tgt_max:6
+for line: 86 requested ideal_tgt: 10 	 actual_tgt: 10
+for line: 86 feature range is given. tgt_min: 9, tgt_max:11
+for line: 87 requested ideal_tgt: 3 	 actual_tgt: 3
+for line: 87 feature range is given. tgt_min: 2, tgt_max:4
+for line: 88 requested ideal_tgt: 8 	 actual_tgt: 5
+for line: 88 feature range is given. tgt_min: 7, tgt_max:9
+for line: 89 requested ideal_tgt: 6 	 actual_tgt: 4
+for line: 89 feature range is given. tgt_min: 5, tgt_max:7
+for line: 90 requested ideal_tgt: 2 	 actual_tgt: 6
+for line: 90 feature range is given. tgt_min: 1, tgt_max:3
+for line: 91 requested ideal_tgt: 11 	 actual_tgt: 7
+for line: 91 feature range is given. tgt_min: 10, tgt_max:12
+for line: 92 requested ideal_tgt: 3 	 actual_tgt: 3
+for line: 92 feature range is given. tgt_min: 2, tgt_max:4
+for line: 93 requested ideal_tgt: 3 	 actual_tgt: 3
+for line: 93 feature range is given. tgt_min: 2, tgt_max:4
+for line: 94 requested ideal_tgt: 9 	 actual_tgt: 14
+for line: 94 feature range is given. tgt_min: 8, tgt_max:10
+for line: 95 requested ideal_tgt: 8 	 actual_tgt: 11
+for line: 95 feature range is given. tgt_min: 7, tgt_max:9
+for line: 96 requested ideal_tgt: 8 	 actual_tgt: 5
+for line: 96 feature range is given. tgt_min: 7, tgt_max:9
+for line: 97 requested ideal_tgt: 1 	 actual_tgt: 6
+for line: 97 feature range is given. tgt_min: 0, tgt_max:2
+for line: 98 requested ideal_tgt: 11 	 actual_tgt: 9
+for line: 98 feature range is given. tgt_min: 10, tgt_max:12
+for line: 99 requested ideal_tgt: 4 	 actual_tgt: 5
+for line: 99 feature range is given. tgt_min: 3, tgt_max:5
+EXACT: abs_tgt_success_rate for MaxDepLength exact_match: 17.0% on 100 sentences from: experiments/x_ablation_study/MaxDepLength/level-4_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/ratio_stats.csv.
+FUZZY: abs_tgt_success_rate for MaxDepLength exact_match: 40.0% on 100 sentences from: experiments/x_ablation_study/MaxDepLength/level-4_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/ratio_stats.csv.
+Length of squared_errors list: 100	 squared_errors: [4, 4, 1, 4, 49, 81, 4, 4, 9, 4, 81, 4, 9, 4, 4, 1, 4, 0, 64, 16, 4, 9, 25, 1, 0, 4, 4, 0, 4, 1, 9, 4, 1, 4, 16, 4, 1, 16, 1, 1, 1, 0, 16, 4, 0, 1, 1, 1, 9, 0, 1, 1, 0, 100, 4, 4, 4, 1, 49, 0, 0, 9, 1, 25, 4, 1, 1, 16, 1, 25, 9, 1, 4, 4, 9, 36, 0, 0, 25, 36, 0, 1, 9, 9, 0, 1, 0, 0, 9, 4, 16, 16, 0, 0, 25, 9, 9, 25, 4, 1]
+EXACT: feature: MaxDepLength	MSE: 10.02	RMSE:3.1654383582688825
+FUZZY: feature: MaxDepLength	MSE: 6.17	RMSE:2.483948469674844
+Calcuate abs_tgt_success rate for feature: Grade
+for line: 0 requested ideal_tgt: 4 	 actual_tgt: 4
+for line: 0 feature range is given. tgt_min: 3, tgt_max:5
+for line: 1 requested ideal_tgt: 6 	 actual_tgt: 6
+for line: 1 feature range is given. tgt_min: 5, tgt_max:7
+for line: 2 requested ideal_tgt: 8 	 actual_tgt: 5
+for line: 2 feature range is given. tgt_min: 7, tgt_max:9
+for line: 3 requested ideal_tgt: 4 	 actual_tgt: 5
+for line: 3 feature range is given. tgt_min: 3, tgt_max:5
+for line: 4 requested ideal_tgt: 8 	 actual_tgt: 2
+for line: 4 feature range is given. tgt_min: 7, tgt_max:9
+for line: 5 requested ideal_tgt: 4 	 actual_tgt: 2
+for line: 5 feature range is given. tgt_min: 3, tgt_max:5
+for line: 6 requested ideal_tgt: 10 	 actual_tgt: 6
+for line: 6 feature range is given. tgt_min: 9, tgt_max:11
+for line: 7 requested ideal_tgt: 7 	 actual_tgt: 9
+for line: 7 feature range is given. tgt_min: 6, tgt_max:8
+for line: 8 requested ideal_tgt: 4 	 actual_tgt: 1
+for line: 8 feature range is given. tgt_min: 3, tgt_max:5
+for line: 9 requested ideal_tgt: 9 	 actual_tgt: 9
+for line: 9 feature range is given. tgt_min: 8, tgt_max:10
+for line: 10 requested ideal_tgt: 5 	 actual_tgt: 3
+for line: 10 feature range is given. tgt_min: 4, tgt_max:6
+for line: 11 requested ideal_tgt: 4 	 actual_tgt: 10
+for line: 11 feature range is given. tgt_min: 3, tgt_max:5
+for line: 12 requested ideal_tgt: 12 	 actual_tgt: 7
+for line: 12 feature range is given. tgt_min: 11, tgt_max:13
+for line: 13 requested ideal_tgt: 13 	 actual_tgt: 13
+for line: 13 feature range is given. tgt_min: 12, tgt_max:14
+for line: 14 requested ideal_tgt: 4 	 actual_tgt: 5
+for line: 14 feature range is given. tgt_min: 3, tgt_max:5
+for line: 15 requested ideal_tgt: 0 	 actual_tgt: 6
+for line: 15 feature range is given. tgt_min: -1, tgt_max:1
+for line: 16 requested ideal_tgt: 6 	 actual_tgt: 2
+for line: 16 feature range is given. tgt_min: 5, tgt_max:7
+for line: 17 requested ideal_tgt: 5 	 actual_tgt: 3
+for line: 17 feature range is given. tgt_min: 4, tgt_max:6
+for line: 18 requested ideal_tgt: 13 	 actual_tgt: 8
+for line: 18 feature range is given. tgt_min: 12, tgt_max:14
+for line: 19 requested ideal_tgt: 9 	 actual_tgt: 9
+for line: 19 feature range is given. tgt_min: 8, tgt_max:10
+for line: 20 requested ideal_tgt: 3 	 actual_tgt: 2
+for line: 20 feature range is given. tgt_min: 2, tgt_max:4
+for line: 21 requested ideal_tgt: 9 	 actual_tgt: 7
+for line: 21 feature range is given. tgt_min: 8, tgt_max:10
+for line: 22 requested ideal_tgt: 4 	 actual_tgt: 6
+for line: 22 feature range is given. tgt_min: 3, tgt_max:5
+for line: 23 requested ideal_tgt: 7 	 actual_tgt: 4
+for line: 23 feature range is given. tgt_min: 6, tgt_max:8
+for line: 24 requested ideal_tgt: 8 	 actual_tgt: 12
+for line: 24 feature range is given. tgt_min: 7, tgt_max:9
+for line: 25 requested ideal_tgt: 9 	 actual_tgt: 6
+for line: 25 feature range is given. tgt_min: 8, tgt_max:10
+for line: 26 requested ideal_tgt: 7 	 actual_tgt: 4
+for line: 26 feature range is given. tgt_min: 6, tgt_max:8
+for line: 27 requested ideal_tgt: 9 	 actual_tgt: 12
+for line: 27 feature range is given. tgt_min: 8, tgt_max:10
+for line: 28 requested ideal_tgt: 8 	 actual_tgt: 4
+for line: 28 feature range is given. tgt_min: 7, tgt_max:9
+for line: 29 requested ideal_tgt: 4 	 actual_tgt: 3
+for line: 29 feature range is given. tgt_min: 3, tgt_max:5
+for line: 30 requested ideal_tgt: 13 	 actual_tgt: 17
+for line: 30 feature range is given. tgt_min: 12, tgt_max:14
+for line: 31 requested ideal_tgt: 13 	 actual_tgt: 14
+for line: 31 feature range is given. tgt_min: 12, tgt_max:14
+for line: 32 requested ideal_tgt: 3 	 actual_tgt: 5
+for line: 32 feature range is given. tgt_min: 2, tgt_max:4
+for line: 33 requested ideal_tgt: 8 	 actual_tgt: 10
+for line: 33 feature range is given. tgt_min: 7, tgt_max:9
+for line: 34 requested ideal_tgt: 0 	 actual_tgt: 5
+for line: 34 feature range is given. tgt_min: -1, tgt_max:1
+for line: 35 requested ideal_tgt: 7 	 actual_tgt: 5
+for line: 35 feature range is given. tgt_min: 6, tgt_max:8
+for line: 36 requested ideal_tgt: 9 	 actual_tgt: 1
+for line: 36 feature range is given. tgt_min: 8, tgt_max:10
+for line: 37 requested ideal_tgt: 0 	 actual_tgt: 6
+for line: 37 feature range is given. tgt_min: -1, tgt_max:1
+for line: 38 requested ideal_tgt: 7 	 actual_tgt: 4
+for line: 38 feature range is given. tgt_min: 6, tgt_max:8
+for line: 39 requested ideal_tgt: 4 	 actual_tgt: 2
+for line: 39 feature range is given. tgt_min: 3, tgt_max:5
+for line: 40 requested ideal_tgt: 6 	 actual_tgt: 10
+for line: 40 feature range is given. tgt_min: 5, tgt_max:7
+for line: 41 requested ideal_tgt: 13 	 actual_tgt: 12
+for line: 41 feature range is given. tgt_min: 12, tgt_max:14
+for line: 42 requested ideal_tgt: 12 	 actual_tgt: 14
+for line: 42 feature range is given. tgt_min: 11, tgt_max:13
+for line: 43 requested ideal_tgt: 6 	 actual_tgt: 10
+for line: 43 feature range is given. tgt_min: 5, tgt_max:7
+for line: 44 requested ideal_tgt: 5 	 actual_tgt: 5
+for line: 44 feature range is given. tgt_min: 4, tgt_max:6
+for line: 45 requested ideal_tgt: 4 	 actual_tgt: 1
+for line: 45 feature range is given. tgt_min: 3, tgt_max:5
+for line: 46 requested ideal_tgt: 12 	 actual_tgt: 8
+for line: 46 feature range is given. tgt_min: 11, tgt_max:13
+for line: 47 requested ideal_tgt: 10 	 actual_tgt: 8
+for line: 47 feature range is given. tgt_min: 9, tgt_max:11
+for line: 48 requested ideal_tgt: 4 	 actual_tgt: 6
+for line: 48 feature range is given. tgt_min: 3, tgt_max:5
+for line: 49 requested ideal_tgt: 12 	 actual_tgt: 4
+for line: 49 feature range is given. tgt_min: 11, tgt_max:13
+for line: 50 requested ideal_tgt: 3 	 actual_tgt: 3
+for line: 50 feature range is given. tgt_min: 2, tgt_max:4
+for line: 51 requested ideal_tgt: 9 	 actual_tgt: 8
+for line: 51 feature range is given. tgt_min: 8, tgt_max:10
+for line: 52 requested ideal_tgt: 2 	 actual_tgt: 1
+for line: 52 feature range is given. tgt_min: 1, tgt_max:3
+for line: 53 requested ideal_tgt: 13 	 actual_tgt: 9
+for line: 53 feature range is given. tgt_min: 12, tgt_max:14
+for line: 54 requested ideal_tgt: 7 	 actual_tgt: 3
+for line: 54 feature range is given. tgt_min: 6, tgt_max:8
+for line: 55 requested ideal_tgt: 9 	 actual_tgt: 0
+for line: 55 feature range is given. tgt_min: 8, tgt_max:10
+for line: 56 requested ideal_tgt: 12 	 actual_tgt: 7
+for line: 56 feature range is given. tgt_min: 11, tgt_max:13
+for line: 57 requested ideal_tgt: 9 	 actual_tgt: 4
+for line: 57 feature range is given. tgt_min: 8, tgt_max:10
+for line: 58 requested ideal_tgt: 13 	 actual_tgt: 11
+for line: 58 feature range is given. tgt_min: 12, tgt_max:14
+for line: 59 requested ideal_tgt: 4 	 actual_tgt: 10
+for line: 59 feature range is given. tgt_min: 3, tgt_max:5
+for line: 60 requested ideal_tgt: 7 	 actual_tgt: 8
+for line: 60 feature range is given. tgt_min: 6, tgt_max:8
+for line: 61 requested ideal_tgt: 0 	 actual_tgt: 10
+for line: 61 feature range is given. tgt_min: -1, tgt_max:1
+for line: 62 requested ideal_tgt: 7 	 actual_tgt: 9
+for line: 62 feature range is given. tgt_min: 6, tgt_max:8
+for line: 63 requested ideal_tgt: 13 	 actual_tgt: 7
+for line: 63 feature range is given. tgt_min: 12, tgt_max:14
+for line: 64 requested ideal_tgt: 8 	 actual_tgt: 8
+for line: 64 feature range is given. tgt_min: 7, tgt_max:9
+for line: 65 requested ideal_tgt: 4 	 actual_tgt: 5
+for line: 65 feature range is given. tgt_min: 3, tgt_max:5
+for line: 66 requested ideal_tgt: 10 	 actual_tgt: 9
+for line: 66 feature range is given. tgt_min: 9, tgt_max:11
+for line: 67 requested ideal_tgt: 10 	 actual_tgt: 6
+for line: 67 feature range is given. tgt_min: 9, tgt_max:11
+for line: 68 requested ideal_tgt: 11 	 actual_tgt: 9
+for line: 68 feature range is given. tgt_min: 10, tgt_max:12
+for line: 69 requested ideal_tgt: 6 	 actual_tgt: 8
+for line: 69 feature range is given. tgt_min: 5, tgt_max:7
+for line: 70 requested ideal_tgt: 8 	 actual_tgt: 6
+for line: 70 feature range is given. tgt_min: 7, tgt_max:9
+for line: 71 requested ideal_tgt: 7 	 actual_tgt: 5
+for line: 71 feature range is given. tgt_min: 6, tgt_max:8
+for line: 72 requested ideal_tgt: 7 	 actual_tgt: 7
+for line: 72 feature range is given. tgt_min: 6, tgt_max:8
+for line: 73 requested ideal_tgt: 13 	 actual_tgt: 2
+for line: 73 feature range is given. tgt_min: 12, tgt_max:14
+for line: 74 requested ideal_tgt: 6 	 actual_tgt: 4
+for line: 74 feature range is given. tgt_min: 5, tgt_max:7
+for line: 75 requested ideal_tgt: 8 	 actual_tgt: 4
+for line: 75 feature range is given. tgt_min: 7, tgt_max:9
+for line: 76 requested ideal_tgt: 6 	 actual_tgt: 4
+for line: 76 feature range is given. tgt_min: 5, tgt_max:7
+for line: 77 requested ideal_tgt: 5 	 actual_tgt: 7
+for line: 77 feature range is given. tgt_min: 4, tgt_max:6
+for line: 78 requested ideal_tgt: 2 	 actual_tgt: 4
+for line: 78 feature range is given. tgt_min: 1, tgt_max:3
+for line: 79 requested ideal_tgt: 9 	 actual_tgt: 8
+for line: 79 feature range is given. tgt_min: 8, tgt_max:10
+for line: 80 requested ideal_tgt: 8 	 actual_tgt: 5
+for line: 80 feature range is given. tgt_min: 7, tgt_max:9
+for line: 81 requested ideal_tgt: 7 	 actual_tgt: 3
+for line: 81 feature range is given. tgt_min: 6, tgt_max:8
+for line: 82 requested ideal_tgt: 0 	 actual_tgt: 8
+for line: 82 feature range is given. tgt_min: -1, tgt_max:1
+for line: 83 requested ideal_tgt: 5 	 actual_tgt: 6
+for line: 83 feature range is given. tgt_min: 4, tgt_max:6
+for line: 84 requested ideal_tgt: 5 	 actual_tgt: 5
+for line: 84 feature range is given. tgt_min: 4, tgt_max:6
+for line: 85 requested ideal_tgt: 6 	 actual_tgt: 6
+for line: 85 feature range is given. tgt_min: 5, tgt_max:7
+for line: 86 requested ideal_tgt: 8 	 actual_tgt: 10
+for line: 86 feature range is given. tgt_min: 7, tgt_max:9
+for line: 87 requested ideal_tgt: 4 	 actual_tgt: 2
+for line: 87 feature range is given. tgt_min: 3, tgt_max:5
+for line: 88 requested ideal_tgt: 7 	 actual_tgt: 2
+for line: 88 feature range is given. tgt_min: 6, tgt_max:8
+for line: 89 requested ideal_tgt: 12 	 actual_tgt: 9
+for line: 89 feature range is given. tgt_min: 11, tgt_max:13
+for line: 90 requested ideal_tgt: 5 	 actual_tgt: 4
+for line: 90 feature range is given. tgt_min: 4, tgt_max:6
+for line: 91 requested ideal_tgt: 13 	 actual_tgt: 10
+for line: 91 feature range is given. tgt_min: 12, tgt_max:14
+for line: 92 requested ideal_tgt: 6 	 actual_tgt: 4
+for line: 92 feature range is given. tgt_min: 5, tgt_max:7
+for line: 93 requested ideal_tgt: 13 	 actual_tgt: 9
+for line: 93 feature range is given. tgt_min: 12, tgt_max:14
+for line: 94 requested ideal_tgt: 11 	 actual_tgt: 10
+for line: 94 feature range is given. tgt_min: 10, tgt_max:12
+for line: 95 requested ideal_tgt: 6 	 actual_tgt: 5
+for line: 95 feature range is given. tgt_min: 5, tgt_max:7
+for line: 96 requested ideal_tgt: 7 	 actual_tgt: 5
+for line: 96 feature range is given. tgt_min: 6, tgt_max:8
+for line: 97 requested ideal_tgt: 9 	 actual_tgt: 8
+for line: 97 feature range is given. tgt_min: 8, tgt_max:10
+for line: 98 requested ideal_tgt: 0 	 actual_tgt: 6
+for line: 98 feature range is given. tgt_min: -1, tgt_max:1
+for line: 99 requested ideal_tgt: 11 	 actual_tgt: 10
+for line: 99 feature range is given. tgt_min: 10, tgt_max:12
+EXACT: abs_tgt_success_rate for Grade exact_match: 11.0% on 100 sentences from: experiments/x_ablation_study/MaxDepLength/level-4_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/ratio_stats.csv.
+FUZZY: abs_tgt_success_rate for Grade exact_match: 28.999999999999996% on 100 sentences from: experiments/x_ablation_study/MaxDepLength/level-4_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/ratio_stats.csv.
+Length of squared_errors list: 100	 squared_errors: [0, 0, 9, 1, 36, 4, 16, 4, 9, 0, 4, 36, 25, 0, 1, 36, 16, 4, 25, 0, 1, 4, 4, 9, 16, 9, 9, 9, 16, 1, 16, 1, 4, 4, 25, 4, 64, 36, 9, 4, 16, 1, 4, 16, 0, 9, 16, 4, 4, 64, 0, 1, 1, 16, 16, 81, 25, 25, 4, 36, 1, 100, 4, 36, 0, 1, 1, 16, 4, 4, 4, 4, 0, 121, 4, 16, 4, 4, 4, 1, 9, 16, 64, 1, 0, 0, 4, 4, 25, 9, 1, 9, 4, 16, 1, 1, 4, 1, 36, 1]
+EXACT: feature: Grade	MSE: 13.45	RMSE:3.6674241641784495
+FUZZY: feature: Grade	MSE: 8.6	RMSE:2.932575659723036
+default_input_src and tested_input_src are not identical: Reason: The files have a different number of lines: 731 vs 100. default_input_src:data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.src,	tested_input_src: experiments/x_ablation_study/MaxDepLength/level-4_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/input.txt
+filter ratio for only considered input sentences:
+Reading default_input_src: data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.src, default_ref_tgt:data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.tgt
+Reading default_predicted_ratio_file: data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/grade_ratio_stats_filtered_wiki_val_v1.1_data.csv
+Reading tested_input_src: experiments/x_ablation_study/MaxDepLength/level-4_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/input.txt, tested_ref_tgt:experiments/x_ablation_study/MaxDepLength/level-4_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/gold_ref.txt
+Filtered predicted ratio file saved to experiments/x_ablation_study/MaxDepLength/level-4_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/copied_filtered_gold_ratio_stats.csv
+calculate_abs_tgt_success_rate for MaxDepLength,Grade: filtered_gold_ratio_file_path=experiments/x_ablation_study/MaxDepLength/level-4_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/copied_filtered_gold_ratio_stats.csv, obtained_ratio_file=experiments/x_ablation_study/MaxDepLength/level-4_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/ratio_stats.csv, success_rate_type: equal_or_lessthan 
+Calcuate abs_tgt_success rate for feature: MaxDepLength
+for line: 0 requested ideal_tgt: 2 	 actual_tgt: 4
+for line: 0 feature range is given. tgt_min: 1, tgt_max:3
+for line: 1 requested ideal_tgt: 7 	 actual_tgt: 9
+for line: 1 feature range is given. tgt_min: 6, tgt_max:8
+for line: 2 requested ideal_tgt: 7 	 actual_tgt: 8
+for line: 2 feature range is given. tgt_min: 6, tgt_max:8
+for line: 3 requested ideal_tgt: 4 	 actual_tgt: 2
+for line: 3 feature range is given. tgt_min: 3, tgt_max:5
+for line: 4 requested ideal_tgt: 12 	 actual_tgt: 5
+for line: 4 feature range is given. tgt_min: 11, tgt_max:13
+for line: 5 requested ideal_tgt: 12 	 actual_tgt: 3
+for line: 5 feature range is given. tgt_min: 11, tgt_max:13
+for line: 6 requested ideal_tgt: 10 	 actual_tgt: 8
+for line: 6 feature range is given. tgt_min: 9, tgt_max:11
+for line: 7 requested ideal_tgt: 3 	 actual_tgt: 5
+for line: 7 feature range is given. tgt_min: 2, tgt_max:4
+for line: 8 requested ideal_tgt: 8 	 actual_tgt: 11
+for line: 8 feature range is given. tgt_min: 7, tgt_max:9
+for line: 9 requested ideal_tgt: 11 	 actual_tgt: 9
+for line: 9 feature range is given. tgt_min: 10, tgt_max:12
+for line: 10 requested ideal_tgt: 14 	 actual_tgt: 5
+for line: 10 feature range is given. tgt_min: 13, tgt_max:15
+for line: 11 requested ideal_tgt: 7 	 actual_tgt: 9
+for line: 11 feature range is given. tgt_min: 6, tgt_max:8
+for line: 12 requested ideal_tgt: 14 	 actual_tgt: 11
+for line: 12 feature range is given. tgt_min: 13, tgt_max:15
+for line: 13 requested ideal_tgt: 10 	 actual_tgt: 8
+for line: 13 feature range is given. tgt_min: 9, tgt_max:11
+for line: 14 requested ideal_tgt: 3 	 actual_tgt: 5
+for line: 14 feature range is given. tgt_min: 2, tgt_max:4
+for line: 15 requested ideal_tgt: 8 	 actual_tgt: 7
+for line: 15 feature range is given. tgt_min: 7, tgt_max:9
+for line: 16 requested ideal_tgt: 5 	 actual_tgt: 3
+for line: 16 feature range is given. tgt_min: 4, tgt_max:6
+for line: 17 requested ideal_tgt: 4 	 actual_tgt: 4
+for line: 17 feature range is given. tgt_min: 3, tgt_max:5
+for line: 18 requested ideal_tgt: 13 	 actual_tgt: 5
+for line: 18 feature range is given. tgt_min: 12, tgt_max:14
+for line: 19 requested ideal_tgt: 1 	 actual_tgt: 5
+for line: 19 feature range is given. tgt_min: 0, tgt_max:2
+for line: 20 requested ideal_tgt: 5 	 actual_tgt: 3
+for line: 20 feature range is given. tgt_min: 4, tgt_max:6
+for line: 21 requested ideal_tgt: 15 	 actual_tgt: 12
+for line: 21 feature range is given. tgt_min: 14, tgt_max:16
+for line: 22 requested ideal_tgt: 5 	 actual_tgt: 10
+for line: 22 feature range is given. tgt_min: 4, tgt_max:6
+for line: 23 requested ideal_tgt: 11 	 actual_tgt: 10
+for line: 23 feature range is given. tgt_min: 10, tgt_max:12
+for line: 24 requested ideal_tgt: 7 	 actual_tgt: 7
+for line: 24 feature range is given. tgt_min: 6, tgt_max:8
+for line: 25 requested ideal_tgt: 5 	 actual_tgt: 7
+for line: 25 feature range is given. tgt_min: 4, tgt_max:6
+for line: 26 requested ideal_tgt: 4 	 actual_tgt: 6
+for line: 26 feature range is given. tgt_min: 3, tgt_max:5
+for line: 27 requested ideal_tgt: 5 	 actual_tgt: 5
+for line: 27 feature range is given. tgt_min: 4, tgt_max:6
+for line: 28 requested ideal_tgt: 5 	 actual_tgt: 7
+for line: 28 feature range is given. tgt_min: 4, tgt_max:6
+for line: 29 requested ideal_tgt: 3 	 actual_tgt: 4
+for line: 29 feature range is given. tgt_min: 2, tgt_max:4
+for line: 30 requested ideal_tgt: 5 	 actual_tgt: 8
+for line: 30 feature range is given. tgt_min: 4, tgt_max:6
+for line: 31 requested ideal_tgt: 5 	 actual_tgt: 7
+for line: 31 feature range is given. tgt_min: 4, tgt_max:6
+for line: 32 requested ideal_tgt: 12 	 actual_tgt: 11
+for line: 32 feature range is given. tgt_min: 11, tgt_max:13
+for line: 33 requested ideal_tgt: 11 	 actual_tgt: 9
+for line: 33 feature range is given. tgt_min: 10, tgt_max:12
+for line: 34 requested ideal_tgt: 0 	 actual_tgt: 4
+for line: 34 feature range is given. tgt_min: -1, tgt_max:1
+for line: 35 requested ideal_tgt: 6 	 actual_tgt: 8
+for line: 35 feature range is given. tgt_min: 5, tgt_max:7
+for line: 36 requested ideal_tgt: 1 	 actual_tgt: 2
+for line: 36 feature range is given. tgt_min: 0, tgt_max:2
+for line: 37 requested ideal_tgt: 0 	 actual_tgt: 4
+for line: 37 feature range is given. tgt_min: -1, tgt_max:1
+for line: 38 requested ideal_tgt: 3 	 actual_tgt: 4
+for line: 38 feature range is given. tgt_min: 2, tgt_max:4
+for line: 39 requested ideal_tgt: 2 	 actual_tgt: 3
+for line: 39 feature range is given. tgt_min: 1, tgt_max:3
+for line: 40 requested ideal_tgt: 4 	 actual_tgt: 5
+for line: 40 feature range is given. tgt_min: 3, tgt_max:5
+for line: 41 requested ideal_tgt: 9 	 actual_tgt: 9
+for line: 41 feature range is given. tgt_min: 8, tgt_max:10
+for line: 42 requested ideal_tgt: 12 	 actual_tgt: 8
+for line: 42 feature range is given. tgt_min: 11, tgt_max:13
+for line: 43 requested ideal_tgt: 2 	 actual_tgt: 4
+for line: 43 feature range is given. tgt_min: 1, tgt_max:3
+for line: 44 requested ideal_tgt: 5 	 actual_tgt: 5
+for line: 44 feature range is given. tgt_min: 4, tgt_max:6
+for line: 45 requested ideal_tgt: 4 	 actual_tgt: 3
+for line: 45 feature range is given. tgt_min: 3, tgt_max:5
+for line: 46 requested ideal_tgt: 4 	 actual_tgt: 5
+for line: 46 feature range is given. tgt_min: 3, tgt_max:5
+for line: 47 requested ideal_tgt: 11 	 actual_tgt: 10
+for line: 47 feature range is given. tgt_min: 10, tgt_max:12
+for line: 48 requested ideal_tgt: 4 	 actual_tgt: 7
+for line: 48 feature range is given. tgt_min: 3, tgt_max:5
+for line: 49 requested ideal_tgt: 3 	 actual_tgt: 3
+for line: 49 feature range is given. tgt_min: 2, tgt_max:4
+for line: 50 requested ideal_tgt: 4 	 actual_tgt: 3
+for line: 50 feature range is given. tgt_min: 3, tgt_max:5
+for line: 51 requested ideal_tgt: 14 	 actual_tgt: 13
+for line: 51 feature range is given. tgt_min: 13, tgt_max:15
+for line: 52 requested ideal_tgt: 3 	 actual_tgt: 3
+for line: 52 feature range is given. tgt_min: 2, tgt_max:4
+for line: 53 requested ideal_tgt: 14 	 actual_tgt: 4
+for line: 53 feature range is given. tgt_min: 13, tgt_max:15
+for line: 54 requested ideal_tgt: 5 	 actual_tgt: 3
+for line: 54 feature range is given. tgt_min: 4, tgt_max:6
+for line: 55 requested ideal_tgt: 1 	 actual_tgt: 3
+for line: 55 feature range is given. tgt_min: 0, tgt_max:2
+for line: 56 requested ideal_tgt: 9 	 actual_tgt: 7
+for line: 56 feature range is given. tgt_min: 8, tgt_max:10
+for line: 57 requested ideal_tgt: 5 	 actual_tgt: 6
+for line: 57 feature range is given. tgt_min: 4, tgt_max:6
+for line: 58 requested ideal_tgt: 17 	 actual_tgt: 10
+for line: 58 feature range is given. tgt_min: 16, tgt_max:18
+for line: 59 requested ideal_tgt: 4 	 actual_tgt: 4
+for line: 59 feature range is given. tgt_min: 3, tgt_max:5
+for line: 60 requested ideal_tgt: 9 	 actual_tgt: 9
+for line: 60 feature range is given. tgt_min: 8, tgt_max:10
+for line: 61 requested ideal_tgt: 0 	 actual_tgt: 3
+for line: 61 feature range is given. tgt_min: -1, tgt_max:1
+for line: 62 requested ideal_tgt: 5 	 actual_tgt: 4
+for line: 62 feature range is given. tgt_min: 4, tgt_max:6
+for line: 63 requested ideal_tgt: 12 	 actual_tgt: 7
+for line: 63 feature range is given. tgt_min: 11, tgt_max:13
+for line: 64 requested ideal_tgt: 5 	 actual_tgt: 3
+for line: 64 feature range is given. tgt_min: 4, tgt_max:6
+for line: 65 requested ideal_tgt: 8 	 actual_tgt: 7
+for line: 65 feature range is given. tgt_min: 7, tgt_max:9
+for line: 66 requested ideal_tgt: 2 	 actual_tgt: 3
+for line: 66 feature range is given. tgt_min: 1, tgt_max:3
+for line: 67 requested ideal_tgt: 7 	 actual_tgt: 3
+for line: 67 feature range is given. tgt_min: 6, tgt_max:8
+for line: 68 requested ideal_tgt: 3 	 actual_tgt: 2
+for line: 68 feature range is given. tgt_min: 2, tgt_max:4
+for line: 69 requested ideal_tgt: 10 	 actual_tgt: 5
+for line: 69 feature range is given. tgt_min: 9, tgt_max:11
+for line: 70 requested ideal_tgt: 9 	 actual_tgt: 12
+for line: 70 feature range is given. tgt_min: 8, tgt_max:10
+for line: 71 requested ideal_tgt: 3 	 actual_tgt: 2
+for line: 71 feature range is given. tgt_min: 2, tgt_max:4
+for line: 72 requested ideal_tgt: 15 	 actual_tgt: 13
+for line: 72 feature range is given. tgt_min: 14, tgt_max:16
+for line: 73 requested ideal_tgt: 0 	 actual_tgt: 2
+for line: 73 feature range is given. tgt_min: -1, tgt_max:1
+for line: 74 requested ideal_tgt: 6 	 actual_tgt: 9
+for line: 74 feature range is given. tgt_min: 5, tgt_max:7
+for line: 75 requested ideal_tgt: 9 	 actual_tgt: 15
+for line: 75 feature range is given. tgt_min: 8, tgt_max:10
+for line: 76 requested ideal_tgt: 3 	 actual_tgt: 3
+for line: 76 feature range is given. tgt_min: 2, tgt_max:4
+for line: 77 requested ideal_tgt: 5 	 actual_tgt: 5
+for line: 77 feature range is given. tgt_min: 4, tgt_max:6
+for line: 78 requested ideal_tgt: 2 	 actual_tgt: 7
+for line: 78 feature range is given. tgt_min: 1, tgt_max:3
+for line: 79 requested ideal_tgt: 16 	 actual_tgt: 10
+for line: 79 feature range is given. tgt_min: 15, tgt_max:17
+for line: 80 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 80 feature range is given. tgt_min: 11, tgt_max:13
+for line: 81 requested ideal_tgt: 7 	 actual_tgt: 8
+for line: 81 feature range is given. tgt_min: 6, tgt_max:8
+for line: 82 requested ideal_tgt: 2 	 actual_tgt: 5
+for line: 82 feature range is given. tgt_min: 1, tgt_max:3
+for line: 83 requested ideal_tgt: 12 	 actual_tgt: 9
+for line: 83 feature range is given. tgt_min: 11, tgt_max:13
+for line: 84 requested ideal_tgt: 8 	 actual_tgt: 8
+for line: 84 feature range is given. tgt_min: 7, tgt_max:9
+for line: 85 requested ideal_tgt: 5 	 actual_tgt: 4
+for line: 85 feature range is given. tgt_min: 4, tgt_max:6
+for line: 86 requested ideal_tgt: 10 	 actual_tgt: 10
+for line: 86 feature range is given. tgt_min: 9, tgt_max:11
+for line: 87 requested ideal_tgt: 3 	 actual_tgt: 3
+for line: 87 feature range is given. tgt_min: 2, tgt_max:4
+for line: 88 requested ideal_tgt: 8 	 actual_tgt: 5
+for line: 88 feature range is given. tgt_min: 7, tgt_max:9
+for line: 89 requested ideal_tgt: 6 	 actual_tgt: 4
+for line: 89 feature range is given. tgt_min: 5, tgt_max:7
+for line: 90 requested ideal_tgt: 2 	 actual_tgt: 6
+for line: 90 feature range is given. tgt_min: 1, tgt_max:3
+for line: 91 requested ideal_tgt: 11 	 actual_tgt: 7
+for line: 91 feature range is given. tgt_min: 10, tgt_max:12
+for line: 92 requested ideal_tgt: 3 	 actual_tgt: 3
+for line: 92 feature range is given. tgt_min: 2, tgt_max:4
+for line: 93 requested ideal_tgt: 3 	 actual_tgt: 3
+for line: 93 feature range is given. tgt_min: 2, tgt_max:4
+for line: 94 requested ideal_tgt: 9 	 actual_tgt: 14
+for line: 94 feature range is given. tgt_min: 8, tgt_max:10
+for line: 95 requested ideal_tgt: 8 	 actual_tgt: 11
+for line: 95 feature range is given. tgt_min: 7, tgt_max:9
+for line: 96 requested ideal_tgt: 8 	 actual_tgt: 5
+for line: 96 feature range is given. tgt_min: 7, tgt_max:9
+for line: 97 requested ideal_tgt: 1 	 actual_tgt: 6
+for line: 97 feature range is given. tgt_min: 0, tgt_max:2
+for line: 98 requested ideal_tgt: 11 	 actual_tgt: 9
+for line: 98 feature range is given. tgt_min: 10, tgt_max:12
+for line: 99 requested ideal_tgt: 4 	 actual_tgt: 5
+for line: 99 feature range is given. tgt_min: 3, tgt_max:5
+EXACT: abs_tgt_success_rate for MaxDepLength equal_or_lessthan: 59.0% on 100 sentences from: experiments/x_ablation_study/MaxDepLength/level-4_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/ratio_stats.csv.
+FUZZY: abs_tgt_success_rate for MaxDepLength equal_or_lessthan: 70.0% on 100 sentences from: experiments/x_ablation_study/MaxDepLength/level-4_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/ratio_stats.csv.
+Calcuate abs_tgt_success rate for feature: Grade
+for line: 0 requested ideal_tgt: 4 	 actual_tgt: 4
+for line: 0 feature range is given. tgt_min: 3, tgt_max:5
+for line: 1 requested ideal_tgt: 6 	 actual_tgt: 6
+for line: 1 feature range is given. tgt_min: 5, tgt_max:7
+for line: 2 requested ideal_tgt: 8 	 actual_tgt: 5
+for line: 2 feature range is given. tgt_min: 7, tgt_max:9
+for line: 3 requested ideal_tgt: 4 	 actual_tgt: 5
+for line: 3 feature range is given. tgt_min: 3, tgt_max:5
+for line: 4 requested ideal_tgt: 8 	 actual_tgt: 2
+for line: 4 feature range is given. tgt_min: 7, tgt_max:9
+for line: 5 requested ideal_tgt: 4 	 actual_tgt: 2
+for line: 5 feature range is given. tgt_min: 3, tgt_max:5
+for line: 6 requested ideal_tgt: 10 	 actual_tgt: 6
+for line: 6 feature range is given. tgt_min: 9, tgt_max:11
+for line: 7 requested ideal_tgt: 7 	 actual_tgt: 9
+for line: 7 feature range is given. tgt_min: 6, tgt_max:8
+for line: 8 requested ideal_tgt: 4 	 actual_tgt: 1
+for line: 8 feature range is given. tgt_min: 3, tgt_max:5
+for line: 9 requested ideal_tgt: 9 	 actual_tgt: 9
+for line: 9 feature range is given. tgt_min: 8, tgt_max:10
+for line: 10 requested ideal_tgt: 5 	 actual_tgt: 3
+for line: 10 feature range is given. tgt_min: 4, tgt_max:6
+for line: 11 requested ideal_tgt: 4 	 actual_tgt: 10
+for line: 11 feature range is given. tgt_min: 3, tgt_max:5
+for line: 12 requested ideal_tgt: 12 	 actual_tgt: 7
+for line: 12 feature range is given. tgt_min: 11, tgt_max:13
+for line: 13 requested ideal_tgt: 13 	 actual_tgt: 13
+for line: 13 feature range is given. tgt_min: 12, tgt_max:14
+for line: 14 requested ideal_tgt: 4 	 actual_tgt: 5
+for line: 14 feature range is given. tgt_min: 3, tgt_max:5
+for line: 15 requested ideal_tgt: 0 	 actual_tgt: 6
+for line: 15 feature range is given. tgt_min: -1, tgt_max:1
+for line: 16 requested ideal_tgt: 6 	 actual_tgt: 2
+for line: 16 feature range is given. tgt_min: 5, tgt_max:7
+for line: 17 requested ideal_tgt: 5 	 actual_tgt: 3
+for line: 17 feature range is given. tgt_min: 4, tgt_max:6
+for line: 18 requested ideal_tgt: 13 	 actual_tgt: 8
+for line: 18 feature range is given. tgt_min: 12, tgt_max:14
+for line: 19 requested ideal_tgt: 9 	 actual_tgt: 9
+for line: 19 feature range is given. tgt_min: 8, tgt_max:10
+for line: 20 requested ideal_tgt: 3 	 actual_tgt: 2
+for line: 20 feature range is given. tgt_min: 2, tgt_max:4
+for line: 21 requested ideal_tgt: 9 	 actual_tgt: 7
+for line: 21 feature range is given. tgt_min: 8, tgt_max:10
+for line: 22 requested ideal_tgt: 4 	 actual_tgt: 6
+for line: 22 feature range is given. tgt_min: 3, tgt_max:5
+for line: 23 requested ideal_tgt: 7 	 actual_tgt: 4
+for line: 23 feature range is given. tgt_min: 6, tgt_max:8
+for line: 24 requested ideal_tgt: 8 	 actual_tgt: 12
+for line: 24 feature range is given. tgt_min: 7, tgt_max:9
+for line: 25 requested ideal_tgt: 9 	 actual_tgt: 6
+for line: 25 feature range is given. tgt_min: 8, tgt_max:10
+for line: 26 requested ideal_tgt: 7 	 actual_tgt: 4
+for line: 26 feature range is given. tgt_min: 6, tgt_max:8
+for line: 27 requested ideal_tgt: 9 	 actual_tgt: 12
+for line: 27 feature range is given. tgt_min: 8, tgt_max:10
+for line: 28 requested ideal_tgt: 8 	 actual_tgt: 4
+for line: 28 feature range is given. tgt_min: 7, tgt_max:9
+for line: 29 requested ideal_tgt: 4 	 actual_tgt: 3
+for line: 29 feature range is given. tgt_min: 3, tgt_max:5
+for line: 30 requested ideal_tgt: 13 	 actual_tgt: 17
+for line: 30 feature range is given. tgt_min: 12, tgt_max:14
+for line: 31 requested ideal_tgt: 13 	 actual_tgt: 14
+for line: 31 feature range is given. tgt_min: 12, tgt_max:14
+for line: 32 requested ideal_tgt: 3 	 actual_tgt: 5
+for line: 32 feature range is given. tgt_min: 2, tgt_max:4
+for line: 33 requested ideal_tgt: 8 	 actual_tgt: 10
+for line: 33 feature range is given. tgt_min: 7, tgt_max:9
+for line: 34 requested ideal_tgt: 0 	 actual_tgt: 5
+for line: 34 feature range is given. tgt_min: -1, tgt_max:1
+for line: 35 requested ideal_tgt: 7 	 actual_tgt: 5
+for line: 35 feature range is given. tgt_min: 6, tgt_max:8
+for line: 36 requested ideal_tgt: 9 	 actual_tgt: 1
+for line: 36 feature range is given. tgt_min: 8, tgt_max:10
+for line: 37 requested ideal_tgt: 0 	 actual_tgt: 6
+for line: 37 feature range is given. tgt_min: -1, tgt_max:1
+for line: 38 requested ideal_tgt: 7 	 actual_tgt: 4
+for line: 38 feature range is given. tgt_min: 6, tgt_max:8
+for line: 39 requested ideal_tgt: 4 	 actual_tgt: 2
+for line: 39 feature range is given. tgt_min: 3, tgt_max:5
+for line: 40 requested ideal_tgt: 6 	 actual_tgt: 10
+for line: 40 feature range is given. tgt_min: 5, tgt_max:7
+for line: 41 requested ideal_tgt: 13 	 actual_tgt: 12
+for line: 41 feature range is given. tgt_min: 12, tgt_max:14
+for line: 42 requested ideal_tgt: 12 	 actual_tgt: 14
+for line: 42 feature range is given. tgt_min: 11, tgt_max:13
+for line: 43 requested ideal_tgt: 6 	 actual_tgt: 10
+for line: 43 feature range is given. tgt_min: 5, tgt_max:7
+for line: 44 requested ideal_tgt: 5 	 actual_tgt: 5
+for line: 44 feature range is given. tgt_min: 4, tgt_max:6
+for line: 45 requested ideal_tgt: 4 	 actual_tgt: 1
+for line: 45 feature range is given. tgt_min: 3, tgt_max:5
+for line: 46 requested ideal_tgt: 12 	 actual_tgt: 8
+for line: 46 feature range is given. tgt_min: 11, tgt_max:13
+for line: 47 requested ideal_tgt: 10 	 actual_tgt: 8
+for line: 47 feature range is given. tgt_min: 9, tgt_max:11
+for line: 48 requested ideal_tgt: 4 	 actual_tgt: 6
+for line: 48 feature range is given. tgt_min: 3, tgt_max:5
+for line: 49 requested ideal_tgt: 12 	 actual_tgt: 4
+for line: 49 feature range is given. tgt_min: 11, tgt_max:13
+for line: 50 requested ideal_tgt: 3 	 actual_tgt: 3
+for line: 50 feature range is given. tgt_min: 2, tgt_max:4
+for line: 51 requested ideal_tgt: 9 	 actual_tgt: 8
+for line: 51 feature range is given. tgt_min: 8, tgt_max:10
+for line: 52 requested ideal_tgt: 2 	 actual_tgt: 1
+for line: 52 feature range is given. tgt_min: 1, tgt_max:3
+for line: 53 requested ideal_tgt: 13 	 actual_tgt: 9
+for line: 53 feature range is given. tgt_min: 12, tgt_max:14
+for line: 54 requested ideal_tgt: 7 	 actual_tgt: 3
+for line: 54 feature range is given. tgt_min: 6, tgt_max:8
+for line: 55 requested ideal_tgt: 9 	 actual_tgt: 0
+for line: 55 feature range is given. tgt_min: 8, tgt_max:10
+for line: 56 requested ideal_tgt: 12 	 actual_tgt: 7
+for line: 56 feature range is given. tgt_min: 11, tgt_max:13
+for line: 57 requested ideal_tgt: 9 	 actual_tgt: 4
+for line: 57 feature range is given. tgt_min: 8, tgt_max:10
+for line: 58 requested ideal_tgt: 13 	 actual_tgt: 11
+for line: 58 feature range is given. tgt_min: 12, tgt_max:14
+for line: 59 requested ideal_tgt: 4 	 actual_tgt: 10
+for line: 59 feature range is given. tgt_min: 3, tgt_max:5
+for line: 60 requested ideal_tgt: 7 	 actual_tgt: 8
+for line: 60 feature range is given. tgt_min: 6, tgt_max:8
+for line: 61 requested ideal_tgt: 0 	 actual_tgt: 10
+for line: 61 feature range is given. tgt_min: -1, tgt_max:1
+for line: 62 requested ideal_tgt: 7 	 actual_tgt: 9
+for line: 62 feature range is given. tgt_min: 6, tgt_max:8
+for line: 63 requested ideal_tgt: 13 	 actual_tgt: 7
+for line: 63 feature range is given. tgt_min: 12, tgt_max:14
+for line: 64 requested ideal_tgt: 8 	 actual_tgt: 8
+for line: 64 feature range is given. tgt_min: 7, tgt_max:9
+for line: 65 requested ideal_tgt: 4 	 actual_tgt: 5
+for line: 65 feature range is given. tgt_min: 3, tgt_max:5
+for line: 66 requested ideal_tgt: 10 	 actual_tgt: 9
+for line: 66 feature range is given. tgt_min: 9, tgt_max:11
+for line: 67 requested ideal_tgt: 10 	 actual_tgt: 6
+for line: 67 feature range is given. tgt_min: 9, tgt_max:11
+for line: 68 requested ideal_tgt: 11 	 actual_tgt: 9
+for line: 68 feature range is given. tgt_min: 10, tgt_max:12
+for line: 69 requested ideal_tgt: 6 	 actual_tgt: 8
+for line: 69 feature range is given. tgt_min: 5, tgt_max:7
+for line: 70 requested ideal_tgt: 8 	 actual_tgt: 6
+for line: 70 feature range is given. tgt_min: 7, tgt_max:9
+for line: 71 requested ideal_tgt: 7 	 actual_tgt: 5
+for line: 71 feature range is given. tgt_min: 6, tgt_max:8
+for line: 72 requested ideal_tgt: 7 	 actual_tgt: 7
+for line: 72 feature range is given. tgt_min: 6, tgt_max:8
+for line: 73 requested ideal_tgt: 13 	 actual_tgt: 2
+for line: 73 feature range is given. tgt_min: 12, tgt_max:14
+for line: 74 requested ideal_tgt: 6 	 actual_tgt: 4
+for line: 74 feature range is given. tgt_min: 5, tgt_max:7
+for line: 75 requested ideal_tgt: 8 	 actual_tgt: 4
+for line: 75 feature range is given. tgt_min: 7, tgt_max:9
+for line: 76 requested ideal_tgt: 6 	 actual_tgt: 4
+for line: 76 feature range is given. tgt_min: 5, tgt_max:7
+for line: 77 requested ideal_tgt: 5 	 actual_tgt: 7
+for line: 77 feature range is given. tgt_min: 4, tgt_max:6
+for line: 78 requested ideal_tgt: 2 	 actual_tgt: 4
+for line: 78 feature range is given. tgt_min: 1, tgt_max:3
+for line: 79 requested ideal_tgt: 9 	 actual_tgt: 8
+for line: 79 feature range is given. tgt_min: 8, tgt_max:10
+for line: 80 requested ideal_tgt: 8 	 actual_tgt: 5
+for line: 80 feature range is given. tgt_min: 7, tgt_max:9
+for line: 81 requested ideal_tgt: 7 	 actual_tgt: 3
+for line: 81 feature range is given. tgt_min: 6, tgt_max:8
+for line: 82 requested ideal_tgt: 0 	 actual_tgt: 8
+for line: 82 feature range is given. tgt_min: -1, tgt_max:1
+for line: 83 requested ideal_tgt: 5 	 actual_tgt: 6
+for line: 83 feature range is given. tgt_min: 4, tgt_max:6
+for line: 84 requested ideal_tgt: 5 	 actual_tgt: 5
+for line: 84 feature range is given. tgt_min: 4, tgt_max:6
+for line: 85 requested ideal_tgt: 6 	 actual_tgt: 6
+for line: 85 feature range is given. tgt_min: 5, tgt_max:7
+for line: 86 requested ideal_tgt: 8 	 actual_tgt: 10
+for line: 86 feature range is given. tgt_min: 7, tgt_max:9
+for line: 87 requested ideal_tgt: 4 	 actual_tgt: 2
+for line: 87 feature range is given. tgt_min: 3, tgt_max:5
+for line: 88 requested ideal_tgt: 7 	 actual_tgt: 2
+for line: 88 feature range is given. tgt_min: 6, tgt_max:8
+for line: 89 requested ideal_tgt: 12 	 actual_tgt: 9
+for line: 89 feature range is given. tgt_min: 11, tgt_max:13
+for line: 90 requested ideal_tgt: 5 	 actual_tgt: 4
+for line: 90 feature range is given. tgt_min: 4, tgt_max:6
+for line: 91 requested ideal_tgt: 13 	 actual_tgt: 10
+for line: 91 feature range is given. tgt_min: 12, tgt_max:14
+for line: 92 requested ideal_tgt: 6 	 actual_tgt: 4
+for line: 92 feature range is given. tgt_min: 5, tgt_max:7
+for line: 93 requested ideal_tgt: 13 	 actual_tgt: 9
+for line: 93 feature range is given. tgt_min: 12, tgt_max:14
+for line: 94 requested ideal_tgt: 11 	 actual_tgt: 10
+for line: 94 feature range is given. tgt_min: 10, tgt_max:12
+for line: 95 requested ideal_tgt: 6 	 actual_tgt: 5
+for line: 95 feature range is given. tgt_min: 5, tgt_max:7
+for line: 96 requested ideal_tgt: 7 	 actual_tgt: 5
+for line: 96 feature range is given. tgt_min: 6, tgt_max:8
+for line: 97 requested ideal_tgt: 9 	 actual_tgt: 8
+for line: 97 feature range is given. tgt_min: 8, tgt_max:10
+for line: 98 requested ideal_tgt: 0 	 actual_tgt: 6
+for line: 98 feature range is given. tgt_min: -1, tgt_max:1
+for line: 99 requested ideal_tgt: 11 	 actual_tgt: 10
+for line: 99 feature range is given. tgt_min: 10, tgt_max:12
+EXACT: abs_tgt_success_rate for Grade equal_or_lessthan: 70.0% on 100 sentences from: experiments/x_ablation_study/MaxDepLength/level-4_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/ratio_stats.csv.
+FUZZY: abs_tgt_success_rate for Grade equal_or_lessthan: 76.0% on 100 sentences from: experiments/x_ablation_study/MaxDepLength/level-4_prompt-gold-filtered_wiki.valid_v1.1.src-100_gpt-4o-2024-05-13_examples_0_temp_0_chain_False/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/ratio_stats.csv.

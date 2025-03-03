@@ -1,0 +1,94 @@
+Level,des,system_prompt,user_prompt,output_prompt,cot_reason,cot_reason_empty
+0,free style,,Generate a sentence using a total of no more than {tgt_ideal_DiffWords} 'difficult' words,,,
+0.1,free style,"You are an expert in controllable text generation, skilled in crafting text that meets specified constraints.
+Your task is to generate a sentence while strictly including no more than a specified number of 'difficult' words.
+Here, ’Difficult' words are defined as those not found in the Dale-Chall list, which contains about 3000 words typically understood by 4th-grade students in the U.S.
+
+Ensure each sentence rigorously conforms to the specified constraints, utilizing your extensive knowledge in linguistics, without fabricating any responses.
+Always output all Rewritten sentence(s) within one curly brace.",Generate a sentence using a total of no more than {tgt_ideal_DiffWords} 'difficult' words.,,,
+1,,,"Input Text: {input_src}
+
+Rewrite the Input text to maintain its original meaning, while strictly adhering to a total of no more than {tgt_ideal_DiffWords} 'difficult' words",,,
+2,,"You are an expert in text adaptation, skilled at meticulously rewriting texts to align with requested linguistic features while preserving the original meaning. Your task is to rewrite the provided Input Text to maintain its original meaning while strictly including no more than a specified number of 'difficult' words. 
+Here, ’Difficult' words are defined as those not found in the Dale-Chall list, which contains about 3000 words typically understood by 4th-grade students in the U.S. 
+
+If the rewrite requires multiple sentences, ensure the total includes no more than the specified number of 'difficult' words. 
+Phrasing or structure modifications are permissible, as long as the essential meaning is retained. 
+Ensure each sentence rigorously conforms to the specified constraints, utilizing your extensive knowledge in linguistics, without fabricating any responses.
+Always output all Rewritten sentence(s) within curly braces.
+","Input Text: {input_src}
+
+#############
+
+# OBJECTIVE #
+Please rewrite the input text to maintain its original meaning, while strictly adhering to a total of no more than {tgt_ideal_DiffWords} 'difficult' words.
+
+#############
+
+# RESPONSE #
+Always output all Rewritten sentence(s) within one curly brace.
+
+
+",,,
+2.1,,,"Input Text: {input_src}
+
+Rewrite the Input text to maintain its original meaning, while strictly adhering to a total of no more than {tgt_ideal_DiffWords} 'difficult' words",,"Feedback:
+Unfortunately, rewritten sentence(s) do not align with the requested total number of 'difficult' words.
+
+
+Please rewrite the input text to maintain its original meaning, while strictly adhering to a total of no more than {tgt_ideal_DiffWords} 'difficult' words.
+
+Always output all Rewritten sentence(s) within curly braces.",
+3,basic prompt,,"Input Text: {input_src}
+
+These are the 'difficult' words in the input text: {print_difficult_words_list}, totalling {src_DiffWords} 'difficult' words.
+The input text currently holds total of {src_DiffWords} 'difficult' words.
+
+Rewrite the Input text to maintain its original meaning, while strictly adhering to a total of no more than {tgt_ideal_DiffWords} 'difficult' words
+
+Always output all Rewritten sentence(s) within curly braces.","Rewritten sentence(s): {{output_text}}
+","Feedback:
+Summary of compliance with rewriting criteria:
+Rewritten sentence(s): {{output_text}}
+Identified 'difficult' words in generated Rewritten sentence(s) = len({print_difficult_words_list}) = {src_DiffWords}.
+The rewritten sentence(s) currently hold total of {src_DiffWords} 'difficult' words.
+Unfortunately, rewritten sentence(s) do not align with the requested total 'difficult' words of {tgt_ideal_DiffWords}.
+
+
+Please rewrite the input text to maintain its original meaning, while strictly adhering to a total of no more than {tgt_ideal_DiffWords} 'difficult' words.
+
+Always output all Rewritten sentence(s) within curly braces.",
+4,,,"Input Text: {input_src}
+
+These are the 'difficult' words in the input text: {print_difficult_words_list}, totalling {src_DiffWords} 'difficult' words.
+The input text currently holds total of {src_DiffWords} 'difficult' words.
+
+Rewrite the Input text to maintain its original meaning, while strictly adhering to a total of no more than {tgt_ideal_DiffWords} 'difficult' words
+
+Please note, that if the initial rewrite does not meet these specific requirements, you are encouraged to modify and regenerate the output until the criteria are satisfactorily met.
+Let's think through this step by step. Solve each step and explain how you arrived at your answer.
+Always output all the rewritten sentence(s) within one curly brace.","Summary of compliance with rewriting criteria:
+These are the 'difficult' words in the Rewritten sentence: {print_difficult_words_list}.
+The rewritten sentence contains {tgt_ideal_DiffWords} 'difficult' words, adhering to the requirement of containing no more than {tgt_ideal_DiffWords} 'difficult' words.
+
+
+Rewritten sentence(s): {{output_text}}
+","Feedback:
+Summary of compliance with rewriting criteria:
+Rewritten sentence(s): {{output_text}}
+Identified 'difficult' words in generated Rewritten sentence(s) = len({print_difficult_words_list}) = {src_DiffWords}.
+The rewritten sentence(s) currently hold total of {src_DiffWords} 'difficult' words.
+Unfortunately, rewritten sentence(s) do not align with the requested total 'difficult' words of {tgt_ideal_DiffWords}.
+
+
+Please rewrite the input text to maintain its original meaning, while strictly adhering to a total of no more than {tgt_ideal_DiffWords} 'difficult' words.
+
+Please note, that if the initial rewrite does not meet these specific requirements, you are encouraged to modify and regenerate the output until the criteria are satisfactorily met.
+Always output all Rewritten sentence(s) within curly braces.","Feedback:
+Summary of compliance with rewriting criteria:
+Unfortunately, no rewritten sentence(s) were provided, resulting in an incomplete response.
+
+Please rewrite the input text to maintain its original meaning, while strictly adhering to a total of no more than {tgt_ideal_DiffWords} 'difficult' words.
+
+Please note, that if the initial rewrite does not meet these specific requirements, you are encouraged to modify and regenerate the output until the criteria are satisfactorily met. 
+Always output all Rewritten sentence(s) within curly braces."

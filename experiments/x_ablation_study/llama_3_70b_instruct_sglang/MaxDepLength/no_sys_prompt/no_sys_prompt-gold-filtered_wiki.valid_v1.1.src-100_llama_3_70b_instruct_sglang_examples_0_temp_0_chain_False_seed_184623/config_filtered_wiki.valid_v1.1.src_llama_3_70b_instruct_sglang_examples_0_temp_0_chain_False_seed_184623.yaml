@@ -1,0 +1,48 @@
+experiment_id: 1
+path_to_output_generation: "experiments/x_ablation_study/llama_3_70b_instruct_sglang/MaxDepLength/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_184623"
+
+# for feature based evaluation script
+lang: en
+analyze_features: False
+overwrite: True
+
+# for prompt experiment
+model: "http://127.0.0.1:30005/v1"
+temperature: 0
+max_tokens: 2000
+openai_key_name: "EMPTY"
+prompt_csv: "experiments/x_ablation_study/Prompts - MaxDepLength.csv"
+system_prompt: 1
+user_prompt: 1
+output_prompt: 1
+cot_reasoning_user_prompt: 1
+number_of_examples_to_include_in_prompt: 0
+# train_v3_500_complex_eliminated
+example_val_dataset_src: "data_filtered/en/wikilarge_train_val_test/train_v3_500_complex_eliminated-duplicated_removed_from_v1v2_val_and_test/filtered_wiki.train_v3.src"
+example_val_dataset_tgt: "data_filtered/en/wikilarge_train_val_test/train_v3_500_complex_eliminated-duplicated_removed_from_v1v2_val_and_test/filtered_wiki.train_v3.tgt"
+example_val_dataset_feature_values: "data_filtered/en/wikilarge_train_val_test/train_v3_500_complex_eliminated-duplicated_removed_from_v1v2_val_and_test/grade_ratio_stats_filtered_wiki_train_v3_data.csv"
+
+#Test dataset for prompt experiment
+path_to_input_test_data: "data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.src"
+path_to_test_gold_ref_data: "data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.tgt"
+number_of_lines_to_test: 100
+predicted_ratio_file_path: "xxx/data_filtered_regression_model/linear_regression/2_maxdepdepth/wikilarge/valid/ratio_stats_with_LR_predicted_ratio.csv"
+feature_names: "MaxDepLength"
+feature_range: "1"
+chain_of_thought: False
+calibration: False
+
+
+# Example command:
+# python openai_preprocess_finetune_generate.py --config experiments/data_filtered_regression_model/linear_regression/2_maxdepdepth/wikilarge/valid/gpt4_zs/prompt_1_temp_0/prompt_based_generation_wc_only.yaml \
+# --requested_dependency_depth -1 \
+# --requested_dependency_length -1 \
+# --requested_difficult_words -1 \
+# --requested_length -1 \
+# --requested_levenshtein -1 \
+# --requested_word_count -1 \
+# --predicted_ratio_file_given \
+# --do_eval > experiments/data_filtered_regression_model/linear_regression/2_maxdepdepth/wikilarge/valid/gpt4_zs/prompt_1_temp_0/logs
+gold_ratio_file_given: "data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/grade_ratio_stats_filtered_wiki_val_v1.1_data.csv"
+line_to_skip: -1
+seed: 184623

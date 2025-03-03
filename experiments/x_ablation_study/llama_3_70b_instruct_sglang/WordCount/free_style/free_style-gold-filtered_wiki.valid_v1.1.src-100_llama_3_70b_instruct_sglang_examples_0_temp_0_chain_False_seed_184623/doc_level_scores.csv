@@ -1,0 +1,2 @@
+doc_level_difficult_words,8,doc_level_FRE,74.39,doc_level_FKGL,6.3,doc_level_CLI,7.3,doc_level_DCR,0.83,doc_level_ARI,6.3,doc_level_SI,8.9,doc_level_LWF,6.5,doc_level_GF,5.58,doc_level_TS,6th and 7th grade,doc_level_TS_score,7.0,Input_file_path,experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/free_style/free_style-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_184623/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/output.txt
+

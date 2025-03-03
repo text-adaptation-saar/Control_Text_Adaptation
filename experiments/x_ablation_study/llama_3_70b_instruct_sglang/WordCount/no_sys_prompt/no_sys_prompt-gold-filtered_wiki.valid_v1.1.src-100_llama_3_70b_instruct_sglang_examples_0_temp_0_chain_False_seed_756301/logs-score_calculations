@@ -1,0 +1,1531 @@
+Mapped requested feature params with the values and requested_absolute_value is: False
+Mapped requested feature params: {'MaxDepDepth': -1.0, 'MaxDepLength': -1.0, 'DiffWords': -1.0, 'WordCount': -1.0, 'Length': -1.0, 'Leven': -1.0, 'Grade': -1.0}
+Start calculate scores!
+predicted_ratio_file_given is: False
+... Generating actual feature values from the model generated output sentences. Here we are comparing test input sentences vs model generated output sentences for the requested control features: dependency_depth, dependency_length, difficult_words, word_count 
+hit difficult_words
+Text:The Province of Bari is a province located in Apulia region. Its capital city is Bari in the southern part of Italy.
+Absolute textstat.difficult_words(_tgt): 4, 
+hit difficult_words
+Text:Quercamps is a commune located in Pas-de-Calais department of France. It is situated in the Nord-Pas-de-Calais region of France.
+Absolute textstat.difficult_words(_tgt): 6, 
+hit difficult_words
+Text:Churchill's military prowess in quelling the Monmouth Rebellion in 1685 solidified James's grip on the English throne. Three years later, Churchill betrayed his Catholic patron, defecting to William of Orange, a Protestant leader.
+Absolute textstat.difficult_words(_tgt): 10, 
+hit difficult_words
+Text:The primary occupations of the area were farming and brickmaking.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:It is a part of the Trans-Karakoram Tract, which is also claimed by the Indian government authorities. This region is claimed by India, being a part of the Trans-Karakoram Tract, a disputed territory.
+Absolute textstat.difficult_words(_tgt): 6, 
+hit difficult_words
+Text:Mar del Plata is an Argentine coastal city situated 400 kilometers south of Buenos Aires city center. The city of Mar del Plata is located on the Atlantic Ocean's coast in Argentina's southeastern region.
+Absolute textstat.difficult_words(_tgt): 9, 
+hit difficult_words
+Text:Coconut flavor is not always a necessary component in the frosting, just like the cakes sometimes.
+Absolute textstat.difficult_words(_tgt): 4, 
+hit difficult_words
+Text:Motacilla alba is nominate. Motacilla a alba is. White Wagtail has subspecies. Motacilla alba is species.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:Mercury has a freezing point of -38.83 degrees Celsius and a very broad liquid state range. Its boiling point is 356.73 degrees Celsius, making it unique among all other metals naturally.
+Absolute textstat.difficult_words(_tgt): 8, 
+hit difficult_words
+Text:Charles John Huffam Dickens was the most popular English novelist of the Victorian era, renowned for his literary mastery always.
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:They became the style we know today plausibly in ancient Athens around 500 B.C. In those days, it began to be written down in a formal manner.
+Absolute textstat.difficult_words(_tgt): 4, 
+hit difficult_words
+Text:Swilling, a former Confederate soldier, wanted to name the city Stonewall. He chose this name to honor General Stonewall Jackson's great legacy.
+Absolute textstat.difficult_words(_tgt): 6, 
+hit difficult_words
+Text:Mykolaiv serves as the administrative center of Mykolaiv Oblast, a province, and also of Mykolaivskyi and Zhovtnevyi raions within the oblast itself.
+Absolute textstat.difficult_words(_tgt): 6, 
+hit difficult_words
+Text:Dominant champion Holmes defended WBC belt seventeen times until December 11, 1983 voluntarily. He relinquished title for International Boxing Federation championship on that specific date instead.
+Absolute textstat.difficult_words(_tgt): 9, 
+hit difficult_words
+Text:Monash Freeway links Melbourne's CBD to southeastern suburbs directly. The entire freeway stretch bears the official designation always.
+Absolute textstat.difficult_words(_tgt): 8, 
+hit difficult_words
+Text:ZX Spectrum is home computer. Released in United Kingdom 1982. Sinclair Research Ltd made it.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:A celebrity chef is a skilled cook who has gained widespread recognition and fame in the culinary industry globally today. A well-known kitchen chef becomes famous through television shows, cookbooks, and restaurants, earning widespread public recognition and acclaim always.
+Absolute textstat.difficult_words(_tgt): 13, 
+hit difficult_words
+Text:The Cassini probe discovered it in 2007, a significant finding in space exploration history. It was named in 2008 after Kraken, a legendary sea monster of mythology.
+Absolute textstat.difficult_words(_tgt): 9, 
+hit difficult_words
+Text:The court hears appeals from the Landesarbeitsgerichte, which are the superior courts reviewing decisions of the Arbeitsgerichte, the inferior courts handling labour disputes in the first instance.
+Absolute textstat.difficult_words(_tgt): 10, 
+hit difficult_words
+Text:IMI University Private Centre Swiss University Three Campuses Luzern Located Teaching Tourism Hospitality Events Management Culinary Arts Switzerland
+Absolute textstat.difficult_words(_tgt): 10, 
+hit difficult_words
+Text:Jessica Phyllis Lange born April 20 1949 American actress. She is stage and screen actress of America.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:Henry Morgenthau, born April 26, 1856, was a businessman and United States ambassador with notable diplomatic assignments abroad.
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:On July 1, 1933, London County Council Tramways transferred to LPTB authority. London Passenger Transport Board was commonly referred to as London Transport entity.
+Absolute textstat.difficult_words(_tgt): 8, 
+hit difficult_words
+Text:On May 13, 2006, Truthout.org reporter Jason Leopold reported that Karl Rove, White House Deputy Chief of Staff, had been indicted in the Valerie Plame affair investigation, sparking controversy and widespread media attention.
+Absolute textstat.difficult_words(_tgt): 11, 
+hit difficult_words
+Text:Before 1905, certain Zionist leaders genuinely considered proposals for Jewish homelands in alternative locations besides Palestine itself.
+Absolute textstat.difficult_words(_tgt): 10, 
+hit difficult_words
+Text:Aside from the Crown, the Governor of New South Wales office is oldest. This constitutional office in Australia is the oldest, aside from the Crown.
+Absolute textstat.difficult_words(_tgt): 4, 
+hit difficult_words
+Text:Broadcast from the same building is 105.7 The River radio station network. It is also networked to local stations across four Australian states nationwide.
+Absolute textstat.difficult_words(_tgt): 6, 
+hit difficult_words
+Text:The inhabitants of the region were severely affected by the earthquake disaster.
+Absolute textstat.difficult_words(_tgt): 6, 
+hit difficult_words
+Text:Family Jewels is a two-disc compilation DVD featuring AC/DC's music videos and live performance clips. The DVD showcases the hard rock band's promotional videos and other visual content masterfully.
+Absolute textstat.difficult_words(_tgt): 9, 
+hit difficult_words
+Text:Song Chong-Gug born February 20 1979. He is Korean football player midfielder. He plays for Al-Shabab Riyadh team.
+Absolute textstat.difficult_words(_tgt): 2, 
+hit difficult_words
+Text:Viking raiding expeditions operated separately from regular trading expeditions simultaneously always. Regular trading expeditions coexisted peacefully with Viking raiding expeditions always too.
+Absolute textstat.difficult_words(_tgt): 9, 
+hit difficult_words
+Text:Today Teotihuacan is one of Mexico's most popular archaeological tourist attractions worldwide.
+Absolute textstat.difficult_words(_tgt): 6, 
+hit difficult_words
+Text:Matilda of Flanders, born circa 1031, married William the Conqueror, becoming Queen consort of England subsequently. She died on November 2, 1083, leaving behind a legacy as a prominent medieval queen consort.
+Absolute textstat.difficult_words(_tgt): 10, 
+hit difficult_words
+Text:Opinion polls globally have explored public sentiment regarding the controversial and complex issue of abortion extensively worldwide. Public opinion surveys internationally have gauged attitudes towards the sensitive and divisive topic of abortion thoroughly always.
+Absolute textstat.difficult_words(_tgt): 18, 
+hit difficult_words
+Text:Alice is American. Film produced Walt. Disney based primarily. Lewis Carroll's Adventures. Wonderland few additional. Elements Looking-Glass.
+Absolute textstat.difficult_words(_tgt): 10, 
+hit difficult_words
+Text:It was ancient capital of Cerdanya in antiquity's early periods. Being replaced by Hix in Middle Ages' medieval transition times.
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:Valderrama played for Colombia. He was team member. Colombia team was national. Team played in 1990s.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:Sisters, despite being perceived normal, are known Ones.
+Absolute textstat.difficult_words(_tgt): 4, 
+hit difficult_words
+Text:Approximately forty percent of Earth's surface is underlain by continental crust material.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:The Province of Pavia is a province located in Lombardy region. It is situated in the northern part of Italy country officially.
+Absolute textstat.difficult_words(_tgt): 6, 
+hit difficult_words
+Text:Corinne Bailey Rae covers song. Munich originally by Editors.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:Castro and Soviet premier Nikita Khrushchev mutually agreed to secretly deploy strategic nuclear missiles in Cuba without public knowledge.
+Absolute textstat.difficult_words(_tgt): 12, 
+hit difficult_words
+Text:Austro-Bavarian dialects of German differ significantly from Standard German, making it challenging for native speakers to adopt standard pronunciation.
+Absolute textstat.difficult_words(_tgt): 11, 
+hit difficult_words
+Text:Clipperton Island was administered from French Polynesia until the year 2007. Although not integral, it was administered from French Polynesia until then.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:It orbits within the stable Lagrangian point of the Sun Jupiter system.
+Absolute textstat.difficult_words(_tgt): 4, 
+hit difficult_words
+Text:Jackie resides in New South Wales region. She lives near small town of Braidwood area. Her home is at Araluen location specifically.
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:The phage attaches to the bacterium's outer membrane and injects its genetic material into the cell. The empty phage shell remains attached to the bacterium after the genetic material is injected.
+Absolute textstat.difficult_words(_tgt): 11, 
+hit difficult_words
+Text:Mossman Gorge, a popular attraction, is situated within Daintree National Park to the west. This beautiful attraction is located west of town within Daintree National Park itself.
+Absolute textstat.difficult_words(_tgt): 8, 
+hit difficult_words
+Text:The location was initially mentioned in a 1233 deed of donation by King.
+Absolute textstat.difficult_words(_tgt): 4, 
+hit difficult_words
+Text:He played baseball as second baseman for provincial champion Rosedales team in Manitoba province successfully.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:Fishermen use plastic bait to attract fish easily. Recently, they also use electronic lures with success.
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:Carl, Jr.'s extravagant spending habits ultimately alarmed company stockholders, who were already concerned about the company's financial stability.
+Absolute textstat.difficult_words(_tgt): 8, 
+hit difficult_words
+Text:Anita is a small city located in Cass County Iowa. It is situated in the state of Iowa in USA.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:Lepisma saccharina, frequently referred to as silverfish, fishmoths, carpet sharks, or paramites, are small wingless insects indeed. They belong to the order Thysanura, characterized by their distinctive physical features and behavioral traits always.
+Absolute textstat.difficult_words(_tgt): 14, 
+hit difficult_words
+Text:This process utilizes a messenger RNA sequence as a template to guide protein synthesis of amino acid chains.
+Absolute textstat.difficult_words(_tgt): 6, 
+hit difficult_words
+Text:Namak Lake Lies east Qom city
+Absolute textstat.difficult_words(_tgt): 1, 
+hit difficult_words
+Text:The television program is set in Seattle, Washington, a city located in the Pacific Northwest region of the United States. The filming of the program takes place in Vancouver, British Columbia, at Lions Gate Studios in Canada primarily.
+Absolute textstat.difficult_words(_tgt): 15, 
+hit difficult_words
+Text:After his military discharge, Robinson briefly returned to his former football team, the Los Angeles Bulldogs, for a short stint.
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:Established in the 17th century, the trading post served the British East India Company, gradually expanding to encompass western and central India, plus parts of post-partition Pakistan and the Arabian Peninsula.
+Absolute textstat.difficult_words(_tgt): 12, 
+hit difficult_words
+Text:Uncle Tom's Cabin has had a profound historical impact. Few other novels have equaled its significant influence ever.
+Absolute textstat.difficult_words(_tgt): 6, 
+hit difficult_words
+Text:The region's fertile soil enabled farmers to produce abundant harvests of corn, oats, and wheat crops. Farmers in the region cultivated cereal crops, including corn, oats, and wheat, with great success.
+Absolute textstat.difficult_words(_tgt): 11, 
+hit difficult_words
+Text:Today, it manifests humorously. Mainly, carnival. Especially, Rhineland. And, sports.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:Fossil fuels, including coal and petroleum, contain high percentages of carbon content. Natural gas is also a fossil fuel with high carbon percentages present.
+Absolute textstat.difficult_words(_tgt): 9, 
+hit difficult_words
+Text:In physiology, a signal or biopotential is an electric quantity, specifically voltage, current, or field strength, generated by chemical reactions involving charged ions and their movements.
+Absolute textstat.difficult_words(_tgt): 12, 
+hit difficult_words
+Text:The metropolitan counties are a type of administrative division in England only. These counties are a type of administrative division in England specifically created.
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:Miles won the British Championship only once in nineteen eighty-two. The event was held in Torquay that particular year only.
+Absolute textstat.difficult_words(_tgt): 2, 
+hit difficult_words
+Text:The Central Asian Cooperation Organization comprises four member states namely.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:Multiple forms of popularity exist, and various methods to achieve widespread recognition are available. Gaining widespread acclaim can be accomplished through numerous strategies and tactics, it is known.
+Absolute textstat.difficult_words(_tgt): 14, 
+hit difficult_words
+Text:George Smoot held primary accountability for quantifying minute fluctuations in cosmic radiation's thermal temperature readings.
+Absolute textstat.difficult_words(_tgt): 9, 
+hit difficult_words
+Text:In the vicinity of Qaqortoq are situated the ancient Hvalsey Norse settlement remains. The Hvalsey ruins are the most prominent and well-preserved Norse ruins in Greenland.
+Absolute textstat.difficult_words(_tgt): 9, 
+hit difficult_words
+Text:Much later, approximately 2 to 3 million years ago, South America connected with North America physically. The Isthmus of Panama formed, enabling a biotic exchange between the two continents naturally afterwards.
+Absolute textstat.difficult_words(_tgt): 10, 
+hit difficult_words
+Text:Gauchos skillfully employ boleadoras to catch fleeing cattle quickly. Gauchos expertly utilize boleadoras to capture running game animals.
+Absolute textstat.difficult_words(_tgt): 9, 
+hit difficult_words
+Text:Kenneth Wayne Dryden, a Canadian politician, lawyer, and businessman, was born August. He is a former NHL goaltender and author, also a politician.
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:Two thousand eighteen will be common. Year starting Monday. Gregorian calendar.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:In a few years Zvartnots-AAL would emerge as a strong contender for the Premier League title.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:No Way Out 2003 was the fourth annual pay-per-view event produced by World Wrestling Entertainment. This event was the fifth overall No Way Out event in the company's history.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:Ibaraki Prefecture is a prefecture located in Japan's KantÅ region. It is situated on HonshÅ island in the eastern area.
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:The list of finite simple groups consists of eighteen countable infinite families. Plus twenty-six sporadic groups do not follow a systematic pattern always.
+Absolute textstat.difficult_words(_tgt): 8, 
+hit difficult_words
+Text:Bertsch studied History of Art at TU Berlin. He set up Germany's first design management office.
+Absolute textstat.difficult_words(_tgt): 4, 
+hit difficult_words
+Text:It is a subregion of Oceania extending from the western side of the West Pacific Ocean region. North and northeast of Australia, it borders the Arafura Sea and surrounding island nations nearby.
+Absolute textstat.difficult_words(_tgt): 11, 
+hit difficult_words
+Text:Michael Landon was an American actor, writer, director, and producer of three decades. He starred in three popular NBC TV series that spanned three decades long.
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:Maubec is a commune situated in the Vaucluse department of Provence-Alpes-Côte d'Azur region in southeastern France exactly. The commune of Maubec is located in the Vaucluse department of southeastern France's Provence-Alpes-Côte d'Azur region officially.
+Absolute textstat.difficult_words(_tgt): 9, 
+hit difficult_words
+Text:In 1929, he played with Irving Aaronson's orchestra. He was exposed to symphonic music during that time. Later, he incorporated it into his arrangements skillfully.
+Absolute textstat.difficult_words(_tgt): 9, 
+hit difficult_words
+Text:Lisa Anne Loeb, born on March 11, 1968, is a renowned American singer-songwriter musician. She is also a talented actress, known for her impressive performances on screen.
+Absolute textstat.difficult_words(_tgt): 6, 
+hit difficult_words
+Text:Tyler's report revealed the loading gauge of the line was small. The discovery led to an unusual alteration of the system.
+Absolute textstat.difficult_words(_tgt): 6, 
+hit difficult_words
+Text:Ten states have a Hancock County named in his distinguished honor always. Other places named after him include Hancock Massachusetts and Michigan too.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:However, one member from the winning tribe will be eliminated before the reward distribution takes place.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:New Cordell is a city located in Oklahoma's Washita County. It is situated in the United States of America officially.
+Absolute textstat.difficult_words(_tgt): 4, 
+hit difficult_words
+Text:Giuseppe Sabadini, born March 26, 1949, in Sagrado, is an Italian coach. He is a former football player and currently a football coach now.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:Teams that are embolded are currently competing in the Formula One championship season.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:Rajya Sabha holds its first sitting in nineteen fifty-two. Upper house of Indian Parliament meets for the first time.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:The novel takes place in the twenty-first century when mankind has colonized every habitable planet and moon under UN.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:Badshah Munir Bukhari has extensively worked on the language family.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:The domesticated chicken is a fowl species. Gallus gallus domesticus is a domesticated bird.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:Irmo was officially chartered on December 24, 1890, in response to the railroad's opening in the region. The Columbia, Newberry and Laurens Railroad's opening prompted Irmo's charter on Christmas Eve of that year.
+Absolute textstat.difficult_words(_tgt): 13, 
+hit difficult_words
+Text:In 1948, the theatre was renamed Tyl Theatre after Czech dramatist J.K. Tyl. In 1990, the theatre regained its original name after eight-year reconstruction project.
+Absolute textstat.difficult_words(_tgt): 6, 
+hit difficult_words
+Text:Luigi Apolloni, born May 2, 1967, in Frascati, is an Italian footballer. He is a retired football player and currently a manager professionally now.
+Absolute textstat.difficult_words(_tgt): 8, 
+hit difficult_words
+Text:Trinidad team National football Soca Warriors National team Trinidad Tobago Football Federation
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:Sauvé had a successful junior career with the Quebec Major Junior Hockey League's Laval Titan team. He was drafted by the NHL's Buffalo Sabres in the 1st round, 17th overall.
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:Tolstoy and Dostoevsky were titanic literary figures of unparalleled influence and enduring impact. Many literary critics have proclaimed one or the other as the greatest novelist.
+Absolute textstat.difficult_words(_tgt): 13, 
+Actual feature values saved in: experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/absolute_output_maxdepdepth_-1.0_maxdeplength_-1.0_diffwordscount_-1.0_avgwordcount_-1.0_.csv
+... Requested dependency_depth is -1.0 and actual obtained average value is: 4.87 
+... Requested dependency_length is -1.0 and actual obtained average value is: 7.35 
+... Requested difficult_words is -1.0 and actual obtained average value is: 7.12 
+... Requested word_count is -1.0 and actual obtained average value is: 13.191666666666665 
+Finished actual feature value calculation!
+... Generating actual feature values from the model generated output sentences. Here we are comparing test input sentences vs model generated output sentences for the requested control features: dependency_depth, dependency_length, difficult_words, word_count 
+hit difficult_words
+Text:The Province of Bari is a province in the Apulia (or Puglia) region of Italy. Its capital is the city of Bari.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:Quercamps is a commune in the Pas-de-Calais department in the Nord-Pas-de-Calais region of France.
+Absolute textstat.difficult_words(_tgt): 4, 
+hit difficult_words
+Text:Churchill's role in defeating the Monmouth Rebellion in 1685 helped secure James on the throne, yet just three years later he abandoned his Catholic patron for the Protestant Dutchman, William of Orange.
+Absolute textstat.difficult_words(_tgt): 9, 
+hit difficult_words
+Text:Its main industries were farming and brick-making.
+Absolute textstat.difficult_words(_tgt): 1, 
+hit difficult_words
+Text:It is a part of the Trans-Karakoram Tract and is also claimed by India.
+Absolute textstat.difficult_words(_tgt): 2, 
+hit difficult_words
+Text:Mar del Plata is an Argentine city located on the coast of the Atlantic Ocean, 400 k south of Buenos Aires.
+Absolute textstat.difficult_words(_tgt): 4, 
+hit difficult_words
+Text:Like the cakes, coconut flavor is not always a must in the frosting.
+Absolute textstat.difficult_words(_tgt): 2, 
+hit difficult_words
+Text:For example, Motacilla alba alba (often abbreviated Motacilla a. alba) is the nominate subspecies of the White Wagtail (Motacilla alba).
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:With a freezing point of â '38.83 Â C and boiling point of 356.73 Â C, mercury has one of the broadest ranges of its liquid state of any metal.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:Charles John Huffam Dickens (; 7 February 1812 - 9 June 1870) was the most popular English novelist of the Victorian era, and he remains popular, responsible for some of English literature's most iconic characters.
+Absolute textstat.difficult_words(_tgt): 10, 
+hit difficult_words
+Text:They become the style we know today plausibly in ancient Athene in the 6th century B.C./O. In those days it was began to write them down.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:Swilling, a former Confederate soldier, wanted to name the city "Stonewall," after General Stonewall Jackson.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:Mykolaiv is the administrative center of the Mykolaiv Oblast (province), as well as that of both the Mykolaivskyi and Zhovtnevyi raions (districts) within the oblast.
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:Dominant champion Holmes successfully defended the WBC belt 17 times until December 11, 1983, when he voluntarily relinquished that title for the championship of the new International Boxing Federation.
+Absolute textstat.difficult_words(_tgt): 9, 
+hit difficult_words
+Text:Monash Freeway is an urban freeway in Victoria, Australia linking Melbourne's CBD to its southeastern suburbs and the Gippsland region. The entire stretch of the Monash Freeway bears the designation.
+Absolute textstat.difficult_words(_tgt): 12, 
+hit difficult_words
+Text:The ZX Spectrum (Pronounced "Zed Ecks Spec-trum" in its original British English branding) is an 8-bit personal home computer released in the United Kingdom in 1982 by Sinclair Research Ltd..
+Absolute textstat.difficult_words(_tgt): 9, 
+hit difficult_words
+Text:A celebrity chef is a kitchen chef who has become famous and well known.
+Absolute textstat.difficult_words(_tgt): 2, 
+hit difficult_words
+Text:It was discovered in 2007 by the Cassini probe and was named in 2008 after the Kraken, a legendary sea monster.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:The court hears cases from the Landesarbeitsgerichte (Superior State Labour Courts), which, in turn, are the courts of appeals against decisions of the Arbeitsgerichte (Inferior State Labour Courts).
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:IMI University Centre OR International Hotel Management Institute Switzerland (IMI) is a Swiss private University with three campuses located in Luzern teaching Tourism, Hospitality, Events Management and Culinary Arts.
+Absolute textstat.difficult_words(_tgt): 12, 
+hit difficult_words
+Text:Jessica Phyllis Lange (born April 20, 1949) is an American stage and screen actress.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:Henry Morgenthau (, with a / t /; April 26, 1856 - November 25, 1946) was a businessman and United States ambassador, most famous as the American ambassador to the Ottoman Empire during the First World War.
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:On 1 July 1933 the London County Council Tramways passed to the London Passenger Transport Board (LPTB), known as London Transport.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:Karl Rove Indictment Controversy On May 13, 2006, Truthout.org reporter Jason Leopold wrote that White House Deputy Chief of Staff Karl Rove had been indicted as part of the investigation into the Valerie Plame affair.
+Absolute textstat.difficult_words(_tgt): 8, 
+hit difficult_words
+Text:Before 1905 some Zionist leaders took seriously proposals for Jewish homelands in places other than Palestine.
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:Aside from the Crown itself, the office of Governor of New South Wales is the oldest constitutional office in Australia.
+Absolute textstat.difficult_words(_tgt): 4, 
+hit difficult_words
+Text:Broadcast out of the same building is 105.7 The River, which is also networked to local stations around New South Wales, Victoria, Tasmania and South Australia.
+Absolute textstat.difficult_words(_tgt): 6, 
+hit difficult_words
+Text:The inhabitants were affected by the earthquake disaster on 8 October 2005.
+Absolute textstat.difficult_words(_tgt): 4, 
+hit difficult_words
+Text:Family Jewels is a two disc compilation DVD by the hard rock band AC/DC, featuring the group's music videos, live clips and promotional videos.
+Absolute textstat.difficult_words(_tgt): 4, 
+hit difficult_words
+Text:Song Chong-Gug (born 20 February 1979 in Danyang, Chungcheongbuk-do) is a Korean football player and midfielder for Al-Shabab Riyadh.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:Viking raiding expeditions were separate from and coexisted with regular trading expeditions.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:Today Teotihuacan is one of the most noted archaeological attractions in Mexico.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:Matilda of Flanders (c. 1031 - 2 November 1083) was the wife of William the Conqueror and, as such, Queen consort of the Kingdom of England.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:Public opinion A number of opinion polls around the world have explored public opinion regarding the issue of abortion.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:Alice in Wonderland is an American animated film produced by Walt Disney and based primarily on Lewis Carroll's Alice's Adventures in Wonderland with a few additional elements from Through the Looking-Glass.
+Absolute textstat.difficult_words(_tgt): 12, 
+hit difficult_words
+Text:It was the ancient capital of Cerdanya in antiquity, before being replaced by Hix (commune of Bourg-Madame, France) in the Middle Ages.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:Valderrama was a member of the Colombia national football team in the 1990s.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:The sisters, despite being perceived as normal women by the non-supernatural community, are known as The Charmed Ones in the magical community, whose prophesied destiny is to protect innocent lives against evil beings, such as demons and warlocks.
+Absolute textstat.difficult_words(_tgt): 12, 
+hit difficult_words
+Text:About 40% of the Earth's surface is now underlain by continental crust.
+Absolute textstat.difficult_words(_tgt): 2, 
+hit difficult_words
+Text:The Province of Pavia (It. Provincia di Pavia) is a province in the region of Lombardy in Italy.
+Absolute textstat.difficult_words(_tgt): 4, 
+hit difficult_words
+Text:Corinne Bailey Rae - "Munich" (originally by Editors)
+Absolute textstat.difficult_words(_tgt): 4, 
+hit difficult_words
+Text:Castro and Soviet premier Nikita Khrushchev agreed to place strategic nuclear missiles secretly in Cuba.
+Absolute textstat.difficult_words(_tgt): 9, 
+hit difficult_words
+Text:In contrast to many other dialects of German, Austro-Bavarian differs sufficiently from Standard German to make it difficult for native Austro-Bavarian speakers to adopt standard pronunciation.
+Absolute textstat.difficult_words(_tgt): 12, 
+hit difficult_words
+Text:Although not an integral part of its territory, Clipperton Island was administered from French Polynesia until 2007.
+Absolute textstat.difficult_words(_tgt): 6, 
+hit difficult_words
+Text:It orbits in the Lagrangian point of the Sun-Jupiter system.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:Jackie lives in New South Wales, near the small town of Braidwood at Araluen.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:The phage infects a bacterium by attaching to its outer membrane and injecting its genetic material, leaving its empty shell attached to the bacterium.
+Absolute textstat.difficult_words(_tgt): 9, 
+hit difficult_words
+Text:Mossman Gorge, a popular attraction within Daintree National Park, is located west of town.
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:It was mentioned for the first time in 1233 in the deed of donation by King Andrew II.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:He played baseball as the second baseman for the provincial champion Rosedales in Manitoba.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:Fishermen have also begun using plastic bait and, more recently, electronic lures, to attract fish.
+Absolute textstat.difficult_words(_tgt): 6, 
+hit difficult_words
+Text:Eventually, Carl, Jr. 's spending habits alarmed company stockholders, especially after the costly flop of the western epic Sutter's Gold earlier in the year.
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:Anita is a city in Cass County, Iowa, United States.
+Absolute textstat.difficult_words(_tgt): 1, 
+hit difficult_words
+Text:Lepisma saccharina, frequently called silverfish, fishmoths, carpet sharks or paramites, are small, wingless insects in the order Thysanura.
+Absolute textstat.difficult_words(_tgt): 8, 
+hit difficult_words
+Text:This uses an mRNA sequence as a template to guide the synthesis of a chain of amino acids that form a protein.
+Absolute textstat.difficult_words(_tgt): 6, 
+hit difficult_words
+Text:and Namak Lake, which lies 80 km due east of Qom.
+Absolute textstat.difficult_words(_tgt): 1, 
+hit difficult_words
+Text:The program is set in Seattle, Washington, and filmed in Vancouver, British Columbia, at Lions Gate Studios.
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:After his discharge, Robinson briefly returned to his old football club, the Los Angeles Bulldogs.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:It was established in the 17th century as a trading post for the British East India Company, but later grew to encompass much of western and central India, as well as parts of post-partition Pakistan and the Arabian Peninsula.
+Absolute textstat.difficult_words(_tgt): 11, 
+hit difficult_words
+Text:Uncle Tom's Cabin has exerted an influence equaled by few other novels in history.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:The region's fertile soil made it possible for farmers to produce abundant harvests of cereal crops such as corn, oats, and, most importantly, wheat.
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:Today, it finds its expression mainly in a humorous form (especially during the Rhineland Karneval) and in sports.
+Absolute textstat.difficult_words(_tgt): 4, 
+hit difficult_words
+Text:The fossil fuels include coal, petroleum, and natural gas which contain high percentages of carbon.
+Absolute textstat.difficult_words(_tgt): 8, 
+hit difficult_words
+Text:In physiology, a signal or biopotential is an electric quantity (voltage or current or field strength), caused by chemical reactions of charged ions.
+Absolute textstat.difficult_words(_tgt): 8, 
+hit difficult_words
+Text:The metropolitan counties are a type of county-level administrative division of England.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:Miles won the British Championship just once, in 1982 when the event was held in Torquay.
+Absolute textstat.difficult_words(_tgt): 1, 
+hit difficult_words
+Text:The CACO consists of Uzbekistan, Tajikistan, Kazakhstan and Kyrgyzstan.
+Absolute textstat.difficult_words(_tgt): 6, 
+hit difficult_words
+Text:Many different variations of popularity exist, and many ways in which to gain it.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:George Smoot had main responsibility for measuring the small variations in the temperature of the radiation.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:In the vicinity of Qaqortoq are located the historical Hvalsey ruins, the most prominent Norse ruins in Greenland.
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:Much later, about 2 to 3 million years ago, South America was joined with North America by the formation of the Isthmus of Panama, which allowed a biotic exchange between the two continents, the Great American Interchange.
+Absolute textstat.difficult_words(_tgt): 8, 
+hit difficult_words
+Text:Use Gauchos use boleadoras to capture running cattle or game.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:Kenneth Wayne "Ken" Dryden, PC, MP (born August 8, 1947) is a Canadian politician, lawyer, businessman, author, and former NHL goaltender.
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:2018 (MMXVIII) will be a common year starting on a Monday in the Gregorian calendar.
+Absolute textstat.difficult_words(_tgt): 4, 
+hit difficult_words
+Text:In a few years Zvartnots-AAL would become one of the main contenders to the Premier League title.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:No Way Out (2003) was the fourth annual (fifth overall) No Way Out pay-per-view (PPV) event produced by World Wrestling Entertainment (WWE).
+Absolute textstat.difficult_words(_tgt): 4, 
+hit difficult_words
+Text:Ibaraki Prefecture is a prefecture of Japan located in the KantÅ region on HonshÅ "island.
+Absolute textstat.difficult_words(_tgt): 6, 
+hit difficult_words
+Text:The list of finite simple groups consists of 18 countably infinite families, plus 26 sporadic groups that do not follow such a systematic pattern.
+Absolute textstat.difficult_words(_tgt): 8, 
+hit difficult_words
+Text:Bertsch studied History of Art at TU Berlin and went on to set up Germany's first design management office in 1988 with Matthias Dietz.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:It is a subregion of Oceania extending from the western side of the West Pacific to the Arafura Sea, north and northeast of Australia.
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:Michael Landon (October 31, 1936 - July 1, 1991) was an American actor, writer, director, and producer, who starred in three popular NBC TV series that spanned three decades.
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:Maubec is a commune in the Vaucluse department in the Provence-Alpes-C ôte d'Azur region in southeastern France.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:In 1929 and 1930 he played with Irving Aaronson's Commanders, where he was exposed to symphonic music, which he would later incorporate in his arrangements.
+Absolute textstat.difficult_words(_tgt): 8, 
+hit difficult_words
+Text:Lisa Anne Loeb (born March 11, 1968) is an American singer-songwriter and actress.
+Absolute textstat.difficult_words(_tgt): 2, 
+hit difficult_words
+Text:Tyler's report led to an unusual alteration, as it was discovered that the loading gauge of the line was too small.
+Absolute textstat.difficult_words(_tgt): 4, 
+hit difficult_words
+Text:Ten states have a Hancock County named for him; other places named after him include Hancock, Massachusetts; Hancock, Michigan; Hancock, New York; and Mount Hancock in New Hampshire.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:However, one member will be voted out from the winning tribe before the reward is distributed.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:New Cordell is a city in Washita County, Oklahoma, United States.
+Absolute textstat.difficult_words(_tgt): 1, 
+hit difficult_words
+Text:Giuseppe Sabadini (born 26 March 1949 in Sagrado) is an Italian football coach and a former player.
+Absolute textstat.difficult_words(_tgt): 4, 
+hit difficult_words
+Text:Embolded teams are competing in the Formula One championship in the current season.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:1952 & ndash; The Rajya Sabha, the upper house of the Parliament of India, holds its first sitting.
+Absolute textstat.difficult_words(_tgt): 4, 
+hit difficult_words
+Text:The novel takes place in the twenty-first century, when, under United Nations authority, mankind has colonized the solar system's every habitable planet and moon.
+Absolute textstat.difficult_words(_tgt): 9, 
+hit difficult_words
+Text:Badshah Munir Bukhari has worked on the language and its family.
+Absolute textstat.difficult_words(_tgt): 2, 
+hit difficult_words
+Text:The chicken (Gallus gallus domesticus) is a domesticated fowl.
+Absolute textstat.difficult_words(_tgt): 3, 
+hit difficult_words
+Text:Irmo was chartered on Christmas Eve in 1890 in response to the opening of the Columbia, Newberry and Laurens Railroad.
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:In 1948 the theatre was renamed the Tyl Theatre (after dramatist J.K. Tyl) and would be known as such until 1990 when, at the end of an eight year reconstruction project, it became known again as the Estates Theatre.
+Absolute textstat.difficult_words(_tgt): 5, 
+hit difficult_words
+Text:Luigi Apolloni (born 2 May, 1967 in Frascati) is an Italian retired football player, and currently a manager.
+Absolute textstat.difficult_words(_tgt): 6, 
+hit difficult_words
+Text:The Trinidad and Tobago national football team, nicknamed The Soca Warriors, is the national team of Trinidad and Tobago and is controlled by the Trinidad and Tobago Football Federation.
+Absolute textstat.difficult_words(_tgt): 7, 
+hit difficult_words
+Text:After a successful junior career with the Quebec Major Junior Hockey League's Laval Titan, Sauvé was drafted by the NHL's Buffalo Sabres in the 1st round (17th overall) in 1975 NHL Entry Draft.
+Absolute textstat.difficult_words(_tgt): 8, 
+hit difficult_words
+Text:Tolstoy and Dostoevsky in particular were titanic figures to the point that many literary critics have described one or the other as the greatest novelist ever.
+Absolute textstat.difficult_words(_tgt): 10, 
+Actual feature values saved in: experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/absolute_input_maxdepdepth_-1.0_maxdeplength_-1.0_diffwordscount_-1.0_avgwordcount_-1.0_.csv
+... Requested dependency_depth is -1.0 and actual obtained average value is: 5.95 
+... Requested dependency_length is -1.0 and actual obtained average value is: 9.02 
+... Requested difficult_words is -1.0 and actual obtained average value is: 5.53 
+... Requested word_count is -1.0 and actual obtained average value is: 19.7 
+Finished actual feature value calculation!
+... Started to calculate Ratio values from absolute feature values Input and Output files ...
+['MaxDepDepth', ' 5', ' MaxDepLength', ' 7', ' DiffWords', ' 3', ' WordCount', ' 11.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 3', ' DiffWords', ' 4', ' WordCount', ' 11.0', '']
+['MaxDepDepth', ' 8', ' MaxDepLength', ' 9', ' DiffWords', ' 4', ' WordCount', ' 14.0', ''] 	 ['MaxDepDepth', ' 6', ' MaxDepLength', ' 9', ' DiffWords', ' 6', ' WordCount', ' 9.5', '']
+['MaxDepDepth', ' 6', ' MaxDepLength', ' 13', ' DiffWords', ' 9', ' WordCount', ' 32.0', ''] 	 ['MaxDepDepth', ' 7', ' MaxDepLength', ' 8', ' DiffWords', ' 10', ' WordCount', ' 16.5', '']
+['MaxDepDepth', ' 3', ' MaxDepLength', ' 4', ' DiffWords', ' 1', ' WordCount', ' 7.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 5', ' DiffWords', ' 3', ' WordCount', ' 10.0', '']
+['MaxDepDepth', ' 4', ' MaxDepLength', ' 12', ' DiffWords', ' 2', ' WordCount', ' 14.0', ''] 	 ['MaxDepDepth', ' 7', ' MaxDepLength', ' 5', ' DiffWords', ' 6', ' WordCount', ' 16.5', '']
+['MaxDepDepth', ' 7', ' MaxDepLength', ' 12', ' DiffWords', ' 4', ' WordCount', ' 21.0', ''] 	 ['MaxDepDepth', ' 6', ' MaxDepLength', ' 6', ' DiffWords', ' 9', ' WordCount', ' 17.0', '']
+['MaxDepDepth', ' 4', ' MaxDepLength', ' 6', ' DiffWords', ' 2', ' WordCount', ' 13.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 11', ' DiffWords', ' 4', ' WordCount', ' 16.0', '']
+['MaxDepDepth', ' 4', ' MaxDepLength', ' 13', ' DiffWords', ' 7', ' WordCount', ' 20.0', ''] 	 ['MaxDepDepth', ' 2', ' MaxDepLength', ' 3', ' DiffWords', ' 5', ' WordCount', ' 4.0', '']
+['MaxDepDepth', ' 8', ' MaxDepLength', ' 19', ' DiffWords', ' 5', ' WordCount', ' 30.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 7', ' DiffWords', ' 8', ' WordCount', ' 15.5', '']
+['MaxDepDepth', ' 9', ' MaxDepLength', ' 13', ' DiffWords', ' 10', ' WordCount', ' 35.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 6', ' DiffWords', ' 7', ' WordCount', ' 20.0', '']
+['MaxDepDepth', ' 5', ' MaxDepLength', ' 14', ' DiffWords', ' 3', ' WordCount', ' 13.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 12', ' DiffWords', ' 4', ' WordCount', ' 13.5', '']
+['MaxDepDepth', ' 4', ' MaxDepLength', ' 7', ' DiffWords', ' 5', ' WordCount', ' 15.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 7', ' DiffWords', ' 6', ' WordCount', ' 11.0', '']
+['MaxDepDepth', ' 7', ' MaxDepLength', ' 12', ' DiffWords', ' 7', ' WordCount', ' 25.0', ''] 	 ['MaxDepDepth', ' 6', ' MaxDepLength', ' 19', ' DiffWords', ' 6', ' WordCount', ' 22.0', '']
+['MaxDepDepth', ' 9', ' MaxDepLength', ' 8', ' DiffWords', ' 9', ' WordCount', ' 29.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 11', ' DiffWords', ' 9', ' WordCount', ' 13.0', '']
+['MaxDepDepth', ' 9', ' MaxDepLength', ' 5', ' DiffWords', ' 12', ' WordCount', ' 15.0', ''] 	 ['MaxDepDepth', ' 3', ' MaxDepLength', ' 5', ' DiffWords', ' 8', ' WordCount', ' 9.0', '']
+['MaxDepDepth', ' 5', ' MaxDepLength', ' 19', ' DiffWords', ' 9', ' WordCount', ' 30.0', ''] 	 ['MaxDepDepth', ' 3', ' MaxDepLength', ' 2', ' DiffWords', ' 5', ' WordCount', ' 5.0', '']
+['MaxDepDepth', ' 5', ' MaxDepLength', ' 3', ' DiffWords', ' 2', ' WordCount', ' 14.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 11', ' DiffWords', ' 13', ' WordCount', ' 19.5', '']
+['MaxDepDepth', ' 5', ' MaxDepLength', ' 9', ' DiffWords', ' 5', ' WordCount', ' 21.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 7', ' DiffWords', ' 9', ' WordCount', ' 13.5', '']
+['MaxDepDepth', ' 10', ' MaxDepLength', ' 13', ' DiffWords', ' 7', ' WordCount', ' 28.0', ''] 	 ['MaxDepDepth', ' 14', ' MaxDepLength', ' 4', ' DiffWords', ' 10', ' WordCount', ' 27.0', '']
+['MaxDepDepth', ' 10', ' MaxDepLength', ' 5', ' DiffWords', ' 12', ' WordCount', ' 29.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 12', ' DiffWords', ' 10', ' WordCount', ' 18.0', '']
+['MaxDepDepth', ' 4', ' MaxDepLength', ' 8', ' DiffWords', ' 3', ' WordCount', ' 14.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 5', ' DiffWords', ' 3', ' WordCount', ' 8.5', '']
+['MaxDepDepth', ' 8', ' MaxDepLength', ' 19', ' DiffWords', ' 7', ' WordCount', ' 37.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 8', ' DiffWords', ' 7', ' WordCount', ' 18.0', '']
+['MaxDepDepth', ' 6', ' MaxDepLength', ' 9', ' DiffWords', ' 3', ' WordCount', ' 21.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 10', ' DiffWords', ' 8', ' WordCount', ' 12.0', '']
+['MaxDepDepth', ' 9', ' MaxDepLength', ' 12', ' DiffWords', ' 8', ' WordCount', ' 35.0', ''] 	 ['MaxDepDepth', ' 6', ' MaxDepLength', ' 14', ' DiffWords', ' 11', ' WordCount', ' 33.0', '']
+['MaxDepDepth', ' 5', ' MaxDepLength', ' 6', ' DiffWords', ' 7', ' WordCount', ' 16.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 7', ' DiffWords', ' 10', ' WordCount', ' 17.0', '']
+['MaxDepDepth', ' 6', ' MaxDepLength', ' 14', ' DiffWords', ' 4', ' WordCount', ' 20.0', ''] 	 ['MaxDepDepth', ' 8', ' MaxDepLength', ' 12', ' DiffWords', ' 4', ' WordCount', ' 12.5', '']
+['MaxDepDepth', ' 11', ' MaxDepLength', ' 6', ' DiffWords', ' 6', ' WordCount', ' 26.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 8', ' DiffWords', ' 6', ' WordCount', ' 12.0', '']
+['MaxDepDepth', ' 3', ' MaxDepLength', ' 5', ' DiffWords', ' 4', ' WordCount', ' 12.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 6', ' DiffWords', ' 6', ' WordCount', ' 12.0', '']
+['MaxDepDepth', ' 6', ' MaxDepLength', ' 15', ' DiffWords', ' 4', ' WordCount', ' 24.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 12', ' DiffWords', ' 9', ' WordCount', ' 14.5', '']
+['MaxDepDepth', ' 6', ' MaxDepLength', ' 13', ' DiffWords', ' 3', ' WordCount', ' 19.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 5', ' DiffWords', ' 2', ' WordCount', ' 6.0', '']
+['MaxDepDepth', ' 4', ' MaxDepLength', ' 4', ' DiffWords', ' 5', ' WordCount', ' 12.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 7', ' DiffWords', ' 9', ' WordCount', ' 11.0', '']
+['MaxDepDepth', ' 5', ' MaxDepLength', ' 5', ' DiffWords', ' 5', ' WordCount', ' 12.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 7', ' DiffWords', ' 6', ' WordCount', ' 12.0', '']
+['MaxDepDepth', ' 6', ' MaxDepLength', ' 11', ' DiffWords', ' 5', ' WordCount', ' 26.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 8', ' DiffWords', ' 10', ' WordCount', ' 16.0', '']
+['MaxDepDepth', ' 6', ' MaxDepLength', ' 10', ' DiffWords', ' 5', ' WordCount', ' 19.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 12', ' DiffWords', ' 18', ' WordCount', ' 17.0', '']
+['MaxDepDepth', ' 9', ' MaxDepLength', ' 11', ' DiffWords', ' 12', ' WordCount', ' 31.0', ''] 	 ['MaxDepDepth', ' 2', ' MaxDepLength', ' 3', ' DiffWords', ' 10', ' WordCount', ' 2.83', '']
+['MaxDepDepth', ' 8', ' MaxDepLength', ' 9', ' DiffWords', ' 5', ' WordCount', ' 22.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 6', ' DiffWords', ' 7', ' WordCount', ' 10.0', '']
+['MaxDepDepth', ' 5', ' MaxDepLength', ' 7', ' DiffWords', ' 3', ' WordCount', ' 13.0', ''] 	 ['MaxDepDepth', ' 2', ' MaxDepLength', ' 2', ' DiffWords', ' 3', ' WordCount', ' 4.0', '']
+['MaxDepDepth', ' 10', ' MaxDepLength', ' 16', ' DiffWords', ' 12', ' WordCount', ' 38.0', ''] 	 ['MaxDepDepth', ' 3', ' MaxDepLength', ' 7', ' DiffWords', ' 4', ' WordCount', ' 8.0', '']
+['MaxDepDepth', ' 5', ' MaxDepLength', ' 4', ' DiffWords', ' 2', ' WordCount', ' 12.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 5', ' DiffWords', ' 5', ' WordCount', ' 12.0', '']
+['MaxDepDepth', ' 7', ' MaxDepLength', ' 4', ' DiffWords', ' 4', ' WordCount', ' 9.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 8', ' DiffWords', ' 6', ' WordCount', ' 11.0', '']
+['MaxDepDepth', ' 2', ' MaxDepLength', ' 4', ' DiffWords', ' 4', ' WordCount', ' 8.0', ''] 	 ['MaxDepDepth', ' 2', ' MaxDepLength', ' 2', ' DiffWords', ' 5', ' WordCount', ' 4.5', '']
+['MaxDepDepth', ' 4', ' MaxDepLength', ' 6', ' DiffWords', ' 9', ' WordCount', ' 15.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 7', ' DiffWords', ' 12', ' WordCount', ' 19.0', '']
+['MaxDepDepth', ' 7', ' MaxDepLength', ' 12', ' DiffWords', ' 12', ' WordCount', ' 26.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 6', ' DiffWords', ' 11', ' WordCount', ' 19.0', '']
+['MaxDepDepth', ' 4', ' MaxDepLength', ' 8', ' DiffWords', ' 6', ' WordCount', ' 17.0', ''] 	 ['MaxDepDepth', ' 3', ' MaxDepLength', ' 4', ' DiffWords', ' 5', ' WordCount', ' 11.0', '']
+['MaxDepDepth', ' 6', ' MaxDepLength', ' 5', ' DiffWords', ' 3', ' WordCount', ' 10.0', ''] 	 ['MaxDepDepth', ' 6', ' MaxDepLength', ' 4', ' DiffWords', ' 4', ' WordCount', ' 12.0', '']
+['MaxDepDepth', ' 4', ' MaxDepLength', ' 6', ' DiffWords', ' 3', ' WordCount', ' 14.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 4', ' DiffWords', ' 7', ' WordCount', ' 7.33', '']
+['MaxDepDepth', ' 9', ' MaxDepLength', ' 6', ' DiffWords', ' 9', ' WordCount', ' 24.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 9', ' DiffWords', ' 11', ' WordCount', ' 15.5', '']
+['MaxDepDepth', ' 5', ' MaxDepLength', ' 11', ' DiffWords', ' 7', ' WordCount', ' 14.0', ''] 	 ['MaxDepDepth', ' 6', ' MaxDepLength', ' 7', ' DiffWords', ' 8', ' WordCount', ' 13.5', '']
+['MaxDepDepth', ' 7', ' MaxDepLength', ' 3', ' DiffWords', ' 3', ' WordCount', ' 18.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 3', ' DiffWords', ' 4', ' WordCount', ' 13.0', '']
+['MaxDepDepth', ' 7', ' MaxDepLength', ' 3', ' DiffWords', ' 3', ' WordCount', ' 14.0', ''] 	 ['MaxDepDepth', ' 7', ' MaxDepLength', ' 13', ' DiffWords', ' 5', ' WordCount', ' 15.0', '']
+['MaxDepDepth', ' 3', ' MaxDepLength', ' 10', ' DiffWords', ' 6', ' WordCount', ' 15.0', ''] 	 ['MaxDepDepth', ' 2', ' MaxDepLength', ' 4', ' DiffWords', ' 7', ' WordCount', ' 8.0', '']
+['MaxDepDepth', ' 6', ' MaxDepLength', ' 17', ' DiffWords', ' 7', ' WordCount', ' 24.0', ''] 	 ['MaxDepDepth', ' 7', ' MaxDepLength', ' 5', ' DiffWords', ' 8', ' WordCount', ' 18.0', '']
+['MaxDepDepth', ' 5', ' MaxDepLength', ' 5', ' DiffWords', ' 1', ' WordCount', ' 10.0', ''] 	 ['MaxDepDepth', ' 6', ' MaxDepLength', ' 3', ' DiffWords', ' 3', ' WordCount', ' 10.0', '']
+['MaxDepDepth', ' 4', ' MaxDepLength', ' 13', ' DiffWords', ' 8', ' WordCount', ' 18.0', ''] 	 ['MaxDepDepth', ' 7', ' MaxDepLength', ' 13', ' DiffWords', ' 14', ' WordCount', ' 16.5', '']
+['MaxDepDepth', ' 10', ' MaxDepLength', ' 5', ' DiffWords', ' 6', ' WordCount', ' 22.0', ''] 	 ['MaxDepDepth', ' 8', ' MaxDepLength', ' 5', ' DiffWords', ' 6', ' WordCount', ' 18.0', '']
+['MaxDepDepth', ' 5', ' MaxDepLength', ' 3', ' DiffWords', ' 1', ' WordCount', ' 11.0', ''] 	 ['MaxDepDepth', ' 2', ' MaxDepLength', ' 3', ' DiffWords', ' 1', ' WordCount', ' 6.0', '']
+['MaxDepDepth', ' 5', ' MaxDepLength', ' 7', ' DiffWords', ' 7', ' WordCount', ' 17.0', ''] 	 ['MaxDepDepth', ' 10', ' MaxDepLength', ' 14', ' DiffWords', ' 15', ' WordCount', ' 19.0', '']
+['MaxDepDepth', ' 5', ' MaxDepLength', ' 6', ' DiffWords', ' 5', ' WordCount', ' 15.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 12', ' DiffWords', ' 7', ' WordCount', ' 20.0', '']
+['MaxDepDepth', ' 8', ' MaxDepLength', ' 18', ' DiffWords', ' 11', ' WordCount', ' 39.0', ''] 	 ['MaxDepDepth', ' 8', ' MaxDepLength', ' 9', ' DiffWords', ' 12', ' WordCount', ' 31.0', '']
+['MaxDepDepth', ' 6', ' MaxDepLength', ' 3', ' DiffWords', ' 3', ' WordCount', ' 14.0', ''] 	 ['MaxDepDepth', ' 3', ' MaxDepLength', ' 4', ' DiffWords', ' 6', ' WordCount', ' 9.0', '']
+['MaxDepDepth', ' 11', ' MaxDepLength', ' 9', ' DiffWords', ' 7', ' WordCount', ' 24.0', ''] 	 ['MaxDepDepth', ' 7', ' MaxDepLength', ' 12', ' DiffWords', ' 11', ' WordCount', ' 15.5', '']
+['MaxDepDepth', ' 5', ' MaxDepLength', ' 12', ' DiffWords', ' 4', ' WordCount', ' 18.0', ''] 	 ['MaxDepDepth', ' 1', ' MaxDepLength', ' 3', ' DiffWords', ' 5', ' WordCount', ' 2.5', '']
+['MaxDepDepth', ' 5', ' MaxDepLength', ' 8', ' DiffWords', ' 8', ' WordCount', ' 15.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 9', ' DiffWords', ' 9', ' WordCount', ' 12.0', '']
+['MaxDepDepth', ' 7', ' MaxDepLength', ' 10', ' DiffWords', ' 8', ' WordCount', ' 23.0', ''] 	 ['MaxDepDepth', ' 10', ' MaxDepLength', ' 7', ' DiffWords', ' 12', ' WordCount', ' 26.0', '']
+['MaxDepDepth', ' 5', ' MaxDepLength', ' 5', ' DiffWords', ' 5', ' WordCount', ' 12.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 8', ' DiffWords', ' 7', ' WordCount', ' 12.0', '']
+['MaxDepDepth', ' 5', ' MaxDepLength', ' 7', ' DiffWords', ' 1', ' WordCount', ' 16.0', ''] 	 ['MaxDepDepth', ' 3', ' MaxDepLength', ' 6', ' DiffWords', ' 2', ' WordCount', ' 10.0', '']
+['MaxDepDepth', ' 5', ' MaxDepLength', ' 2', ' DiffWords', ' 6', ' WordCount', ' 9.0', ''] 	 ['MaxDepDepth', ' 3', ' MaxDepLength', ' 4', ' DiffWords', ' 5', ' WordCount', ' 10.0', '']
+['MaxDepDepth', ' 4', ' MaxDepLength', ' 7', ' DiffWords', ' 3', ' WordCount', ' 14.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 12', ' DiffWords', ' 14', ' WordCount', ' 14.0', '']
+['MaxDepDepth', ' 9', ' MaxDepLength', ' 3', ' DiffWords', ' 5', ' WordCount', ' 16.0', ''] 	 ['MaxDepDepth', ' 7', ' MaxDepLength', ' 6', ' DiffWords', ' 9', ' WordCount', ' 15.0', '']
+['MaxDepDepth', ' 4', ' MaxDepLength', ' 10', ' DiffWords', ' 7', ' WordCount', ' 18.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 9', ' DiffWords', ' 9', ' WordCount', ' 13.0', '']
+['MaxDepDepth', ' 8', ' MaxDepLength', ' 13', ' DiffWords', ' 8', ' WordCount', ' 37.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 12', ' DiffWords', ' 10', ' WordCount', ' 15.5', '']
+['MaxDepDepth', ' 3', ' MaxDepLength', ' 3', ' DiffWords', ' 3', ' WordCount', ' 10.0', ''] 	 ['MaxDepDepth', ' 3', ' MaxDepLength', ' 3', ' DiffWords', ' 9', ' WordCount', ' 9.0', '']
+['MaxDepDepth', ' 6', ' MaxDepLength', ' 12', ' DiffWords', ' 7', ' WordCount', ' 21.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 12', ' DiffWords', ' 7', ' WordCount', ' 11.5', '']
+['MaxDepDepth', ' 4', ' MaxDepLength', ' 5', ' DiffWords', ' 4', ' WordCount', ' 15.0', ''] 	 ['MaxDepDepth', ' 2', ' MaxDepLength', ' 2', ' DiffWords', ' 3', ' WordCount', ' 3.67', '']
+['MaxDepDepth', ' 7', ' MaxDepLength', ' 8', ' DiffWords', ' 3', ' WordCount', ' 17.0', ''] 	 ['MaxDepDepth', ' 6', ' MaxDepLength', ' 8', ' DiffWords', ' 3', ' WordCount', ' 16.0', '']
+['MaxDepDepth', ' 4', ' MaxDepLength', ' 11', ' DiffWords', ' 4', ' WordCount', ' 22.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 9', ' DiffWords', ' 5', ' WordCount', ' 14.5', '']
+['MaxDepDepth', ' 5', ' MaxDepLength', ' 5', ' DiffWords', ' 6', ' WordCount', ' 15.0', ''] 	 ['MaxDepDepth', ' 6', ' MaxDepLength', ' 4', ' DiffWords', ' 7', ' WordCount', ' 10.0', '']
+['MaxDepDepth', ' 6', ' MaxDepLength', ' 5', ' DiffWords', ' 8', ' WordCount', ' 24.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 8', ' DiffWords', ' 8', ' WordCount', ' 11.5', '']
+['MaxDepDepth', ' 5', ' MaxDepLength', ' 10', ' DiffWords', ' 5', ' WordCount', ' 24.0', ''] 	 ['MaxDepDepth', ' 3', ' MaxDepLength', ' 7', ' DiffWords', ' 4', ' WordCount', ' 8.0', '']
+['MaxDepDepth', ' 7', ' MaxDepLength', ' 9', ' DiffWords', ' 7', ' WordCount', ' 24.0', ''] 	 ['MaxDepDepth', ' 9', ' MaxDepLength', ' 7', ' DiffWords', ' 11', ' WordCount', ' 16.0', '']
+['MaxDepDepth', ' 7', ' MaxDepLength', ' 12', ' DiffWords', ' 7', ' WordCount', ' 29.0', ''] 	 ['MaxDepDepth', ' 6', ' MaxDepLength', ' 8', ' DiffWords', ' 7', ' WordCount', ' 13.0', '']
+['MaxDepDepth', ' 7', ' MaxDepLength', ' 15', ' DiffWords', ' 5', ' WordCount', ' 17.0', ''] 	 ['MaxDepDepth', ' 8', ' MaxDepLength', ' 16', ' DiffWords', ' 9', ' WordCount', ' 17.0', '']
+['MaxDepDepth', ' 9', ' MaxDepLength', ' 6', ' DiffWords', ' 8', ' WordCount', ' 25.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 5', ' DiffWords', ' 9', ' WordCount', ' 8.33', '']
+['MaxDepDepth', ' 4', ' MaxDepLength', ' 8', ' DiffWords', ' 2', ' WordCount', ' 13.0', ''] 	 ['MaxDepDepth', ' 6', ' MaxDepLength', ' 9', ' DiffWords', ' 6', ' WordCount', ' 13.5', '']
+['MaxDepDepth', ' 6', ' MaxDepLength', ' 9', ' DiffWords', ' 4', ' WordCount', ' 21.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 7', ' DiffWords', ' 6', ' WordCount', ' 10.5', '']
+['MaxDepDepth', ' 5', ' MaxDepLength', ' 15', ' DiffWords', ' 5', ' WordCount', ' 28.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 5', ' DiffWords', ' 5', ' WordCount', ' 11.5', '']
+['MaxDepDepth', ' 3', ' MaxDepLength', ' 10', ' DiffWords', ' 3', ' WordCount', ' 16.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 10', ' DiffWords', ' 3', ' WordCount', ' 16.0', '']
+['MaxDepDepth', ' 6', ' MaxDepLength', ' 3', ' DiffWords', ' 1', ' WordCount', ' 11.0', ''] 	 ['MaxDepDepth', ' 6', ' MaxDepLength', ' 7', ' DiffWords', ' 4', ' WordCount', ' 10.0', '']
+['MaxDepDepth', ' 4', ' MaxDepLength', ' 9', ' DiffWords', ' 4', ' WordCount', ' 17.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 11', ' DiffWords', ' 5', ' WordCount', ' 12.0', '']
+['MaxDepDepth', ' 4', ' MaxDepLength', ' 6', ' DiffWords', ' 5', ' WordCount', ' 13.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 5', ' DiffWords', ' 5', ' WordCount', ' 13.0', '']
+['MaxDepDepth', ' 6', ' MaxDepLength', ' 17', ' DiffWords', ' 4', ' WordCount', ' 18.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 4', ' DiffWords', ' 3', ' WordCount', ' 9.5', '']
+['MaxDepDepth', ' 5', ' MaxDepLength', ' 18', ' DiffWords', ' 9', ' WordCount', ' 24.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 11', ' DiffWords', ' 5', ' WordCount', ' 19.0', '']
+['MaxDepDepth', ' 4', ' MaxDepLength', ' 3', ' DiffWords', ' 2', ' WordCount', ' 11.0', ''] 	 ['MaxDepDepth', ' 3', ' MaxDepLength', ' 3', ' DiffWords', ' 3', ' WordCount', ' 10.0', '']
+['MaxDepDepth', ' 3', ' MaxDepLength', ' 6', ' DiffWords', ' 3', ' WordCount', ' 9.0', ''] 	 ['MaxDepDepth', ' 2', ' MaxDepLength', ' 3', ' DiffWords', ' 3', ' WordCount', ' 7.0', '']
+['MaxDepDepth', ' 9', ' MaxDepLength', ' 6', ' DiffWords', ' 7', ' WordCount', ' 20.0', ''] 	 ['MaxDepDepth', ' 7', ' MaxDepLength', ' 8', ' DiffWords', ' 13', ' WordCount', ' 16.5', '']
+['MaxDepDepth', ' 8', ' MaxDepLength', ' 19', ' DiffWords', ' 5', ' WordCount', ' 39.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 7', ' DiffWords', ' 6', ' WordCount', ' 12.5', '']
+['MaxDepDepth', ' 4', ' MaxDepLength', ' 10', ' DiffWords', ' 6', ' WordCount', ' 18.0', ''] 	 ['MaxDepDepth', ' 4', ' MaxDepLength', ' 11', ' DiffWords', ' 8', ' WordCount', ' 12.0', '']
+['MaxDepDepth', ' 5', ' MaxDepLength', ' 10', ' DiffWords', ' 7', ' WordCount', ' 29.0', ''] 	 ['MaxDepDepth', ' 3', ' MaxDepLength', ' 6', ' DiffWords', ' 5', ' WordCount', ' 12.0', '']
+['MaxDepDepth', ' 6', ' MaxDepLength', ' 18', ' DiffWords', ' 8', ' WordCount', ' 33.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 10', ' DiffWords', ' 7', ' WordCount', ' 15.0', '']
+['MaxDepDepth', ' 7', ' MaxDepLength', ' 6', ' DiffWords', ' 10', ' WordCount', ' 26.0', ''] 	 ['MaxDepDepth', ' 5', ' MaxDepLength', ' 5', ' DiffWords', ' 13', ' WordCount', ' 13.0', '']
+... Generating Ratio values from absolute feature values Input and Output files ...
+absolute Input feature file:experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/absolute_input_maxdepdepth_-1.0_maxdeplength_-1.0_diffwordscount_-1.0_avgwordcount_-1.0_.csv
+absolute Output feature file:experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/absolute_output_maxdepdepth_-1.0_maxdeplength_-1.0_diffwordscount_-1.0_avgwordcount_-1.0_.csv
+... avg_MaxDepDepth_ratio is: 0.8691999999999999 
+... avg_MaxDepLength_ratio is: 0.9979999999999997 
+... avg_DiffWords_ratio is: 1.5046000000000004 
+... avg_WordCount_ratio is: 0.7327999999999997 
+new_feature_list: WordCount,Grade
+default_input_src and tested_input_src are not identical: Reason: The files have a different number of lines: 731 vs 100. default_input_src:data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.src,	tested_input_src: experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/input.txt
+filter ratio for only considered input sentences:
+Reading default_input_src: data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.src, default_ref_tgt:data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.tgt
+Reading default_predicted_ratio_file: data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/grade_ratio_stats_filtered_wiki_val_v1.1_data.csv
+Reading tested_input_src: experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/input.txt, tested_ref_tgt:experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/gold_ref.txt
+Filtered predicted ratio file saved to experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/copied_filtered_gold_ratio_stats.csv
+calculate_abs_tgt_success_rate for WordCount: filtered_gold_ratio_file_path=experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/copied_filtered_gold_ratio_stats.csv, obtained_ratio_file=experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/ratio_stats.csv, success_rate_type: exact_match 
+Calcuate abs_tgt_success rate for feature: WordCount
+for line: 0 requested ideal_tgt: 11 	 actual_tgt: 11
+for line: 0 feature range is given. tgt_min: 10, tgt_max:12
+for line: 1 requested ideal_tgt: 10 	 actual_tgt: 10
+for line: 1 feature range is given. tgt_min: 9, tgt_max:11
+for line: 2 requested ideal_tgt: 17 	 actual_tgt: 16
+for line: 2 feature range is given. tgt_min: 16, tgt_max:18
+for line: 3 requested ideal_tgt: 9 	 actual_tgt: 10
+for line: 3 feature range is given. tgt_min: 8, tgt_max:10
+for line: 4 requested ideal_tgt: 17 	 actual_tgt: 16
+for line: 4 feature range is given. tgt_min: 16, tgt_max:18
+for line: 5 requested ideal_tgt: 17 	 actual_tgt: 17
+for line: 5 feature range is given. tgt_min: 16, tgt_max:18
+for line: 6 requested ideal_tgt: 16 	 actual_tgt: 16
+for line: 6 feature range is given. tgt_min: 15, tgt_max:17
+for line: 7 requested ideal_tgt: 4 	 actual_tgt: 4
+for line: 7 feature range is given. tgt_min: 3, tgt_max:5
+for line: 8 requested ideal_tgt: 17 	 actual_tgt: 16
+for line: 8 feature range is given. tgt_min: 16, tgt_max:18
+for line: 9 requested ideal_tgt: 20 	 actual_tgt: 20
+for line: 9 feature range is given. tgt_min: 19, tgt_max:21
+for line: 10 requested ideal_tgt: 13 	 actual_tgt: 14
+for line: 10 feature range is given. tgt_min: 12, tgt_max:14
+for line: 11 requested ideal_tgt: 11 	 actual_tgt: 11
+for line: 11 feature range is given. tgt_min: 10, tgt_max:12
+for line: 12 requested ideal_tgt: 24 	 actual_tgt: 22
+for line: 12 feature range is given. tgt_min: 23, tgt_max:25
+for line: 13 requested ideal_tgt: 13 	 actual_tgt: 13
+for line: 13 feature range is given. tgt_min: 12, tgt_max:14
+for line: 14 requested ideal_tgt: 9 	 actual_tgt: 9
+for line: 14 feature range is given. tgt_min: 8, tgt_max:10
+for line: 15 requested ideal_tgt: 5 	 actual_tgt: 5
+for line: 15 feature range is given. tgt_min: 4, tgt_max:6
+for line: 16 requested ideal_tgt: 20 	 actual_tgt: 20
+for line: 16 feature range is given. tgt_min: 19, tgt_max:21
+for line: 17 requested ideal_tgt: 14 	 actual_tgt: 14
+for line: 17 feature range is given. tgt_min: 13, tgt_max:15
+for line: 18 requested ideal_tgt: 28 	 actual_tgt: 27
+for line: 18 feature range is given. tgt_min: 27, tgt_max:29
+for line: 19 requested ideal_tgt: 2 	 actual_tgt: 18
+for line: 19 feature range is given. tgt_min: 1, tgt_max:3
+for line: 20 requested ideal_tgt: 8 	 actual_tgt: 8
+for line: 20 feature range is given. tgt_min: 7, tgt_max:9
+for line: 21 requested ideal_tgt: 19 	 actual_tgt: 18
+for line: 21 feature range is given. tgt_min: 18, tgt_max:20
+for line: 22 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 22 feature range is given. tgt_min: 11, tgt_max:13
+for line: 23 requested ideal_tgt: 35 	 actual_tgt: 33
+for line: 23 feature range is given. tgt_min: 34, tgt_max:36
+for line: 24 requested ideal_tgt: 18 	 actual_tgt: 17
+for line: 24 feature range is given. tgt_min: 17, tgt_max:19
+for line: 25 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 25 feature range is given. tgt_min: 11, tgt_max:13
+for line: 26 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 26 feature range is given. tgt_min: 11, tgt_max:13
+for line: 27 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 27 feature range is given. tgt_min: 11, tgt_max:13
+for line: 28 requested ideal_tgt: 15 	 actual_tgt: 14
+for line: 28 feature range is given. tgt_min: 14, tgt_max:16
+for line: 29 requested ideal_tgt: 6 	 actual_tgt: 6
+for line: 29 feature range is given. tgt_min: 5, tgt_max:7
+for line: 30 requested ideal_tgt: 11 	 actual_tgt: 11
+for line: 30 feature range is given. tgt_min: 10, tgt_max:12
+for line: 31 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 31 feature range is given. tgt_min: 11, tgt_max:13
+for line: 32 requested ideal_tgt: 17 	 actual_tgt: 16
+for line: 32 feature range is given. tgt_min: 16, tgt_max:18
+for line: 33 requested ideal_tgt: 17 	 actual_tgt: 17
+for line: 33 feature range is given. tgt_min: 16, tgt_max:18
+for line: 34 requested ideal_tgt: 1 	 actual_tgt: 3
+for line: 34 feature range is given. tgt_min: 0, tgt_max:2
+for line: 35 requested ideal_tgt: 10 	 actual_tgt: 10
+for line: 35 feature range is given. tgt_min: 9, tgt_max:11
+for line: 36 requested ideal_tgt: 3 	 actual_tgt: 4
+for line: 36 feature range is given. tgt_min: 2, tgt_max:4
+for line: 37 requested ideal_tgt: 1 	 actual_tgt: 8
+for line: 37 feature range is given. tgt_min: 0, tgt_max:2
+for line: 38 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 38 feature range is given. tgt_min: 11, tgt_max:13
+for line: 39 requested ideal_tgt: 11 	 actual_tgt: 11
+for line: 39 feature range is given. tgt_min: 10, tgt_max:12
+for line: 40 requested ideal_tgt: 4 	 actual_tgt: 4
+for line: 40 feature range is given. tgt_min: 3, tgt_max:5
+for line: 41 requested ideal_tgt: 21 	 actual_tgt: 19
+for line: 41 feature range is given. tgt_min: 20, tgt_max:22
+for line: 42 requested ideal_tgt: 18 	 actual_tgt: 19
+for line: 42 feature range is given. tgt_min: 17, tgt_max:19
+for line: 43 requested ideal_tgt: 11 	 actual_tgt: 11
+for line: 43 feature range is given. tgt_min: 10, tgt_max:12
+for line: 44 requested ideal_tgt: 11 	 actual_tgt: 12
+for line: 44 feature range is given. tgt_min: 10, tgt_max:12
+for line: 45 requested ideal_tgt: 7 	 actual_tgt: 7
+for line: 45 feature range is given. tgt_min: 6, tgt_max:8
+for line: 46 requested ideal_tgt: 16 	 actual_tgt: 16
+for line: 46 feature range is given. tgt_min: 15, tgt_max:17
+for line: 47 requested ideal_tgt: 14 	 actual_tgt: 14
+for line: 47 feature range is given. tgt_min: 13, tgt_max:15
+for line: 48 requested ideal_tgt: 13 	 actual_tgt: 13
+for line: 48 feature range is given. tgt_min: 12, tgt_max:14
+for line: 49 requested ideal_tgt: 15 	 actual_tgt: 15
+for line: 49 feature range is given. tgt_min: 14, tgt_max:16
+for line: 50 requested ideal_tgt: 8 	 actual_tgt: 8
+for line: 50 feature range is given. tgt_min: 7, tgt_max:9
+for line: 51 requested ideal_tgt: 21 	 actual_tgt: 18
+for line: 51 feature range is given. tgt_min: 20, tgt_max:22
+for line: 52 requested ideal_tgt: 10 	 actual_tgt: 10
+for line: 52 feature range is given. tgt_min: 9, tgt_max:11
+for line: 53 requested ideal_tgt: 17 	 actual_tgt: 16
+for line: 53 feature range is given. tgt_min: 16, tgt_max:18
+for line: 54 requested ideal_tgt: 19 	 actual_tgt: 18
+for line: 54 feature range is given. tgt_min: 18, tgt_max:20
+for line: 55 requested ideal_tgt: 2 	 actual_tgt: 6
+for line: 55 feature range is given. tgt_min: 1, tgt_max:3
+for line: 56 requested ideal_tgt: 20 	 actual_tgt: 19
+for line: 56 feature range is given. tgt_min: 19, tgt_max:21
+for line: 57 requested ideal_tgt: 20 	 actual_tgt: 20
+for line: 57 feature range is given. tgt_min: 19, tgt_max:21
+for line: 58 requested ideal_tgt: 36 	 actual_tgt: 31
+for line: 58 feature range is given. tgt_min: 35, tgt_max:37
+for line: 59 requested ideal_tgt: 9 	 actual_tgt: 9
+for line: 59 feature range is given. tgt_min: 8, tgt_max:10
+for line: 60 requested ideal_tgt: 16 	 actual_tgt: 16
+for line: 60 feature range is given. tgt_min: 15, tgt_max:17
+for line: 61 requested ideal_tgt: 1 	 actual_tgt: 2
+for line: 61 feature range is given. tgt_min: 0, tgt_max:2
+for line: 62 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 62 feature range is given. tgt_min: 11, tgt_max:13
+for line: 63 requested ideal_tgt: 28 	 actual_tgt: 26
+for line: 63 feature range is given. tgt_min: 27, tgt_max:29
+for line: 64 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 64 feature range is given. tgt_min: 11, tgt_max:13
+for line: 65 requested ideal_tgt: 10 	 actual_tgt: 10
+for line: 65 feature range is given. tgt_min: 9, tgt_max:11
+for line: 66 requested ideal_tgt: 10 	 actual_tgt: 10
+for line: 66 feature range is given. tgt_min: 9, tgt_max:11
+for line: 67 requested ideal_tgt: 14 	 actual_tgt: 14
+for line: 67 feature range is given. tgt_min: 13, tgt_max:15
+for line: 68 requested ideal_tgt: 16 	 actual_tgt: 15
+for line: 68 feature range is given. tgt_min: 15, tgt_max:17
+for line: 69 requested ideal_tgt: 13 	 actual_tgt: 13
+for line: 69 feature range is given. tgt_min: 12, tgt_max:14
+for line: 70 requested ideal_tgt: 17 	 actual_tgt: 16
+for line: 70 feature range is given. tgt_min: 16, tgt_max:18
+for line: 71 requested ideal_tgt: 9 	 actual_tgt: 9
+for line: 71 feature range is given. tgt_min: 8, tgt_max:10
+for line: 72 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 72 feature range is given. tgt_min: 11, tgt_max:13
+for line: 73 requested ideal_tgt: 1 	 actual_tgt: 4
+for line: 73 feature range is given. tgt_min: 0, tgt_max:2
+for line: 74 requested ideal_tgt: 16 	 actual_tgt: 16
+for line: 74 feature range is given. tgt_min: 15, tgt_max:17
+for line: 75 requested ideal_tgt: 15 	 actual_tgt: 14
+for line: 75 feature range is given. tgt_min: 14, tgt_max:16
+for line: 76 requested ideal_tgt: 10 	 actual_tgt: 10
+for line: 76 feature range is given. tgt_min: 9, tgt_max:11
+for line: 77 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 77 feature range is given. tgt_min: 11, tgt_max:13
+for line: 78 requested ideal_tgt: 7 	 actual_tgt: 8
+for line: 78 feature range is given. tgt_min: 6, tgt_max:8
+for line: 79 requested ideal_tgt: 18 	 actual_tgt: 16
+for line: 79 feature range is given. tgt_min: 17, tgt_max:19
+for line: 80 requested ideal_tgt: 13 	 actual_tgt: 13
+for line: 80 feature range is given. tgt_min: 12, tgt_max:14
+for line: 81 requested ideal_tgt: 18 	 actual_tgt: 17
+for line: 81 feature range is given. tgt_min: 17, tgt_max:19
+for line: 82 requested ideal_tgt: 8 	 actual_tgt: 8
+for line: 82 feature range is given. tgt_min: 7, tgt_max:9
+for line: 83 requested ideal_tgt: 14 	 actual_tgt: 14
+for line: 83 feature range is given. tgt_min: 13, tgt_max:15
+for line: 84 requested ideal_tgt: 10 	 actual_tgt: 10
+for line: 84 feature range is given. tgt_min: 9, tgt_max:11
+for line: 85 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 85 feature range is given. tgt_min: 11, tgt_max:13
+for line: 86 requested ideal_tgt: 16 	 actual_tgt: 16
+for line: 86 feature range is given. tgt_min: 15, tgt_max:17
+for line: 87 requested ideal_tgt: 10 	 actual_tgt: 10
+for line: 87 feature range is given. tgt_min: 9, tgt_max:11
+for line: 88 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 88 feature range is given. tgt_min: 11, tgt_max:13
+for line: 89 requested ideal_tgt: 13 	 actual_tgt: 13
+for line: 89 feature range is given. tgt_min: 12, tgt_max:14
+for line: 90 requested ideal_tgt: 9 	 actual_tgt: 10
+for line: 90 feature range is given. tgt_min: 8, tgt_max:10
+for line: 91 requested ideal_tgt: 19 	 actual_tgt: 19
+for line: 91 feature range is given. tgt_min: 18, tgt_max:20
+for line: 92 requested ideal_tgt: 10 	 actual_tgt: 10
+for line: 92 feature range is given. tgt_min: 9, tgt_max:11
+for line: 93 requested ideal_tgt: 7 	 actual_tgt: 7
+for line: 93 feature range is given. tgt_min: 6, tgt_max:8
+for line: 94 requested ideal_tgt: 19 	 actual_tgt: 16
+for line: 94 feature range is given. tgt_min: 18, tgt_max:20
+for line: 95 requested ideal_tgt: 13 	 actual_tgt: 12
+for line: 95 feature range is given. tgt_min: 12, tgt_max:14
+for line: 96 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 96 feature range is given. tgt_min: 11, tgt_max:13
+for line: 97 requested ideal_tgt: 2 	 actual_tgt: 12
+for line: 97 feature range is given. tgt_min: 1, tgt_max:3
+for line: 98 requested ideal_tgt: 15 	 actual_tgt: 15
+for line: 98 feature range is given. tgt_min: 14, tgt_max:16
+for line: 99 requested ideal_tgt: 13 	 actual_tgt: 13
+for line: 99 feature range is given. tgt_min: 12, tgt_max:14
+EXACT: abs_tgt_success_rate for WordCount exact_match: 62.0% on 100 sentences from: experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/ratio_stats.csv.
+FUZZY: abs_tgt_success_rate for WordCount exact_match: 86.0% on 100 sentences from: experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/ratio_stats.csv.
+Length of squared_errors list: 100	 squared_errors: [0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 4, 0, 0, 0, 0, 0, 1, 256, 0, 1, 0, 4, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4, 0, 1, 49, 0, 0, 0, 4, 1, 0, 1, 0, 0, 0, 0, 0, 0, 9, 0, 1, 1, 16, 1, 0, 25, 0, 0, 1, 0, 4, 0, 0, 0, 0, 1, 0, 1, 0, 0, 9, 0, 1, 0, 0, 1, 4, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 9, 1, 0, 100, 0, 0]
+EXACT: feature: WordCount	MSE: 5.21	RMSE:2.2825424421026654
+FUZZY: feature: WordCount	MSE: 3.85	RMSE:1.9621416870348585
+default_input_src and tested_input_src are not identical: Reason: The files have a different number of lines: 731 vs 100. default_input_src:data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.src,	tested_input_src: experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/input.txt
+filter ratio for only considered input sentences:
+Reading default_input_src: data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.src, default_ref_tgt:data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.tgt
+Reading default_predicted_ratio_file: data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/grade_ratio_stats_filtered_wiki_val_v1.1_data.csv
+Reading tested_input_src: experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/input.txt, tested_ref_tgt:experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/gold_ref.txt
+Filtered predicted ratio file saved to experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/copied_filtered_gold_ratio_stats.csv
+calculate_abs_tgt_success_rate for WordCount: filtered_gold_ratio_file_path=experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/copied_filtered_gold_ratio_stats.csv, obtained_ratio_file=experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/ratio_stats.csv, success_rate_type: equal_or_lessthan 
+Calcuate abs_tgt_success rate for feature: WordCount
+for line: 0 requested ideal_tgt: 11 	 actual_tgt: 11
+for line: 0 feature range is given. tgt_min: 10, tgt_max:12
+for line: 1 requested ideal_tgt: 10 	 actual_tgt: 10
+for line: 1 feature range is given. tgt_min: 9, tgt_max:11
+for line: 2 requested ideal_tgt: 17 	 actual_tgt: 16
+for line: 2 feature range is given. tgt_min: 16, tgt_max:18
+for line: 3 requested ideal_tgt: 9 	 actual_tgt: 10
+for line: 3 feature range is given. tgt_min: 8, tgt_max:10
+for line: 4 requested ideal_tgt: 17 	 actual_tgt: 16
+for line: 4 feature range is given. tgt_min: 16, tgt_max:18
+for line: 5 requested ideal_tgt: 17 	 actual_tgt: 17
+for line: 5 feature range is given. tgt_min: 16, tgt_max:18
+for line: 6 requested ideal_tgt: 16 	 actual_tgt: 16
+for line: 6 feature range is given. tgt_min: 15, tgt_max:17
+for line: 7 requested ideal_tgt: 4 	 actual_tgt: 4
+for line: 7 feature range is given. tgt_min: 3, tgt_max:5
+for line: 8 requested ideal_tgt: 17 	 actual_tgt: 16
+for line: 8 feature range is given. tgt_min: 16, tgt_max:18
+for line: 9 requested ideal_tgt: 20 	 actual_tgt: 20
+for line: 9 feature range is given. tgt_min: 19, tgt_max:21
+for line: 10 requested ideal_tgt: 13 	 actual_tgt: 14
+for line: 10 feature range is given. tgt_min: 12, tgt_max:14
+for line: 11 requested ideal_tgt: 11 	 actual_tgt: 11
+for line: 11 feature range is given. tgt_min: 10, tgt_max:12
+for line: 12 requested ideal_tgt: 24 	 actual_tgt: 22
+for line: 12 feature range is given. tgt_min: 23, tgt_max:25
+for line: 13 requested ideal_tgt: 13 	 actual_tgt: 13
+for line: 13 feature range is given. tgt_min: 12, tgt_max:14
+for line: 14 requested ideal_tgt: 9 	 actual_tgt: 9
+for line: 14 feature range is given. tgt_min: 8, tgt_max:10
+for line: 15 requested ideal_tgt: 5 	 actual_tgt: 5
+for line: 15 feature range is given. tgt_min: 4, tgt_max:6
+for line: 16 requested ideal_tgt: 20 	 actual_tgt: 20
+for line: 16 feature range is given. tgt_min: 19, tgt_max:21
+for line: 17 requested ideal_tgt: 14 	 actual_tgt: 14
+for line: 17 feature range is given. tgt_min: 13, tgt_max:15
+for line: 18 requested ideal_tgt: 28 	 actual_tgt: 27
+for line: 18 feature range is given. tgt_min: 27, tgt_max:29
+for line: 19 requested ideal_tgt: 2 	 actual_tgt: 18
+for line: 19 feature range is given. tgt_min: 1, tgt_max:3
+for line: 20 requested ideal_tgt: 8 	 actual_tgt: 8
+for line: 20 feature range is given. tgt_min: 7, tgt_max:9
+for line: 21 requested ideal_tgt: 19 	 actual_tgt: 18
+for line: 21 feature range is given. tgt_min: 18, tgt_max:20
+for line: 22 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 22 feature range is given. tgt_min: 11, tgt_max:13
+for line: 23 requested ideal_tgt: 35 	 actual_tgt: 33
+for line: 23 feature range is given. tgt_min: 34, tgt_max:36
+for line: 24 requested ideal_tgt: 18 	 actual_tgt: 17
+for line: 24 feature range is given. tgt_min: 17, tgt_max:19
+for line: 25 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 25 feature range is given. tgt_min: 11, tgt_max:13
+for line: 26 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 26 feature range is given. tgt_min: 11, tgt_max:13
+for line: 27 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 27 feature range is given. tgt_min: 11, tgt_max:13
+for line: 28 requested ideal_tgt: 15 	 actual_tgt: 14
+for line: 28 feature range is given. tgt_min: 14, tgt_max:16
+for line: 29 requested ideal_tgt: 6 	 actual_tgt: 6
+for line: 29 feature range is given. tgt_min: 5, tgt_max:7
+for line: 30 requested ideal_tgt: 11 	 actual_tgt: 11
+for line: 30 feature range is given. tgt_min: 10, tgt_max:12
+for line: 31 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 31 feature range is given. tgt_min: 11, tgt_max:13
+for line: 32 requested ideal_tgt: 17 	 actual_tgt: 16
+for line: 32 feature range is given. tgt_min: 16, tgt_max:18
+for line: 33 requested ideal_tgt: 17 	 actual_tgt: 17
+for line: 33 feature range is given. tgt_min: 16, tgt_max:18
+for line: 34 requested ideal_tgt: 1 	 actual_tgt: 3
+for line: 34 feature range is given. tgt_min: 0, tgt_max:2
+for line: 35 requested ideal_tgt: 10 	 actual_tgt: 10
+for line: 35 feature range is given. tgt_min: 9, tgt_max:11
+for line: 36 requested ideal_tgt: 3 	 actual_tgt: 4
+for line: 36 feature range is given. tgt_min: 2, tgt_max:4
+for line: 37 requested ideal_tgt: 1 	 actual_tgt: 8
+for line: 37 feature range is given. tgt_min: 0, tgt_max:2
+for line: 38 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 38 feature range is given. tgt_min: 11, tgt_max:13
+for line: 39 requested ideal_tgt: 11 	 actual_tgt: 11
+for line: 39 feature range is given. tgt_min: 10, tgt_max:12
+for line: 40 requested ideal_tgt: 4 	 actual_tgt: 4
+for line: 40 feature range is given. tgt_min: 3, tgt_max:5
+for line: 41 requested ideal_tgt: 21 	 actual_tgt: 19
+for line: 41 feature range is given. tgt_min: 20, tgt_max:22
+for line: 42 requested ideal_tgt: 18 	 actual_tgt: 19
+for line: 42 feature range is given. tgt_min: 17, tgt_max:19
+for line: 43 requested ideal_tgt: 11 	 actual_tgt: 11
+for line: 43 feature range is given. tgt_min: 10, tgt_max:12
+for line: 44 requested ideal_tgt: 11 	 actual_tgt: 12
+for line: 44 feature range is given. tgt_min: 10, tgt_max:12
+for line: 45 requested ideal_tgt: 7 	 actual_tgt: 7
+for line: 45 feature range is given. tgt_min: 6, tgt_max:8
+for line: 46 requested ideal_tgt: 16 	 actual_tgt: 16
+for line: 46 feature range is given. tgt_min: 15, tgt_max:17
+for line: 47 requested ideal_tgt: 14 	 actual_tgt: 14
+for line: 47 feature range is given. tgt_min: 13, tgt_max:15
+for line: 48 requested ideal_tgt: 13 	 actual_tgt: 13
+for line: 48 feature range is given. tgt_min: 12, tgt_max:14
+for line: 49 requested ideal_tgt: 15 	 actual_tgt: 15
+for line: 49 feature range is given. tgt_min: 14, tgt_max:16
+for line: 50 requested ideal_tgt: 8 	 actual_tgt: 8
+for line: 50 feature range is given. tgt_min: 7, tgt_max:9
+for line: 51 requested ideal_tgt: 21 	 actual_tgt: 18
+for line: 51 feature range is given. tgt_min: 20, tgt_max:22
+for line: 52 requested ideal_tgt: 10 	 actual_tgt: 10
+for line: 52 feature range is given. tgt_min: 9, tgt_max:11
+for line: 53 requested ideal_tgt: 17 	 actual_tgt: 16
+for line: 53 feature range is given. tgt_min: 16, tgt_max:18
+for line: 54 requested ideal_tgt: 19 	 actual_tgt: 18
+for line: 54 feature range is given. tgt_min: 18, tgt_max:20
+for line: 55 requested ideal_tgt: 2 	 actual_tgt: 6
+for line: 55 feature range is given. tgt_min: 1, tgt_max:3
+for line: 56 requested ideal_tgt: 20 	 actual_tgt: 19
+for line: 56 feature range is given. tgt_min: 19, tgt_max:21
+for line: 57 requested ideal_tgt: 20 	 actual_tgt: 20
+for line: 57 feature range is given. tgt_min: 19, tgt_max:21
+for line: 58 requested ideal_tgt: 36 	 actual_tgt: 31
+for line: 58 feature range is given. tgt_min: 35, tgt_max:37
+for line: 59 requested ideal_tgt: 9 	 actual_tgt: 9
+for line: 59 feature range is given. tgt_min: 8, tgt_max:10
+for line: 60 requested ideal_tgt: 16 	 actual_tgt: 16
+for line: 60 feature range is given. tgt_min: 15, tgt_max:17
+for line: 61 requested ideal_tgt: 1 	 actual_tgt: 2
+for line: 61 feature range is given. tgt_min: 0, tgt_max:2
+for line: 62 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 62 feature range is given. tgt_min: 11, tgt_max:13
+for line: 63 requested ideal_tgt: 28 	 actual_tgt: 26
+for line: 63 feature range is given. tgt_min: 27, tgt_max:29
+for line: 64 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 64 feature range is given. tgt_min: 11, tgt_max:13
+for line: 65 requested ideal_tgt: 10 	 actual_tgt: 10
+for line: 65 feature range is given. tgt_min: 9, tgt_max:11
+for line: 66 requested ideal_tgt: 10 	 actual_tgt: 10
+for line: 66 feature range is given. tgt_min: 9, tgt_max:11
+for line: 67 requested ideal_tgt: 14 	 actual_tgt: 14
+for line: 67 feature range is given. tgt_min: 13, tgt_max:15
+for line: 68 requested ideal_tgt: 16 	 actual_tgt: 15
+for line: 68 feature range is given. tgt_min: 15, tgt_max:17
+for line: 69 requested ideal_tgt: 13 	 actual_tgt: 13
+for line: 69 feature range is given. tgt_min: 12, tgt_max:14
+for line: 70 requested ideal_tgt: 17 	 actual_tgt: 16
+for line: 70 feature range is given. tgt_min: 16, tgt_max:18
+for line: 71 requested ideal_tgt: 9 	 actual_tgt: 9
+for line: 71 feature range is given. tgt_min: 8, tgt_max:10
+for line: 72 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 72 feature range is given. tgt_min: 11, tgt_max:13
+for line: 73 requested ideal_tgt: 1 	 actual_tgt: 4
+for line: 73 feature range is given. tgt_min: 0, tgt_max:2
+for line: 74 requested ideal_tgt: 16 	 actual_tgt: 16
+for line: 74 feature range is given. tgt_min: 15, tgt_max:17
+for line: 75 requested ideal_tgt: 15 	 actual_tgt: 14
+for line: 75 feature range is given. tgt_min: 14, tgt_max:16
+for line: 76 requested ideal_tgt: 10 	 actual_tgt: 10
+for line: 76 feature range is given. tgt_min: 9, tgt_max:11
+for line: 77 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 77 feature range is given. tgt_min: 11, tgt_max:13
+for line: 78 requested ideal_tgt: 7 	 actual_tgt: 8
+for line: 78 feature range is given. tgt_min: 6, tgt_max:8
+for line: 79 requested ideal_tgt: 18 	 actual_tgt: 16
+for line: 79 feature range is given. tgt_min: 17, tgt_max:19
+for line: 80 requested ideal_tgt: 13 	 actual_tgt: 13
+for line: 80 feature range is given. tgt_min: 12, tgt_max:14
+for line: 81 requested ideal_tgt: 18 	 actual_tgt: 17
+for line: 81 feature range is given. tgt_min: 17, tgt_max:19
+for line: 82 requested ideal_tgt: 8 	 actual_tgt: 8
+for line: 82 feature range is given. tgt_min: 7, tgt_max:9
+for line: 83 requested ideal_tgt: 14 	 actual_tgt: 14
+for line: 83 feature range is given. tgt_min: 13, tgt_max:15
+for line: 84 requested ideal_tgt: 10 	 actual_tgt: 10
+for line: 84 feature range is given. tgt_min: 9, tgt_max:11
+for line: 85 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 85 feature range is given. tgt_min: 11, tgt_max:13
+for line: 86 requested ideal_tgt: 16 	 actual_tgt: 16
+for line: 86 feature range is given. tgt_min: 15, tgt_max:17
+for line: 87 requested ideal_tgt: 10 	 actual_tgt: 10
+for line: 87 feature range is given. tgt_min: 9, tgt_max:11
+for line: 88 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 88 feature range is given. tgt_min: 11, tgt_max:13
+for line: 89 requested ideal_tgt: 13 	 actual_tgt: 13
+for line: 89 feature range is given. tgt_min: 12, tgt_max:14
+for line: 90 requested ideal_tgt: 9 	 actual_tgt: 10
+for line: 90 feature range is given. tgt_min: 8, tgt_max:10
+for line: 91 requested ideal_tgt: 19 	 actual_tgt: 19
+for line: 91 feature range is given. tgt_min: 18, tgt_max:20
+for line: 92 requested ideal_tgt: 10 	 actual_tgt: 10
+for line: 92 feature range is given. tgt_min: 9, tgt_max:11
+for line: 93 requested ideal_tgt: 7 	 actual_tgt: 7
+for line: 93 feature range is given. tgt_min: 6, tgt_max:8
+for line: 94 requested ideal_tgt: 19 	 actual_tgt: 16
+for line: 94 feature range is given. tgt_min: 18, tgt_max:20
+for line: 95 requested ideal_tgt: 13 	 actual_tgt: 12
+for line: 95 feature range is given. tgt_min: 12, tgt_max:14
+for line: 96 requested ideal_tgt: 12 	 actual_tgt: 12
+for line: 96 feature range is given. tgt_min: 11, tgt_max:13
+for line: 97 requested ideal_tgt: 2 	 actual_tgt: 12
+for line: 97 feature range is given. tgt_min: 1, tgt_max:3
+for line: 98 requested ideal_tgt: 15 	 actual_tgt: 15
+for line: 98 feature range is given. tgt_min: 14, tgt_max:16
+for line: 99 requested ideal_tgt: 13 	 actual_tgt: 13
+for line: 99 feature range is given. tgt_min: 12, tgt_max:14
+EXACT: abs_tgt_success_rate for WordCount equal_or_lessthan: 86.0% on 100 sentences from: experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/ratio_stats.csv.
+FUZZY: abs_tgt_success_rate for WordCount equal_or_lessthan: 94.0% on 100 sentences from: experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/ratio_stats.csv.
+default_input_src and tested_input_src are not identical: Reason: The files have a different number of lines: 731 vs 100. default_input_src:data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.src,	tested_input_src: experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/input.txt
+filter ratio for only considered input sentences:
+Reading default_input_src: data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.src, default_ref_tgt:data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.tgt
+Reading default_predicted_ratio_file: data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/grade_ratio_stats_filtered_wiki_val_v1.1_data.csv
+Reading tested_input_src: experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/input.txt, tested_ref_tgt:experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/gold_ref.txt
+Filtered predicted ratio file saved to experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/copied_filtered_gold_ratio_stats.csv
+calculate_Ratiosuccess_rate: filtered_gold_ratio_file_path=experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/copied_filtered_gold_ratio_stats.csv, obtained_ratio_file=experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/ratio_stats.csv, success_rate_type: exact_match 
+Calcuate abs_tgt_success rate for feature: WordCount
+requested gold_ref_ratio: 1.0 	 actual_ratio: 1.0
+exact_match gold_ref_ratio: index:0, 1.0 and actual:1.0, COUNT=1
+requested gold_ref_ratio: 0.7 	 actual_ratio: 0.7
+exact_match gold_ref_ratio: index:1, 0.7 and actual:0.7, COUNT=2
+requested gold_ref_ratio: 0.5 	 actual_ratio: 0.5
+exact_match gold_ref_ratio: index:2, 0.5 and actual:0.5, COUNT=3
+requested gold_ref_ratio: 1.3 	 actual_ratio: 1.4
+requested gold_ref_ratio: 1.2 	 actual_ratio: 1.2
+exact_match gold_ref_ratio: index:4, 1.2 and actual:1.2, COUNT=4
+requested gold_ref_ratio: 0.8 	 actual_ratio: 0.8
+exact_match gold_ref_ratio: index:5, 0.8 and actual:0.8, COUNT=5
+requested gold_ref_ratio: 1.2 	 actual_ratio: 1.2
+exact_match gold_ref_ratio: index:6, 1.2 and actual:1.2, COUNT=6
+requested gold_ref_ratio: 0.2 	 actual_ratio: 0.2
+exact_match gold_ref_ratio: index:7, 0.2 and actual:0.2, COUNT=7
+requested gold_ref_ratio: 0.6 	 actual_ratio: 0.5
+requested gold_ref_ratio: 0.6 	 actual_ratio: 0.6
+exact_match gold_ref_ratio: index:9, 0.6 and actual:0.6, COUNT=8
+requested gold_ref_ratio: 1.0 	 actual_ratio: 1.0
+exact_match gold_ref_ratio: index:10, 1.0 and actual:1.0, COUNT=9
+requested gold_ref_ratio: 0.7 	 actual_ratio: 0.7
+exact_match gold_ref_ratio: index:11, 0.7 and actual:0.7, COUNT=10
+requested gold_ref_ratio: 1.0 	 actual_ratio: 0.9
+requested gold_ref_ratio: 0.4 	 actual_ratio: 0.4
+exact_match gold_ref_ratio: index:13, 0.4 and actual:0.4, COUNT=11
+requested gold_ref_ratio: 0.6 	 actual_ratio: 0.6
+exact_match gold_ref_ratio: index:14, 0.6 and actual:0.6, COUNT=12
+requested gold_ref_ratio: 0.2 	 actual_ratio: 0.2
+exact_match gold_ref_ratio: index:15, 0.2 and actual:0.2, COUNT=13
+requested gold_ref_ratio: 1.4 	 actual_ratio: 1.4
+exact_match gold_ref_ratio: index:16, 1.4 and actual:1.4, COUNT=14
+requested gold_ref_ratio: 0.7 	 actual_ratio: 0.6
+requested gold_ref_ratio: 1.0 	 actual_ratio: 1.0
+exact_match gold_ref_ratio: index:18, 1.0 and actual:1.0, COUNT=15
+requested gold_ref_ratio: 0.1 	 actual_ratio: 0.6
+requested gold_ref_ratio: 0.6 	 actual_ratio: 0.6
+exact_match gold_ref_ratio: index:20, 0.6 and actual:0.6, COUNT=16
+requested gold_ref_ratio: 0.5 	 actual_ratio: 0.5
+exact_match gold_ref_ratio: index:21, 0.5 and actual:0.5, COUNT=17
+requested gold_ref_ratio: 0.6 	 actual_ratio: 0.6
+exact_match gold_ref_ratio: index:22, 0.6 and actual:0.6, COUNT=18
+requested gold_ref_ratio: 1.0 	 actual_ratio: 0.9
+requested gold_ref_ratio: 1.1 	 actual_ratio: 1.1
+exact_match gold_ref_ratio: index:24, 1.1 and actual:1.1, COUNT=19
+requested gold_ref_ratio: 0.6 	 actual_ratio: 0.6
+exact_match gold_ref_ratio: index:25, 0.6 and actual:0.6, COUNT=20
+requested gold_ref_ratio: 0.5 	 actual_ratio: 0.5
+exact_match gold_ref_ratio: index:26, 0.5 and actual:0.5, COUNT=21
+requested gold_ref_ratio: 1.0 	 actual_ratio: 1.0
+exact_match gold_ref_ratio: index:27, 1.0 and actual:1.0, COUNT=22
+requested gold_ref_ratio: 0.6 	 actual_ratio: 0.6
+exact_match gold_ref_ratio: index:28, 0.6 and actual:0.6, COUNT=23
+requested gold_ref_ratio: 0.3 	 actual_ratio: 0.3
+exact_match gold_ref_ratio: index:29, 0.3 and actual:0.3, COUNT=24
+requested gold_ref_ratio: 0.9 	 actual_ratio: 0.9
+exact_match gold_ref_ratio: index:30, 0.9 and actual:0.9, COUNT=25
+requested gold_ref_ratio: 1.0 	 actual_ratio: 1.0
+exact_match gold_ref_ratio: index:31, 1.0 and actual:1.0, COUNT=26
+requested gold_ref_ratio: 0.6 	 actual_ratio: 0.6
+exact_match gold_ref_ratio: index:32, 0.6 and actual:0.6, COUNT=27
+requested gold_ref_ratio: 0.9 	 actual_ratio: 0.9
+exact_match gold_ref_ratio: index:33, 0.9 and actual:0.9, COUNT=28
+requested gold_ref_ratio: 0.0 	 actual_ratio: 0.1
+requested gold_ref_ratio: 0.4 	 actual_ratio: 0.4
+exact_match gold_ref_ratio: index:35, 0.4 and actual:0.4, COUNT=29
+requested gold_ref_ratio: 0.2 	 actual_ratio: 0.3
+requested gold_ref_ratio: 0.0 	 actual_ratio: 0.2
+requested gold_ref_ratio: 1.0 	 actual_ratio: 1.0
+exact_match gold_ref_ratio: index:38, 1.0 and actual:1.0, COUNT=30
+requested gold_ref_ratio: 1.2 	 actual_ratio: 1.2
+exact_match gold_ref_ratio: index:39, 1.2 and actual:1.2, COUNT=31
+requested gold_ref_ratio: 0.5 	 actual_ratio: 0.6
+requested gold_ref_ratio: 1.4 	 actual_ratio: 1.3
+requested gold_ref_ratio: 0.7 	 actual_ratio: 0.7
+exact_match gold_ref_ratio: index:42, 0.7 and actual:0.7, COUNT=32
+requested gold_ref_ratio: 0.6 	 actual_ratio: 0.6
+exact_match gold_ref_ratio: index:43, 0.6 and actual:0.6, COUNT=33
+requested gold_ref_ratio: 1.1 	 actual_ratio: 1.2
+requested gold_ref_ratio: 0.5 	 actual_ratio: 0.5
+exact_match gold_ref_ratio: index:45, 0.5 and actual:0.5, COUNT=34
+requested gold_ref_ratio: 0.7 	 actual_ratio: 0.6
+requested gold_ref_ratio: 1.0 	 actual_ratio: 1.0
+exact_match gold_ref_ratio: index:47, 1.0 and actual:1.0, COUNT=35
+requested gold_ref_ratio: 0.7 	 actual_ratio: 0.7
+exact_match gold_ref_ratio: index:48, 0.7 and actual:0.7, COUNT=36
+requested gold_ref_ratio: 1.1 	 actual_ratio: 1.1
+exact_match gold_ref_ratio: index:49, 1.1 and actual:1.1, COUNT=37
+requested gold_ref_ratio: 0.5 	 actual_ratio: 0.5
+exact_match gold_ref_ratio: index:50, 0.5 and actual:0.5, COUNT=38
+requested gold_ref_ratio: 0.9 	 actual_ratio: 0.8
+requested gold_ref_ratio: 1.0 	 actual_ratio: 1.0
+exact_match gold_ref_ratio: index:52, 1.0 and actual:1.0, COUNT=39
+requested gold_ref_ratio: 0.9 	 actual_ratio: 0.9
+exact_match gold_ref_ratio: index:53, 0.9 and actual:0.9, COUNT=40
+requested gold_ref_ratio: 0.9 	 actual_ratio: 0.8
+requested gold_ref_ratio: 0.2 	 actual_ratio: 0.6
+requested gold_ref_ratio: 1.2 	 actual_ratio: 1.1
+requested gold_ref_ratio: 1.3 	 actual_ratio: 1.3
+exact_match gold_ref_ratio: index:57, 1.3 and actual:1.3, COUNT=41
+requested gold_ref_ratio: 0.9 	 actual_ratio: 0.8
+requested gold_ref_ratio: 0.6 	 actual_ratio: 0.6
+exact_match gold_ref_ratio: index:59, 0.6 and actual:0.6, COUNT=42
+requested gold_ref_ratio: 0.7 	 actual_ratio: 0.6
+requested gold_ref_ratio: 0.1 	 actual_ratio: 0.1
+exact_match gold_ref_ratio: index:61, 0.1 and actual:0.1, COUNT=43
+requested gold_ref_ratio: 0.8 	 actual_ratio: 0.8
+exact_match gold_ref_ratio: index:62, 0.8 and actual:0.8, COUNT=44
+requested gold_ref_ratio: 1.2 	 actual_ratio: 1.1
+requested gold_ref_ratio: 1.0 	 actual_ratio: 1.0
+exact_match gold_ref_ratio: index:64, 1.0 and actual:1.0, COUNT=45
+requested gold_ref_ratio: 0.6 	 actual_ratio: 0.6
+exact_match gold_ref_ratio: index:65, 0.6 and actual:0.6, COUNT=46
+requested gold_ref_ratio: 1.1 	 actual_ratio: 1.1
+exact_match gold_ref_ratio: index:66, 1.1 and actual:1.1, COUNT=47
+requested gold_ref_ratio: 1.0 	 actual_ratio: 1.0
+exact_match gold_ref_ratio: index:67, 1.0 and actual:1.0, COUNT=48
+requested gold_ref_ratio: 1.0 	 actual_ratio: 0.9
+requested gold_ref_ratio: 0.7 	 actual_ratio: 0.7
+exact_match gold_ref_ratio: index:69, 0.7 and actual:0.7, COUNT=49
+requested gold_ref_ratio: 0.5 	 actual_ratio: 0.4
+requested gold_ref_ratio: 0.9 	 actual_ratio: 0.9
+exact_match gold_ref_ratio: index:71, 0.9 and actual:0.9, COUNT=50
+requested gold_ref_ratio: 0.6 	 actual_ratio: 0.6
+exact_match gold_ref_ratio: index:72, 0.6 and actual:0.6, COUNT=51
+requested gold_ref_ratio: 0.1 	 actual_ratio: 0.2
+requested gold_ref_ratio: 0.9 	 actual_ratio: 0.9
+exact_match gold_ref_ratio: index:74, 0.9 and actual:0.9, COUNT=52
+requested gold_ref_ratio: 0.7 	 actual_ratio: 0.7
+exact_match gold_ref_ratio: index:75, 0.7 and actual:0.7, COUNT=53
+requested gold_ref_ratio: 0.7 	 actual_ratio: 0.7
+exact_match gold_ref_ratio: index:76, 0.7 and actual:0.7, COUNT=54
+requested gold_ref_ratio: 0.5 	 actual_ratio: 0.5
+exact_match gold_ref_ratio: index:77, 0.5 and actual:0.5, COUNT=55
+requested gold_ref_ratio: 0.3 	 actual_ratio: 0.3
+exact_match gold_ref_ratio: index:78, 0.3 and actual:0.3, COUNT=56
+requested gold_ref_ratio: 0.8 	 actual_ratio: 0.7
+requested gold_ref_ratio: 0.4 	 actual_ratio: 0.4
+exact_match gold_ref_ratio: index:80, 0.4 and actual:0.4, COUNT=57
+requested gold_ref_ratio: 1.1 	 actual_ratio: 1.0
+requested gold_ref_ratio: 0.3 	 actual_ratio: 0.3
+exact_match gold_ref_ratio: index:82, 0.3 and actual:0.3, COUNT=58
+requested gold_ref_ratio: 1.1 	 actual_ratio: 1.0
+requested gold_ref_ratio: 0.5 	 actual_ratio: 0.5
+exact_match gold_ref_ratio: index:84, 0.5 and actual:0.5, COUNT=59
+requested gold_ref_ratio: 0.4 	 actual_ratio: 0.4
+exact_match gold_ref_ratio: index:85, 0.4 and actual:0.4, COUNT=60
+requested gold_ref_ratio: 1.0 	 actual_ratio: 1.0
+exact_match gold_ref_ratio: index:86, 1.0 and actual:1.0, COUNT=61
+requested gold_ref_ratio: 0.9 	 actual_ratio: 0.9
+exact_match gold_ref_ratio: index:87, 0.9 and actual:0.9, COUNT=62
+requested gold_ref_ratio: 0.7 	 actual_ratio: 0.7
+exact_match gold_ref_ratio: index:88, 0.7 and actual:0.7, COUNT=63
+requested gold_ref_ratio: 1.0 	 actual_ratio: 1.0
+exact_match gold_ref_ratio: index:89, 1.0 and actual:1.0, COUNT=64
+requested gold_ref_ratio: 0.5 	 actual_ratio: 0.5
+exact_match gold_ref_ratio: index:90, 0.5 and actual:0.5, COUNT=65
+requested gold_ref_ratio: 0.8 	 actual_ratio: 0.8
+exact_match gold_ref_ratio: index:91, 0.8 and actual:0.8, COUNT=66
+requested gold_ref_ratio: 0.9 	 actual_ratio: 0.9
+exact_match gold_ref_ratio: index:92, 0.9 and actual:0.9, COUNT=67
+requested gold_ref_ratio: 0.8 	 actual_ratio: 0.8
+exact_match gold_ref_ratio: index:93, 0.8 and actual:0.8, COUNT=68
+requested gold_ref_ratio: 1.0 	 actual_ratio: 0.8
+requested gold_ref_ratio: 0.3 	 actual_ratio: 0.3
+exact_match gold_ref_ratio: index:95, 0.3 and actual:0.3, COUNT=69
+requested gold_ref_ratio: 0.7 	 actual_ratio: 0.7
+exact_match gold_ref_ratio: index:96, 0.7 and actual:0.7, COUNT=70
+requested gold_ref_ratio: 0.1 	 actual_ratio: 0.4
+requested gold_ref_ratio: 0.4 	 actual_ratio: 0.4
+exact_match gold_ref_ratio: index:98, 0.4 and actual:0.4, COUNT=71
+requested gold_ref_ratio: 0.5 	 actual_ratio: 0.5
+exact_match gold_ref_ratio: index:99, 0.5 and actual:0.5, COUNT=72
+Ratiosuccess_rate for WordCount exact_match: 72.0% on 100 sentences from: experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/ratio_stats.csv.
+Ratio of feature: WordCount	RatioMSE: 0.008034999999999999	RatioRMSE:0.08963816151617568
+default_input_src and tested_input_src are not identical: Reason: The files have a different number of lines: 731 vs 100. default_input_src:data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.src,	tested_input_src: experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/input.txt
+filter ratio for only considered input sentences:
+Reading default_input_src: data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.src, default_ref_tgt:data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.tgt
+Reading default_predicted_ratio_file: data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/grade_ratio_stats_filtered_wiki_val_v1.1_data.csv
+Reading tested_input_src: experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/input.txt, tested_ref_tgt:experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/gold_ref.txt
+Filtered predicted ratio file saved to experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/copied_filtered_gold_ratio_stats.csv
+calculate_Ratiosuccess_rate: filtered_gold_ratio_file_path=experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/copied_filtered_gold_ratio_stats.csv, obtained_ratio_file=experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/ratio_stats.csv, success_rate_type: equal_or_lessthan 
+Calcuate abs_tgt_success rate for feature: WordCount
+requested gold_ref_ratio: 1.0 	 actual_ratio: 1.0
+equal_or_lessthan: index:0, gold_ref_ratio: 1.0 and actual:1.0, COUNT=1
+requested gold_ref_ratio: 0.7 	 actual_ratio: 0.7
+equal_or_lessthan: index:1, gold_ref_ratio: 0.7 and actual:0.7, COUNT=2
+requested gold_ref_ratio: 0.5 	 actual_ratio: 0.5
+equal_or_lessthan: index:2, gold_ref_ratio: 0.5 and actual:0.5, COUNT=3
+requested gold_ref_ratio: 1.3 	 actual_ratio: 1.4
+requested gold_ref_ratio: 1.2 	 actual_ratio: 1.2
+equal_or_lessthan: index:4, gold_ref_ratio: 1.2 and actual:1.2, COUNT=4
+requested gold_ref_ratio: 0.8 	 actual_ratio: 0.8
+equal_or_lessthan: index:5, gold_ref_ratio: 0.8 and actual:0.8, COUNT=5
+requested gold_ref_ratio: 1.2 	 actual_ratio: 1.2
+equal_or_lessthan: index:6, gold_ref_ratio: 1.2 and actual:1.2, COUNT=6
+requested gold_ref_ratio: 0.2 	 actual_ratio: 0.2
+equal_or_lessthan: index:7, gold_ref_ratio: 0.2 and actual:0.2, COUNT=7
+requested gold_ref_ratio: 0.6 	 actual_ratio: 0.5
+equal_or_lessthan: index:8, gold_ref_ratio: 0.6 and actual:0.5, COUNT=8
+requested gold_ref_ratio: 0.6 	 actual_ratio: 0.6
+equal_or_lessthan: index:9, gold_ref_ratio: 0.6 and actual:0.6, COUNT=9
+requested gold_ref_ratio: 1.0 	 actual_ratio: 1.0
+equal_or_lessthan: index:10, gold_ref_ratio: 1.0 and actual:1.0, COUNT=10
+requested gold_ref_ratio: 0.7 	 actual_ratio: 0.7
+equal_or_lessthan: index:11, gold_ref_ratio: 0.7 and actual:0.7, COUNT=11
+requested gold_ref_ratio: 1.0 	 actual_ratio: 0.9
+equal_or_lessthan: index:12, gold_ref_ratio: 1.0 and actual:0.9, COUNT=12
+requested gold_ref_ratio: 0.4 	 actual_ratio: 0.4
+equal_or_lessthan: index:13, gold_ref_ratio: 0.4 and actual:0.4, COUNT=13
+requested gold_ref_ratio: 0.6 	 actual_ratio: 0.6
+equal_or_lessthan: index:14, gold_ref_ratio: 0.6 and actual:0.6, COUNT=14
+requested gold_ref_ratio: 0.2 	 actual_ratio: 0.2
+equal_or_lessthan: index:15, gold_ref_ratio: 0.2 and actual:0.2, COUNT=15
+requested gold_ref_ratio: 1.4 	 actual_ratio: 1.4
+equal_or_lessthan: index:16, gold_ref_ratio: 1.4 and actual:1.4, COUNT=16
+requested gold_ref_ratio: 0.7 	 actual_ratio: 0.6
+equal_or_lessthan: index:17, gold_ref_ratio: 0.7 and actual:0.6, COUNT=17
+requested gold_ref_ratio: 1.0 	 actual_ratio: 1.0
+equal_or_lessthan: index:18, gold_ref_ratio: 1.0 and actual:1.0, COUNT=18
+requested gold_ref_ratio: 0.1 	 actual_ratio: 0.6
+requested gold_ref_ratio: 0.6 	 actual_ratio: 0.6
+equal_or_lessthan: index:20, gold_ref_ratio: 0.6 and actual:0.6, COUNT=19
+requested gold_ref_ratio: 0.5 	 actual_ratio: 0.5
+equal_or_lessthan: index:21, gold_ref_ratio: 0.5 and actual:0.5, COUNT=20
+requested gold_ref_ratio: 0.6 	 actual_ratio: 0.6
+equal_or_lessthan: index:22, gold_ref_ratio: 0.6 and actual:0.6, COUNT=21
+requested gold_ref_ratio: 1.0 	 actual_ratio: 0.9
+equal_or_lessthan: index:23, gold_ref_ratio: 1.0 and actual:0.9, COUNT=22
+requested gold_ref_ratio: 1.1 	 actual_ratio: 1.1
+equal_or_lessthan: index:24, gold_ref_ratio: 1.1 and actual:1.1, COUNT=23
+requested gold_ref_ratio: 0.6 	 actual_ratio: 0.6
+equal_or_lessthan: index:25, gold_ref_ratio: 0.6 and actual:0.6, COUNT=24
+requested gold_ref_ratio: 0.5 	 actual_ratio: 0.5
+equal_or_lessthan: index:26, gold_ref_ratio: 0.5 and actual:0.5, COUNT=25
+requested gold_ref_ratio: 1.0 	 actual_ratio: 1.0
+equal_or_lessthan: index:27, gold_ref_ratio: 1.0 and actual:1.0, COUNT=26
+requested gold_ref_ratio: 0.6 	 actual_ratio: 0.6
+equal_or_lessthan: index:28, gold_ref_ratio: 0.6 and actual:0.6, COUNT=27
+requested gold_ref_ratio: 0.3 	 actual_ratio: 0.3
+equal_or_lessthan: index:29, gold_ref_ratio: 0.3 and actual:0.3, COUNT=28
+requested gold_ref_ratio: 0.9 	 actual_ratio: 0.9
+equal_or_lessthan: index:30, gold_ref_ratio: 0.9 and actual:0.9, COUNT=29
+requested gold_ref_ratio: 1.0 	 actual_ratio: 1.0
+equal_or_lessthan: index:31, gold_ref_ratio: 1.0 and actual:1.0, COUNT=30
+requested gold_ref_ratio: 0.6 	 actual_ratio: 0.6
+equal_or_lessthan: index:32, gold_ref_ratio: 0.6 and actual:0.6, COUNT=31
+requested gold_ref_ratio: 0.9 	 actual_ratio: 0.9
+equal_or_lessthan: index:33, gold_ref_ratio: 0.9 and actual:0.9, COUNT=32
+requested gold_ref_ratio: 0.0 	 actual_ratio: 0.1
+requested gold_ref_ratio: 0.4 	 actual_ratio: 0.4
+equal_or_lessthan: index:35, gold_ref_ratio: 0.4 and actual:0.4, COUNT=33
+requested gold_ref_ratio: 0.2 	 actual_ratio: 0.3
+requested gold_ref_ratio: 0.0 	 actual_ratio: 0.2
+requested gold_ref_ratio: 1.0 	 actual_ratio: 1.0
+equal_or_lessthan: index:38, gold_ref_ratio: 1.0 and actual:1.0, COUNT=34
+requested gold_ref_ratio: 1.2 	 actual_ratio: 1.2
+equal_or_lessthan: index:39, gold_ref_ratio: 1.2 and actual:1.2, COUNT=35
+requested gold_ref_ratio: 0.5 	 actual_ratio: 0.6
+requested gold_ref_ratio: 1.4 	 actual_ratio: 1.3
+equal_or_lessthan: index:41, gold_ref_ratio: 1.4 and actual:1.3, COUNT=36
+requested gold_ref_ratio: 0.7 	 actual_ratio: 0.7
+equal_or_lessthan: index:42, gold_ref_ratio: 0.7 and actual:0.7, COUNT=37
+requested gold_ref_ratio: 0.6 	 actual_ratio: 0.6
+equal_or_lessthan: index:43, gold_ref_ratio: 0.6 and actual:0.6, COUNT=38
+requested gold_ref_ratio: 1.1 	 actual_ratio: 1.2
+requested gold_ref_ratio: 0.5 	 actual_ratio: 0.5
+equal_or_lessthan: index:45, gold_ref_ratio: 0.5 and actual:0.5, COUNT=39
+requested gold_ref_ratio: 0.7 	 actual_ratio: 0.6
+equal_or_lessthan: index:46, gold_ref_ratio: 0.7 and actual:0.6, COUNT=40
+requested gold_ref_ratio: 1.0 	 actual_ratio: 1.0
+equal_or_lessthan: index:47, gold_ref_ratio: 1.0 and actual:1.0, COUNT=41
+requested gold_ref_ratio: 0.7 	 actual_ratio: 0.7
+equal_or_lessthan: index:48, gold_ref_ratio: 0.7 and actual:0.7, COUNT=42
+requested gold_ref_ratio: 1.1 	 actual_ratio: 1.1
+equal_or_lessthan: index:49, gold_ref_ratio: 1.1 and actual:1.1, COUNT=43
+requested gold_ref_ratio: 0.5 	 actual_ratio: 0.5
+equal_or_lessthan: index:50, gold_ref_ratio: 0.5 and actual:0.5, COUNT=44
+requested gold_ref_ratio: 0.9 	 actual_ratio: 0.8
+equal_or_lessthan: index:51, gold_ref_ratio: 0.9 and actual:0.8, COUNT=45
+requested gold_ref_ratio: 1.0 	 actual_ratio: 1.0
+equal_or_lessthan: index:52, gold_ref_ratio: 1.0 and actual:1.0, COUNT=46
+requested gold_ref_ratio: 0.9 	 actual_ratio: 0.9
+equal_or_lessthan: index:53, gold_ref_ratio: 0.9 and actual:0.9, COUNT=47
+requested gold_ref_ratio: 0.9 	 actual_ratio: 0.8
+equal_or_lessthan: index:54, gold_ref_ratio: 0.9 and actual:0.8, COUNT=48
+requested gold_ref_ratio: 0.2 	 actual_ratio: 0.6
+requested gold_ref_ratio: 1.2 	 actual_ratio: 1.1
+equal_or_lessthan: index:56, gold_ref_ratio: 1.2 and actual:1.1, COUNT=49
+requested gold_ref_ratio: 1.3 	 actual_ratio: 1.3
+equal_or_lessthan: index:57, gold_ref_ratio: 1.3 and actual:1.3, COUNT=50
+requested gold_ref_ratio: 0.9 	 actual_ratio: 0.8
+equal_or_lessthan: index:58, gold_ref_ratio: 0.9 and actual:0.8, COUNT=51
+requested gold_ref_ratio: 0.6 	 actual_ratio: 0.6
+equal_or_lessthan: index:59, gold_ref_ratio: 0.6 and actual:0.6, COUNT=52
+requested gold_ref_ratio: 0.7 	 actual_ratio: 0.6
+equal_or_lessthan: index:60, gold_ref_ratio: 0.7 and actual:0.6, COUNT=53
+requested gold_ref_ratio: 0.1 	 actual_ratio: 0.1
+equal_or_lessthan: index:61, gold_ref_ratio: 0.1 and actual:0.1, COUNT=54
+requested gold_ref_ratio: 0.8 	 actual_ratio: 0.8
+equal_or_lessthan: index:62, gold_ref_ratio: 0.8 and actual:0.8, COUNT=55
+requested gold_ref_ratio: 1.2 	 actual_ratio: 1.1
+equal_or_lessthan: index:63, gold_ref_ratio: 1.2 and actual:1.1, COUNT=56
+requested gold_ref_ratio: 1.0 	 actual_ratio: 1.0
+equal_or_lessthan: index:64, gold_ref_ratio: 1.0 and actual:1.0, COUNT=57
+requested gold_ref_ratio: 0.6 	 actual_ratio: 0.6
+equal_or_lessthan: index:65, gold_ref_ratio: 0.6 and actual:0.6, COUNT=58
+requested gold_ref_ratio: 1.1 	 actual_ratio: 1.1
+equal_or_lessthan: index:66, gold_ref_ratio: 1.1 and actual:1.1, COUNT=59
+requested gold_ref_ratio: 1.0 	 actual_ratio: 1.0
+equal_or_lessthan: index:67, gold_ref_ratio: 1.0 and actual:1.0, COUNT=60
+requested gold_ref_ratio: 1.0 	 actual_ratio: 0.9
+equal_or_lessthan: index:68, gold_ref_ratio: 1.0 and actual:0.9, COUNT=61
+requested gold_ref_ratio: 0.7 	 actual_ratio: 0.7
+equal_or_lessthan: index:69, gold_ref_ratio: 0.7 and actual:0.7, COUNT=62
+requested gold_ref_ratio: 0.5 	 actual_ratio: 0.4
+equal_or_lessthan: index:70, gold_ref_ratio: 0.5 and actual:0.4, COUNT=63
+requested gold_ref_ratio: 0.9 	 actual_ratio: 0.9
+equal_or_lessthan: index:71, gold_ref_ratio: 0.9 and actual:0.9, COUNT=64
+requested gold_ref_ratio: 0.6 	 actual_ratio: 0.6
+equal_or_lessthan: index:72, gold_ref_ratio: 0.6 and actual:0.6, COUNT=65
+requested gold_ref_ratio: 0.1 	 actual_ratio: 0.2
+requested gold_ref_ratio: 0.9 	 actual_ratio: 0.9
+equal_or_lessthan: index:74, gold_ref_ratio: 0.9 and actual:0.9, COUNT=66
+requested gold_ref_ratio: 0.7 	 actual_ratio: 0.7
+equal_or_lessthan: index:75, gold_ref_ratio: 0.7 and actual:0.7, COUNT=67
+requested gold_ref_ratio: 0.7 	 actual_ratio: 0.7
+equal_or_lessthan: index:76, gold_ref_ratio: 0.7 and actual:0.7, COUNT=68
+requested gold_ref_ratio: 0.5 	 actual_ratio: 0.5
+equal_or_lessthan: index:77, gold_ref_ratio: 0.5 and actual:0.5, COUNT=69
+requested gold_ref_ratio: 0.3 	 actual_ratio: 0.3
+equal_or_lessthan: index:78, gold_ref_ratio: 0.3 and actual:0.3, COUNT=70
+requested gold_ref_ratio: 0.8 	 actual_ratio: 0.7
+equal_or_lessthan: index:79, gold_ref_ratio: 0.8 and actual:0.7, COUNT=71
+requested gold_ref_ratio: 0.4 	 actual_ratio: 0.4
+equal_or_lessthan: index:80, gold_ref_ratio: 0.4 and actual:0.4, COUNT=72
+requested gold_ref_ratio: 1.1 	 actual_ratio: 1.0
+equal_or_lessthan: index:81, gold_ref_ratio: 1.1 and actual:1.0, COUNT=73
+requested gold_ref_ratio: 0.3 	 actual_ratio: 0.3
+equal_or_lessthan: index:82, gold_ref_ratio: 0.3 and actual:0.3, COUNT=74
+requested gold_ref_ratio: 1.1 	 actual_ratio: 1.0
+equal_or_lessthan: index:83, gold_ref_ratio: 1.1 and actual:1.0, COUNT=75
+requested gold_ref_ratio: 0.5 	 actual_ratio: 0.5
+equal_or_lessthan: index:84, gold_ref_ratio: 0.5 and actual:0.5, COUNT=76
+requested gold_ref_ratio: 0.4 	 actual_ratio: 0.4
+equal_or_lessthan: index:85, gold_ref_ratio: 0.4 and actual:0.4, COUNT=77
+requested gold_ref_ratio: 1.0 	 actual_ratio: 1.0
+equal_or_lessthan: index:86, gold_ref_ratio: 1.0 and actual:1.0, COUNT=78
+requested gold_ref_ratio: 0.9 	 actual_ratio: 0.9
+equal_or_lessthan: index:87, gold_ref_ratio: 0.9 and actual:0.9, COUNT=79
+requested gold_ref_ratio: 0.7 	 actual_ratio: 0.7
+equal_or_lessthan: index:88, gold_ref_ratio: 0.7 and actual:0.7, COUNT=80
+requested gold_ref_ratio: 1.0 	 actual_ratio: 1.0
+equal_or_lessthan: index:89, gold_ref_ratio: 1.0 and actual:1.0, COUNT=81
+requested gold_ref_ratio: 0.5 	 actual_ratio: 0.5
+equal_or_lessthan: index:90, gold_ref_ratio: 0.5 and actual:0.5, COUNT=82
+requested gold_ref_ratio: 0.8 	 actual_ratio: 0.8
+equal_or_lessthan: index:91, gold_ref_ratio: 0.8 and actual:0.8, COUNT=83
+requested gold_ref_ratio: 0.9 	 actual_ratio: 0.9
+equal_or_lessthan: index:92, gold_ref_ratio: 0.9 and actual:0.9, COUNT=84
+requested gold_ref_ratio: 0.8 	 actual_ratio: 0.8
+equal_or_lessthan: index:93, gold_ref_ratio: 0.8 and actual:0.8, COUNT=85
+requested gold_ref_ratio: 1.0 	 actual_ratio: 0.8
+equal_or_lessthan: index:94, gold_ref_ratio: 1.0 and actual:0.8, COUNT=86
+requested gold_ref_ratio: 0.3 	 actual_ratio: 0.3
+equal_or_lessthan: index:95, gold_ref_ratio: 0.3 and actual:0.3, COUNT=87
+requested gold_ref_ratio: 0.7 	 actual_ratio: 0.7
+equal_or_lessthan: index:96, gold_ref_ratio: 0.7 and actual:0.7, COUNT=88
+requested gold_ref_ratio: 0.1 	 actual_ratio: 0.4
+requested gold_ref_ratio: 0.4 	 actual_ratio: 0.4
+equal_or_lessthan: index:98, gold_ref_ratio: 0.4 and actual:0.4, COUNT=89
+requested gold_ref_ratio: 0.5 	 actual_ratio: 0.5
+equal_or_lessthan: index:99, gold_ref_ratio: 0.5 and actual:0.5, COUNT=90
+Ratiosuccess_rate for WordCount equal_or_lessthan: 90.0% on 100 sentences from: experiments/x_ablation_study/llama_3_70b_instruct_sglang/WordCount/no_sys_prompt/no_sys_prompt-gold-filtered_wiki.valid_v1.1.src-100_llama_3_70b_instruct_sglang_examples_0_temp_0_chain_False_seed_756301/maxdepdepth_-1_maxdeplength_-1_diffwordscount_-1_avgwordcount_-1_length_-1_leven_-1_grade_-1/ratio_stats.csv.
