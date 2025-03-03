@@ -1,0 +1,10 @@
+True
+... Generating actual feature values from the model generated output sentences. Here we are comparing test input sentences vs model generated output sentences for the requested control features: length, dependency_depth, dependency_length, frequency, levenshtein, word_count 
+Actual feature values saved in: data_auxiliary/en/feature_distribution_analyse/wikilarge_train_split_2/tgt/length_-1_dependency_depth_-1_dependency_length_-1_frequency_-1_levenshtein_-1_word_count_-1_.csv
+... Requested length is -1 and actual obtained average value is: 85.48277799999997 
+... Requested dependency_depth is -1 and actual obtained average value is: 4.71702 
+... Requested dependency_length is -1 and actual obtained average value is: 7.55342 
+... Requested frequency is -1 and actual obtained average value is: 9.316430543594695 
+... Requested levenshtein is -1 and actual obtained average value is: 0.6011146611833933 
+... Requested word_count is -1 and actual obtained average value is: 14.580769666666669 
+Finished actual feature value calculation!

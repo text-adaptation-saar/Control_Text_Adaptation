@@ -1,0 +1,3 @@
+[length_-1_dependency_depth_-1_dependency_length_-1_frequency_-1_levenshtein_-1_word_count_-1_.csv](tgt%2Flength_-1_dependency_depth_-1_dependency_length_-1_frequency_-1_levenshtein_-1_word_count_-1_.csv)
+contains old style freq-rank feature values calculations (same as ACCESS paper: where stop words and unknown words are assign to high rank) on Wikilarge dataset, before train_eval_test_split.
+Only calculated difficult words things and merge with the initially calculated.   

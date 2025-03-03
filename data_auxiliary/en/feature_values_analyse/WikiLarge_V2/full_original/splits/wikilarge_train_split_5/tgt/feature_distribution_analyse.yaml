@@ -1,0 +1,27 @@
+experiment_id: 1
+lang: en
+analyze_features: True
+overwrite: True
+path_to_input_test_data: "data/en/WikiLarge/train_splits/wiki.full.aner.ori.train.detok.split_5.src"
+#absolute value will be calculated on target dataset "path_to_output_generation"
+path_to_output_generation: "data/en/WikiLarge/train_splits/wiki.full.aner.ori.train.detok.split_5.dst"
+path_to_output_actual_feature_value: "data_auxiliary/en/feature_distribution_analyse/wikilarge_train_split_5/tgt"
+# path_to_data: "data/de"
+
+ python llm_based_control_rewrite/evaluation/feature_based_evaluation.py --config data_auxiliary/en/feature_distribution_analyse/wikilarge_train_split_5/tgt/feature_distribution_analyse.yaml \
+  --requested_length -1 \
+  --requested_levenshtein -1 \
+  --requested_frequency -1  \
+  --requested_dependency_depth -1 \
+  --requested_dependency_length -1 \
+  --requested_word_count -1 \
+  --requested_absolute_value True > data_auxiliary/en/feature_distribution_analyse/wikilarge_train_split_5/tgt/logs
+
+
+#to calculate ratios
+absolute_feature_value_src_PATH: ""
+absolute_feature_value_tgt_PATH: ""
+ratio_calculation_output_path: ""
+
+# python llm_based_control_rewrite/feature_value_calculation/ratio_calculation.py --config data_auxiliary/en/feature_distribution_analyse/WikiLarge/tgt/feature_distribution_analyse.yaml
+
