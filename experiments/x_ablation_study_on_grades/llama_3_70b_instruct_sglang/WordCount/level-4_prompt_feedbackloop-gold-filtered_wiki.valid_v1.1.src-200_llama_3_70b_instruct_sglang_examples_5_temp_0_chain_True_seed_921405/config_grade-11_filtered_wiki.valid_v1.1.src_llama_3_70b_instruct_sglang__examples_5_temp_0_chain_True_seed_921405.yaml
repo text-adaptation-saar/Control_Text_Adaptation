@@ -1,0 +1,47 @@
+experiment_id: 1
+path_to_output_generation: "experiments/x_ablation_study_on_grades/llama_3_70b_instruct_sglang/WordCount/level-4_prompt_feedbackloop-gold-filtered_wiki.valid_v1.1.src-200_llama_3_70b_instruct_sglang_examples_5_temp_0_chain_True_seed_921405"
+
+# for feature based evaluation script
+lang: en
+analyze_features: False
+overwrite: True
+
+# for prompt experiment
+model: "http://127.0.0.1:30005/v1"
+temperature: 0
+max_tokens: 2000
+openai_key_name: "EMPTY"
+prompt_csv: "experiments/x_ablation_study/Prompts - WordCount.csv"
+system_prompt: 2
+user_prompt: 4
+output_prompt: 4
+cot_reasoning_user_prompt: 4
+number_of_examples_to_include_in_prompt: 5
+# train_v3_500_complex_eliminated
+example_val_dataset_src: "data_filtered/en/wikilarge_train_val_test/train_v3_500_complex_eliminated-duplicated_removed_from_v1v2_val_and_test/filtered_wiki.train_v3.src"
+example_val_dataset_tgt: "data_filtered/en/wikilarge_train_val_test/train_v3_500_complex_eliminated-duplicated_removed_from_v1v2_val_and_test/filtered_wiki.train_v3.tgt"
+example_val_dataset_feature_values: "data_filtered/en/wikilarge_train_val_test/train_v3_500_complex_eliminated-duplicated_removed_from_v1v2_val_and_test/grade_ratio_stats_filtered_wiki_train_v3_data.csv"
+
+#Test dataset for prompt experiment
+path_to_input_test_data: "data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.src"
+path_to_test_gold_ref_data: "data_filtered/en/wikilarge_train_val_test/val/v1.1_wo_line_46/filtered_wiki.valid_v1.1.tgt"
+number_of_lines_to_test: 200
+predicted_ratio_file_path: "experiments/train_v3_and_val_v1.1_wo_line_46/0_catboost_swetas_fkgl/fkgl_train_2_all_9input_7output/grade_11-val_v1.1_wo_line_46_prediction/ratio_stats_with_LR_predicted_ratio.csv,experiments/train_v3_and_val_v1.1_wo_line_46/0_catboost_swetas_fkgl/fkgl_train_2_all_9input_7output/grade_11-val_v1.1_wo_line_46_prediction/ratio_stats_with_LR_predicted_ratio.csv,experiments/train_v3_and_val_v1.1_wo_line_46/0_catboost_swetas_fkgl/fkgl_train_2_all_9input_7output/grade_11-val_v1.1_wo_line_46_prediction/ratio_stats_with_LR_predicted_ratio.csv,experiments/train_v3_and_val_v1.1_wo_line_46/0_catboost_swetas_fkgl/fkgl_train_2_all_9input_7output/grade_11-val_v1.1_wo_line_46_prediction/ratio_stats_with_LR_predicted_ratio.csv"
+feature_names: "WordCount"
+feature_range: "1"
+chain_of_thought: True
+calibration: False
+
+
+# Example command:
+# python openai_preprocess_finetune_generate.py --config experiments/data_filtered_regression_model/linear_regression/2_maxdepdepth/wikilarge/valid/gpt4_zs/prompt_1_temp_0/prompt_based_generation_wc_only.yaml \
+# --requested_dependency_depth -1 \
+# --requested_dependency_length -1 \
+# --requested_difficult_words -1 \
+# --requested_length -1 \
+# --requested_levenshtein -1 \
+# --requested_word_count -1 \
+# --predicted_ratio_file_given \
+# --do_eval > experiments/data_filtered_regression_model/linear_regression/2_maxdepdepth/wikilarge/valid/gpt4_zs/prompt_1_temp_0/logs
+line_to_skip: -1
+seed: 921405

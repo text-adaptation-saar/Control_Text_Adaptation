@@ -1,0 +1,6 @@
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+Mapped requested feature params with the values and requested_absolute_value is: False
+Mapped requested feature params: {'MaxDepDepth': -1.0, 'MaxDepLength': -1.0, 'DiffWords': -1.0, 'WordCount': -1.0, 'Length': -1.0, 'Leven': -1.0, 'Grade': 12.0}
+Start calculate scores!
+predicted_ratio_file_given is: False
